@@ -1,0 +1,25 @@
+[ 50%] Built target yolo_tracker_node
+Consolidate compiler generated dependencies of target yolo_tracker_node_unn
+[100%] Built target yolo_tracker_node_unn
+-- Install configuration: ""
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node_unn
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/launch
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/launch/yolo_nav2.launch.py
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/include
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/include/tracker
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/package_run_dependencies/tracker
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/parent_prefix_path/tracker
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.sh
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.bash
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.sh
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.zsh
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.dsv
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/package.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/packages/tracker
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig.cmake
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig-version.cmake
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/package.xml

@@ -1,0 +1,295 @@
+[0.019s] Invoking command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/gazebo-ros-actor-plugin -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/gazebo_ros_actor_plugin
+[0.174s] -- The C compiler identification is GNU 11.4.0
+[0.268s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.395s] -- Detecting C compiler ABI info - done
+[0.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.404s] -- Detecting C compile features
+[0.405s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.516s] -- Detecting CXX compiler ABI info - done
+[0.523s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.523s] -- Detecting CXX compile features
+[0.524s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.934s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.069s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.157s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.167s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.184s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.312s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.318s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.473s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.511s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.592s] -- Looking for pthread.h
+[1.715s] -- Looking for pthread.h - found
+[1.715s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.818s] -- Found Threads: TRUE  
+[1.909s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.933s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.974s] -- Looking for ignition-gazebo6 -- found version 6.18.0
+[1.989s] -- Searching for dependencies of ignition-gazebo6
+[1.995s] -- Looking for sdformat12 -- found version 12.9.0
+[1.995s] -- Searching for dependencies of sdformat12
+[2.005s] -- Checking for module 'tinyxml2'
+[2.032s] --   Found tinyxml2, version 9.0.0
+[2.100s] -- Looking for ignition-math6 -- found version 6.16.0
+[2.100s] -- Searching for dependencies of ignition-math6
+[2.109s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.109s] -- Searching for dependencies of ignition-utils1
+[2.121s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.121s] -- Searching for dependencies of ignition-plugin1
+[2.125s] -- Searching for <ignition-plugin1> component [loader]
+[2.127s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[2.127s] -- Searching for dependencies of ignition-plugin1-loader
+[2.128s] -- Searching for <ignition-plugin1> component [register]
+[2.134s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[2.135s] -- Searching for dependencies of ignition-plugin1-register
+[2.142s] -- Looking for ignition-transport11 -- found version 11.4.2
+[2.142s] -- Searching for dependencies of ignition-transport11
+[2.188s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.204s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.211s] -- Checking for module 'libzmq >= 4'
+[2.240s] --   Found libzmq , version 4.3.4
+[2.297s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.306s] -- Checking for module 'uuid'
+[2.327s] --   Found uuid, version 2.37.2
+[2.377s] -- Found UUID: TRUE  
+[2.378s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.378s] -- Searching for dependencies of ignition-utils1
+[2.378s] -- Searching for <ignition-utils1> component [cli]
+[2.382s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[2.385s] -- Searching for dependencies of ignition-utils1-cli
+[2.389s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[2.389s] -- Searching for dependencies of ignition-msgs8
+[2.414s] -- Looking for ignition-math6 -- found version 6.16.0
+[2.427s] -- Searching for <ignition-transport11> component [log]
+[2.432s] -- Looking for ignition-transport11-log -- found version 11.4.2
+[2.432s] -- Searching for dependencies of ignition-transport11-log
+[2.433s] -- Searching for <ignition-transport11> component [parameters]
+[2.441s] -- Looking for ignition-transport11-parameters -- found version 11.4.2
+[2.441s] -- Searching for dependencies of ignition-transport11-parameters
+[2.443s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[2.448s] -- Looking for ignition-common4 -- found version 4.8.1
+[2.449s] -- Searching for dependencies of ignition-common4
+[2.452s] -- Looking for dlfcn.h - found
+[2.452s] -- Looking for libdl - found
+[2.453s] -- Found DL: TRUE  
+[2.469s] -- Searching for <ignition-common4> component [profiler]
+[2.475s] -- Looking for ignition-common4-profiler -- found version 4.8.1
+[2.475s] -- Searching for dependencies of ignition-common4-profiler
+[2.476s] -- Searching for <ignition-common4> component [events]
+[2.481s] -- Looking for ignition-common4-events -- found version 4.8.1
+[2.482s] -- Searching for dependencies of ignition-common4-events
+[2.482s] -- Looking for ignition-math6 -- found version 6.16.0
+[2.484s] -- Searching for <ignition-common4> component [av]
+[2.489s] -- Looking for ignition-common4-av -- found version 4.8.1
+[2.489s] -- Searching for dependencies of ignition-common4-av
+[2.498s] -- Checking for module 'libswscale'
+[2.518s] --   Found libswscale, version 5.9.100
+[2.571s] -- Found SWSCALE: TRUE  
+[2.578s] -- Checking for module 'libavdevice >= 56.4.100'
+[2.598s] --   Found libavdevice , version 58.13.100
+[2.653s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[2.660s] -- Checking for module 'libavformat'
+[2.678s] --   Found libavformat, version 58.76.100
+[2.731s] -- Found AVFORMAT: TRUE  
+[2.738s] -- Checking for module 'libavcodec'
+[2.758s] --   Found libavcodec, version 58.134.100
+[2.813s] -- Found AVCODEC: TRUE  
+[2.820s] -- Checking for module 'libavutil'
+[2.841s] --   Found libavutil, version 56.70.100
+[2.894s] -- Found AVUTIL: TRUE  
+[2.900s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[2.900s] -- Searching for dependencies of ignition-fuel_tools7
+[3.011s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.035s] -- Checking for module 'jsoncpp'
+[3.057s] --   Found jsoncpp, version 1.9.5
+[3.109s] -- Found JSONCPP: TRUE  
+[3.117s] -- Checking for module 'libzip'
+[3.138s] --   Found libzip, version 1.7.3
+[3.189s] -- Found ZIP: TRUE  
+[3.189s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.189s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.190s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[3.196s] -- Looking for ignition-gui6 -- found version 6.9.0
+[3.196s] -- Searching for dependencies of ignition-gui6
+[3.231s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.231s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.232s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.232s] -- Looking for ignition-transport11 -- found version 11.4.2
+[3.237s] -- Looking for ignition-rendering6 -- found version 6.6.4
+[3.237s] -- Searching for dependencies of ignition-rendering6
+[3.238s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.238s] -- Searching for dependencies of ignition-math6
+[3.238s] -- Searching for <ignition-math6> component [eigen3]
+[3.243s] -- Looking for ignition-math6-eigen3 -- found version 6.16.0
+[3.243s] -- Searching for dependencies of ignition-math6-eigen3
+[3.255s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.256s] -- Searching for dependencies of ignition-common4
+[3.256s] -- Looking for dlfcn.h - found
+[3.256s] -- Looking for libdl - found
+[3.267s] -- Searching for <ignition-common4> component [graphics]
+[3.272s] -- Looking for ignition-common4-graphics -- found version 4.8.1
+[3.272s] -- Searching for dependencies of ignition-common4-graphics
+[3.273s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.273s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.274s] -- Searching for <ignition-common4> component [events]
+[3.275s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.276s] -- Searching for dependencies of ignition-plugin1
+[3.276s] -- Searching for <ignition-plugin1> component [all]
+[3.280s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[3.280s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.283s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[3.355s] -- Looking for ignition-physics5 -- found version 5.4.0
+[3.355s] -- Searching for dependencies of ignition-physics5
+[3.356s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.356s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.356s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.358s] -- Searching for <ignition-physics5> component [heightmap]
+[3.363s] -- Looking for ignition-physics5-heightmap -- found version 5.4.0
+[3.363s] -- Searching for dependencies of ignition-physics5-heightmap
+[3.364s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.364s] -- Searching for <ignition-physics5> component [mesh]
+[3.368s] -- Looking for ignition-physics5-mesh -- found version 5.4.0
+[3.369s] -- Searching for dependencies of ignition-physics5-mesh
+[3.369s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.370s] -- Searching for <ignition-physics5> component [sdf]
+[3.374s] -- Looking for ignition-physics5-sdf -- found version 5.4.0
+[3.374s] -- Searching for dependencies of ignition-physics5-sdf
+[3.375s] -- Looking for sdformat12 -- found version 12.9.0
+[3.384s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.385s] -- Searching for dependencies of ignition-sensors6
+[3.411s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.411s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.411s] -- Looking for ignition-transport11 -- found version 11.4.2
+[3.412s] -- Looking for ignition-rendering6 -- found version 6.6.4
+[3.412s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[3.412s] -- Looking for sdformat12 -- found version 12.9.0
+[3.414s] -- Searching for <ignition-sensors6> component [air_pressure]
+[3.418s] -- Looking for ignition-sensors6-air_pressure -- found version 6.9.0
+[3.418s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[3.419s] -- Searching for <ignition-sensors6> component [altimeter]
+[3.424s] -- Looking for ignition-sensors6-altimeter -- found version 6.9.0
+[3.424s] -- Searching for dependencies of ignition-sensors6-altimeter
+[3.425s] -- Searching for <ignition-sensors6> component [imu]
+[3.430s] -- Looking for ignition-sensors6-imu -- found version 6.9.0
+[3.430s] -- Searching for dependencies of ignition-sensors6-imu
+[3.431s] -- Searching for <ignition-sensors6> component [force_torque]
+[3.436s] -- Looking for ignition-sensors6-force_torque -- found version 6.9.0
+[3.437s] -- Searching for dependencies of ignition-sensors6-force_torque
+[3.438s] -- Searching for <ignition-sensors6> component [logical_camera]
+[3.442s] -- Looking for ignition-sensors6-logical_camera -- found version 6.9.0
+[3.443s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[3.444s] -- Searching for <ignition-sensors6> component [magnetometer]
+[3.449s] -- Looking for ignition-sensors6-magnetometer -- found version 6.9.0
+[3.450s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[3.451s] -- Searching for <ignition-sensors6> component [navsat]
+[3.456s] -- Looking for ignition-sensors6-navsat -- found version 6.9.0
+[3.457s] -- Searching for dependencies of ignition-sensors6-navsat
+[3.458s] -- Searching for <ignition-sensors6> component [rendering]
+[3.462s] -- Looking for ignition-sensors6-rendering -- found version 6.9.0
+[3.463s] -- Searching for dependencies of ignition-sensors6-rendering
+[3.464s] -- Searching for <ignition-sensors6> component [lidar]
+[3.468s] -- Looking for ignition-sensors6-lidar -- found version 6.9.0
+[3.468s] -- Searching for dependencies of ignition-sensors6-lidar
+[3.469s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.470s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[3.474s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.9.0
+[3.474s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[3.475s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.476s] -- Searching for <ignition-sensors6> component [camera]
+[3.480s] -- Looking for ignition-sensors6-camera -- found version 6.9.0
+[3.481s] -- Searching for dependencies of ignition-sensors6-camera
+[3.481s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.482s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[3.487s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.9.0
+[3.487s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[3.488s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[3.493s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.9.0
+[3.493s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[3.494s] -- Searching for <ignition-sensors6> component [depth_camera]
+[3.499s] -- Looking for ignition-sensors6-depth_camera -- found version 6.9.0
+[3.499s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[3.500s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.501s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[3.506s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.9.0
+[3.506s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[3.506s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.507s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[3.513s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.9.0
+[3.513s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[3.514s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.515s] -- Looking for ignition-rendering6 -- found version 6.6.4
+[3.516s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.520s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.548s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.548s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.548s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.549s] -- Looking for ignition-transport11 -- found version 11.4.2
+[3.549s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[3.554s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.666s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.672s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.672s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/Robot_ws/src/gazebo-ros-actor-plugin/include>
+[3.672s] -- Configured cppcheck exclude dirs and/or files: 
+[3.677s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.677s] -- Configured cpplint exclude dirs and/or files: 
+[3.679s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.681s] -- Added test 'lint_cmake' to check CMake code style
+[3.682s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.688s] -- Added test 'uncrustify' to check C / C++ code style
+[3.688s] -- Configured uncrustify additional arguments: 
+[3.689s] -- Added test 'xmllint' to check XML markup files
+[3.692s] -- Configuring done
+[3.718s] -- Generating done
+[3.724s] -- Build files have been written to: /home/ros/Robot_ws/build/gazebo_ros_actor_plugin
+[3.743s] Invoked command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/gazebo-ros-actor-plugin -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/gazebo_ros_actor_plugin
+[3.746s] Invoking command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/gazebo_ros_actor_plugin -- -j6 -l6
+[3.815s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_actor_plugin.dir/src/gazebo_ros_actor_command.cpp.o[0m
+[12.432s] [100%] [32m[1mLinking CXX shared library libgazebo_ros_actor_plugin.so[0m
+[12.941s] [100%] Built target gazebo_ros_actor_plugin
+[12.956s] Invoked command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/gazebo_ros_actor_plugin -- -j6 -l6
+[12.969s] Invoking command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/gazebo_ros_actor_plugin
+[12.979s] -- Install configuration: ""
+[12.979s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib/libgazebo_ros_actor_plugin.so
+[12.984s] -- Set runtime path of "/home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib/libgazebo_ros_actor_plugin.so" to ""
+[12.984s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/include
+[12.984s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/include/gazebo_ros_actor_plugin
+[12.985s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/include/gazebo_ros_actor_plugin/gazebo_ros_actor_command.h
+[12.985s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/launch
+[12.985s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/launch/sim.launch.py
+[12.985s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config
+[12.986s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/worlds
+[12.986s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/worlds/move_actor.world
+[12.986s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins
+[12.986s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk
+[12.986s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/model.config
+[12.986s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes
+[12.986s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk.dae
+[12.988s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Metal.png
+[12.988s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Diffuse.png
+[12.991s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Rough.png
+[12.992s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Normal.png
+[12.993s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/model.sdf
+[12.993s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib/gazebo_ros_actor_plugin/path_publisher.py
+[12.994s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/ament_index/resource_index/package_run_dependencies/gazebo_ros_actor_plugin
+[12.994s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/ament_index/resource_index/parent_prefix_path/gazebo_ros_actor_plugin
+[12.994s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/ament_prefix_path.sh
+[12.994s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/ament_prefix_path.dsv
+[12.995s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/path.sh
+[12.995s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/path.dsv
+[12.995s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.bash
+[12.995s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.sh
+[12.996s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.zsh
+[12.996s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.dsv
+[12.996s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/package.dsv
+[12.996s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/ament_index/resource_index/packages/gazebo_ros_actor_plugin
+[12.996s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/cmake/gazebo_ros_actor_pluginConfig.cmake
+[12.997s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/cmake/gazebo_ros_actor_pluginConfig-version.cmake
+[12.997s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/package.xml
+[13.000s] Invoked command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/gazebo_ros_actor_plugin

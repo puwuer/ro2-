@@ -1,0 +1,4 @@
+Invoking command in '/home/ros/Robot_ws/build/mycar_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/interfaces/mycar_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/mycar_interfaces
+Invoked command in '/home/ros/Robot_ws/build/mycar_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/interfaces/mycar_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/mycar_interfaces
+Invoking command in '/home/ros/Robot_ws/build/mycar_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_interfaces -- -j6 -l6
+Invoked command in '/home/ros/Robot_ws/build/mycar_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_interfaces -- -j6 -l6

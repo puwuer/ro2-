@@ -1,0 +1,542 @@
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:[m[K In constructor ‘[01m[KYoloTrackerNode::YoloTrackerNode()[m[K’:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:194:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KYoloTrackerNode::frame_counter_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  194 |   int [01;35m[Kframe_counter_[m[K;
+      |       [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:177:19:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ktf2_ros::Buffer YoloTrackerNode::tf_buffer_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  177 |   tf2_ros::Buffer [01;35m[Ktf_buffer_[m[K;
+      |                   [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:56:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   56 |   [01;35m[KYoloTrackerNode[m[K()
+      |   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:[m[K In lambda function:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:58:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} and ‘[01m[Kint[m[K’)
+  463 |           std::copy(gh->get_goal_id(), [32m[Kgh->get_goal_id()[m[K [01;31m[K+[m[K [34m[K16[m[K,
+      |                                        [32m[K~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~[m[K
+      |                                                       [32m[K|[m[K    [34m[K|[m[K
+      |                                                       [32m[K|[m[K    [34m[Kint[m[K
+      |                                                       [32m[Kconst GoalUUID {aka const std::array<unsigned char, 16>}[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+  585 |     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[Kint[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+ 1700 |     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[Kint[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6095 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1169 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::array<unsigned char, 16>[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1189 |     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kint[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6132 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+ 6148 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6160 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} have incompatible cv-qualifiers
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6166 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6172 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} have incompatible cv-qualifiers
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6194 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::array<unsigned char, 16>[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6200 |     [01;36m[Koperator[m[K+(_CharT __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kint[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+ 6206 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} have incompatible cv-qualifiers
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+ 6212 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} have incompatible cv-qualifiers
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3[m[K:
+[01m[K/usr/include/c++/11/complex:332:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+  332 |     [01;36m[Koperator[m[K+(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:332:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3[m[K:
+[01m[K/usr/include/c++/11/complex:341:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const _Tp&)[m[K’
+  341 |     [01;36m[Koperator[m[K+(const complex<_Tp>& __x, const _Tp& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:341:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3[m[K:
+[01m[K/usr/include/c++/11/complex:350:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const _Tp&, const std::complex<_Tp>&)[m[K’
+  350 |     [01;36m[Koperator[m[K+(const _Tp& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:350:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3[m[K:
+[01m[K/usr/include/c++/11/complex:451:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&)[m[K’
+  451 |     [01;36m[Koperator[m[K+(const complex<_Tp>& __x)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:451:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + [01;36m[K16[m[K,
+      |                                                            [01;36m[K^~[m[K
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:[m[K In lambda function:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:55:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} and ‘[01m[Kint[m[K’)
+  485 |         if (std::equal(result.goal_id, [32m[Kresult.goal_id[m[K [01;31m[K+[m[K [34m[K16[m[K,
+      |                                        [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~[m[K
+      |                                               [32m[K|[m[K         [34m[K|[m[K
+      |                                               [32m[K|[m[K         [34m[Kint[m[K
+      |                                               [32m[Kconst GoalUUID {aka const std::array<unsigned char, 16>}[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+  585 |     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[Kint[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+ 1700 |     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[Kint[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6095 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1169 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::array<unsigned char, 16>[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1189 |     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kint[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6132 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+ 6148 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6160 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} have incompatible cv-qualifiers
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6166 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6172 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} have incompatible cv-qualifiers
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6194 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::array<unsigned char, 16>[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6200 |     [01;36m[Koperator[m[K+(_CharT __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kint[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+ 6206 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} have incompatible cv-qualifiers
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+ 6212 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} have incompatible cv-qualifiers
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3[m[K:
+[01m[K/usr/include/c++/11/complex:332:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+  332 |     [01;36m[Koperator[m[K+(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:332:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3[m[K:
+[01m[K/usr/include/c++/11/complex:341:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const _Tp&)[m[K’
+  341 |     [01;36m[Koperator[m[K+(const complex<_Tp>& __x, const _Tp& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:341:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3[m[K:
+[01m[K/usr/include/c++/11/complex:350:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const _Tp&, const std::complex<_Tp>&)[m[K’
+  350 |     [01;36m[Koperator[m[K+(const _Tp& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:350:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3[m[K:
+[01m[K/usr/include/c++/11/complex:451:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&)[m[K’
+  451 |     [01;36m[Koperator[m[K+(const complex<_Tp>& __x)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:451:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst GoalUUID[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 16>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  485 |         if (std::equal(result.goal_id, result.goal_id + [01;36m[K16[m[K,
+      |                                                         [01;36m[K^~[m[K
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:[m[K In member function ‘[01m[Kvoid YoloTrackerNode::cancel_nav_goal()[m[K’:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:503:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kshared_ptr<ClientGoalHandle<[...]>>[m[K’ to ‘[01m[Kshared_ptr<ClientGoalHandle<[...]>>[m[K’
+  503 |       nav_client_->async_cancel_goal([01;31m[Kgoal_handle_[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[Kshared_ptr<ClientGoalHandle<[...]>>[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:20[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:531:36:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::shared_future<typename ActionT::Impl::CancelGoalService::Response::SharedPtr> rclcpp_action::Client<ActionT>::async_cancel_goal(typename rclcpp_action::Client<ActionT>::GoalHandle::SharedPtr, rclcpp_action::Client<ActionT>::CancelCallback) [with ActionT = nav2_msgs::action::NavigateToPose; typename ActionT::Impl::CancelGoalService::Response::SharedPtr = std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > >; typename ActionT::Impl::CancelGoalService::Response = action_msgs::srv::CancelGoal_Response_<std::allocator<void> >; typename ActionT::Impl::CancelGoalService = action_msgs::srv::CancelGoal; typename ActionT::Impl = nav2_msgs::action::NavigateToPose::Impl; typename rclcpp_action::Client<ActionT>::GoalHandle::SharedPtr = std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> >; rclcpp_action::Client<ActionT>::GoalHandle = rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>; rclcpp_action::Client<ActionT>::CancelCallback = std::function<void(std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > >)>][m[K’
+  531 |     [01;36m[Ktypename GoalHandle::SharedPtr goal_handle[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:607:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+  607 |   rclcpp::init(argc, argv);[01;31m[Kz[m[K
+      |                            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/yolo_tracker_node_unn.dir/build.make:76：CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/yolo_tracker_node_unn.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,59 @@
+[0.011s] Invoking command in '/home/ros/Robot_ws/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/slam/mycar_slam_cartographer -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/mycar_slam_cartographer
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.178s] -- The CXX compiler identification is GNU 11.4.0
+[0.193s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.443s] -- Detecting CXX compiler ABI info - done
+[0.457s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.457s] -- Detecting CXX compile features
+[0.458s] -- Detecting CXX compile features - done
+[0.461s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.016s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.199s] -- Looking for pthread.h
+[1.363s] -- Looking for pthread.h - found
+[1.363s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.487s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.487s] -- Found Threads: TRUE  
+[1.508s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.520s] -- Found required Ceres dependency: glog
+[1.521s] -- Found required Ceres dependency: gflags
+[1.524s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.573s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[1.579s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.657s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.658s] -- Added test 'lint_cmake' to check CMake code style
+[1.659s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.660s] -- Added test 'xmllint' to check XML markup files
+[1.661s] -- Configuring done
+[1.667s] -- Generating done
+[1.668s] -- Build files have been written to: /home/ros/Robot_ws/build/mycar_slam_cartographer
+[1.678s] Invoked command in '/home/ros/Robot_ws/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/slam/mycar_slam_cartographer -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/mycar_slam_cartographer
+[1.678s] Invoking command in '/home/ros/Robot_ws/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_slam_cartographer -- -j4 -l4
+[1.742s] Invoked command in '/home/ros/Robot_ws/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_slam_cartographer -- -j4 -l4
+[1.742s] Invoking command in '/home/ros/Robot_ws/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_slam_cartographer
+[1.784s] -- Install configuration: ""
+[1.784s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/launch
+[1.785s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/launch/cartographer_ekf.launch.py
+[1.785s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/launch/cartographer.launch.py
+[1.785s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/params
+[1.785s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/params/mycar.lua
+[1.791s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/ament_index/resource_index/package_run_dependencies/mycar_slam_cartographer
+[1.791s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/ament_index/resource_index/parent_prefix_path/mycar_slam_cartographer
+[1.791s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/ament_prefix_path.sh
+[1.791s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/ament_prefix_path.dsv
+[1.792s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/path.sh
+[1.792s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/path.dsv
+[1.792s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.bash
+[1.792s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.sh
+[1.792s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.zsh
+[1.793s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.dsv
+[1.793s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.dsv
+[1.794s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/ament_index/resource_index/packages/mycar_slam_cartographer
+[1.794s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/cmake/mycar_slam_cartographerConfig.cmake
+[1.795s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/cmake/mycar_slam_cartographerConfig-version.cmake
+[1.796s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.xml
+[1.804s] Invoked command in '/home/ros/Robot_ws/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_slam_cartographer

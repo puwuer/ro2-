@@ -1,0 +1,51 @@
+/**:
+  ros__parameters:
+    use_sim_time: true
+    # 初值 = 机器人出生点(Factory 地图中部房间); sim_nav.launch.py 会用 launch 参数覆盖
+    set_initial_pose: true
+    initial_pose:
+      x: 4.225
+      y: -3.975
+      z: 0.0
+      yaw: 0.0
+    # 仿真里程计是真值 -> alpha 取小, 更相信里程计
+    # (长走廊里激光对纵向没有约束, alpha 大时定位会沿走廊漂/跳)
+    alpha1: 0.05
+    alpha2: 0.05
+    alpha3: 0.05
+    alpha4: 0.05
+    alpha5: 0.05
+    base_frame_id: "base_footprint"
+    global_frame_id: "map"
+    odom_frame_id: "odom"
+    # likelihood_field_prob + 跳过无信息光束, 抗相似房间/重复走廊
+    laser_model_type: "likelihood_field_prob"
+    do_beamskip: true
+    beam_skip_distance: 0.5
+    beam_skip_threshold: 0.3
+    beam_skip_error_threshold: 0.9
+    laser_max_range: 10.0
+    laser_min_range: 0.1
+    laser_likelihood_max_dist: 2.0
+    max_beams: 120
+    max_particles: 3000
+    min_particles: 600
+    pf_err: 0.05
+    pf_z: 0.99
+    # 少量随机注入: 真跟丢时能恢复, 又不会在相似地点乱飞
+    recovery_alpha_fast: 0.1
+    recovery_alpha_slow: 0.001
+    resample_interval: 1
+    robot_model_type: "nav2_amcl::OmniMotionModel"
+    save_pose_rate: 0.5
+    sigma_hit: 0.15
+    tf_broadcast: true
+    transform_tolerance: 1.0
+    # 更新更频繁 -> 走廊里一有侧向特征就立刻纠正
+    update_min_a: 0.1
+    update_min_d: 0.1
+    z_hit: 0.9
+    z_max: 0.03
+    z_rand: 0.02
+    z_short: 0.05
+    scan_topic: scan

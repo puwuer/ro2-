@@ -1,0 +1,32 @@
+[0.031s] Invoking command in '/home/ros/Robot_ws/build/my_usb_cam': /usr/bin/cmake /home/ros/Robot_ws/src/camera/my_usb_cam -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/my_usb_cam
+[0.081s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.081s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.081s]   contain a literal, direct call to the project() command.  Add a line of
+[0.081s]   code such as
+[0.081s] 
+[0.081s]     project(ProjectName)
+[0.081s] 
+[0.081s]   near the top of the file, but after cmake_minimum_required().
+[0.081s] 
+[0.082s]   CMake is pretending there is a "project(Project)" command on the first
+[0.082s]   line.
+[0.082s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.082s] [0m
+[0.225s] -- The C compiler identification is GNU 11.4.0
+[0.345s] -- The CXX compiler identification is GNU 11.4.0
+[0.394s] -- Detecting C compiler ABI info
+[0.588s] -- Detecting C compiler ABI info - done
+[0.597s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.601s] -- Detecting C compile features
+[0.606s] -- Detecting C compile features - done
+[0.613s] -- Detecting CXX compiler ABI info
+[0.811s] -- Detecting CXX compiler ABI info - done
+[0.824s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.825s] -- Detecting CXX compile features
+[0.826s] -- Detecting CXX compile features - done
+[0.830s] -- Configuring done
+[0.832s] -- Generating done
+[0.836s] -- Build files have been written to: /home/ros/Robot_ws/build/my_usb_cam
+[0.852s] Invoked command in '/home/ros/Robot_ws/build/my_usb_cam' returned '0': /usr/bin/cmake /home/ros/Robot_ws/src/camera/my_usb_cam -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/my_usb_cam
+[0.852s] Invoking command in '/home/ros/Robot_ws/build/my_usb_cam': /usr/bin/cmake --build /home/ros/Robot_ws/build/my_usb_cam -- -j4 -l4
+[0.938s] Invoked command in '/home/ros/Robot_ws/build/my_usb_cam' returned '0': /usr/bin/cmake --build /home/ros/Robot_ws/build/my_usb_cam -- -j4 -l4

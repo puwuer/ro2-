@@ -1,0 +1,31 @@
+[0.032s] Invoking command in '/home/ros/Robot_ws/build/ros2_stm32_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/ros2_stm32_bridge -- -j6 -l6
+[0.291s] [ 50%] [32mBuilding CXX object CMakeFiles/base_controller.dir/src/base_controller.cpp.o[0m
+[9.651s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:[m[K In member function ‘[01m[Kvoid ros2_stm32::driver::MiniDriver::calculateImuQuaternion(ros2_stm32::driver::imu_data)[m[K’:
+[9.653s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.653s]   465 |     float [01;35m[Kroll[m[K,pitch,yaw ;
+[9.654s]       |           [01;35m[K^~~~[m[K
+[9.654s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.654s]   465 |     float roll,[01;35m[Kpitch[m[K,yaw ;
+[9.654s]       |                [01;35m[K^~~~~[m[K
+[9.654s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.655s]   465 |     float roll,pitch,[01;35m[Kyaw[m[K ;
+[9.655s]       |                      [01;35m[K^~~[m[K
+[9.659s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:[m[K In member function ‘[01m[Kvoid ros2_stm32::driver::MiniDriver::SendTimerCallback()[m[K’:
+[9.660s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.660s]   705 |   double [01;35m[Kleft_d[m[K, right_d, radio;
+[9.660s]       |          [01;35m[K^~~~~~[m[K
+[9.660s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.660s]   705 |   double left_d, [01;35m[Kright_d[m[K, radio;
+[9.660s]       |                  [01;35m[K^~~~~~~[m[K
+[9.660s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradio[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.660s]   705 |   double left_d, right_d, [01;35m[Kradio[m[K;
+[9.660s]       |                           [01;35m[K^~~~~[m[K
+[9.660s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:706:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmodel_param[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.660s]   706 |   double [01;35m[Kmodel_param[m[K;
+[9.660s]       |          [01;35m[K^~~~~~~~~~~[m[K
+[9.660s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:707:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.660s]   707 |   short [01;35m[Kleft[m[K, right;
+[9.661s]       |         [01;35m[K^~~~[m[K
+[9.661s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:707:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.661s]   707 |   short left, [01;35m[Kright[m[K;
+[9.661s]       |               [01;35m[K^~~~~[m[K

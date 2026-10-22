@@ -1,0 +1,65 @@
+[0.070s] Invoking command in '/home/ros/Robot_ws/build/ros2_stm32_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/ros2_stm32_bridge -- -j6 -l6
+[0.364s] [ 50%] [32mBuilding CXX object CMakeFiles/base_controller.dir/src/base_controller.cpp.o[0m
+[6.581s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:[m[K In member function ‘[01m[Kvoid ros2_stm32::driver::MiniDriver::calculateImuQuaternion(ros2_stm32::driver::imu_data)[m[K’:
+[6.583s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.583s]   465 |     float [01;35m[Kroll[m[K,pitch,yaw ;
+[6.586s]       |           [01;35m[K^~~~[m[K
+[6.586s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.586s]   465 |     float roll,[01;35m[Kpitch[m[K,yaw ;
+[6.586s]       |                [01;35m[K^~~~~[m[K
+[6.586s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.586s]   465 |     float roll,pitch,[01;35m[Kyaw[m[K ;
+[6.586s]       |                      [01;35m[K^~~[m[K
+[6.586s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:[m[K In member function ‘[01m[Kvoid ros2_stm32::driver::MiniDriver::SendTimerCallback()[m[K’:
+[6.587s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.587s]   705 |   double [01;35m[Kleft_d[m[K, right_d, radio;
+[6.587s]       |          [01;35m[K^~~~~~[m[K
+[6.587s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.587s]   705 |   double left_d, [01;35m[Kright_d[m[K, radio;
+[6.587s]       |                  [01;35m[K^~~~~~~[m[K
+[6.587s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradio[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.587s]   705 |   double left_d, right_d, [01;35m[Kradio[m[K;
+[6.587s]       |                           [01;35m[K^~~~~[m[K
+[6.588s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:706:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmodel_param[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.588s]   706 |   double [01;35m[Kmodel_param[m[K;
+[6.588s]       |          [01;35m[K^~~~~~~~~~~[m[K
+[6.588s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:707:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.588s]   707 |   short [01;35m[Kleft[m[K, right;
+[6.589s]       |         [01;35m[K^~~~[m[K
+[6.589s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:707:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.589s]   707 |   short left, [01;35m[Kright[m[K;
+[6.589s]       |               [01;35m[K^~~~~[m[K
+[16.897s] [100%] [32m[1mLinking CXX executable base_controller[0m
+[17.832s] [100%] Built target base_controller
+[17.938s] Invoked command in '/home/ros/Robot_ws/build/ros2_stm32_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/ros2_stm32_bridge -- -j6 -l6
+[17.944s] Invoking command in '/home/ros/Robot_ws/build/ros2_stm32_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/ros2_stm32_bridge
+[17.962s] -- Install configuration: ""
+[17.964s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/lib/ros2_stm32_bridge/base_controller
+[17.973s] -- Set runtime path of "/home/ros/Robot_ws/install/ros2_stm32_bridge/lib/ros2_stm32_bridge/base_controller" to ""
+[17.973s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/stm32_4w.yaml
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/ekf.yaml
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/stm32_2w.yaml
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/robot.launch.py
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/driver_ekf.launch.py
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/robot_ekf.launch.py
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/driver.launch.py
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/rviz
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/rviz/robot.rviz
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_stm32_bridge
+[17.974s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_stm32_bridge
+[17.975s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/ament_prefix_path.sh
+[17.975s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/ament_prefix_path.dsv
+[17.975s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/path.sh
+[17.975s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/path.dsv
+[17.975s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.bash
+[17.975s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.sh
+[17.975s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.zsh
+[17.976s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.dsv
+[17.976s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.dsv
+[17.976s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/packages/ros2_stm32_bridge
+[17.976s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/cmake/ros2_stm32_bridgeConfig.cmake
+[17.976s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/cmake/ros2_stm32_bridgeConfig-version.cmake
+[17.976s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.xml
+[17.981s] Invoked command in '/home/ros/Robot_ws/build/ros2_stm32_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/ros2_stm32_bridge

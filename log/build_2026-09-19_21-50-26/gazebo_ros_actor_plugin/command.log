@@ -1,0 +1,2 @@
+Invoking command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/gazebo-ros-actor-plugin-humble-fortress -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/gazebo_ros_actor_plugin
+Invoked command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/gazebo-ros-actor-plugin-humble-fortress -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/gazebo_ros_actor_plugin

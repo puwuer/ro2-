@@ -1,0 +1,12 @@
+[0.025s] Invoking command in '/home/ros/Robot_ws/build/tracker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j4 -l4
+[0.331s] [35m[1mConsolidate compiler generated dependencies of target yolo_tracker_node_unn[0m
+[0.455s] [ 25%] [32mBuilding CXX object CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o[0m
+[0.458s] [ 75%] Built target yolo_tracker_node
+[1.363s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/buffer.h: 没有那个文件或目录
+[1.363s]    13 | #include [01;31m[K<tf2_ros/buffer.h>[m[K
+[1.363s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.363s] compilation terminated.
+[1.369s] gmake[2]: *** [CMakeFiles/yolo_tracker_node_unn.dir/build.make:76：CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o] 错误 1
+[1.370s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/yolo_tracker_node_unn.dir/all] 错误 2
+[1.370s] gmake: *** [Makefile:146：all] 错误 2
+[1.373s] Invoked command in '/home/ros/Robot_ws/build/tracker' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j4 -l4

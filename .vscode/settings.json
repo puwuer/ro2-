@@ -1,0 +1,5 @@
+{
+    "trae.tab.enableRename": false,
+    "trae.tab.enableAutoImport": false,
+    "cmake.sourceDirectory": "/home/ros/Robot_ws/src/lidar_pkg_ros2"
+}

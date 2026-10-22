@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000907] (-) JobUnselected: {'identifier': 'lidar_pkg'}
+[0.000945] (-) JobUnselected: {'identifier': 'my_usb_cam'}
+[0.000959] (-) JobUnselected: {'identifier': 'path_odom'}
+[0.000970] (-) JobUnselected: {'identifier': 'ros2_stm32_bridge'}
+[0.001077] (-) EventReactorShutdown: {}

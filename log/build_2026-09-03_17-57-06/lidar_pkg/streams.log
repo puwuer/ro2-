@@ -1,0 +1,16 @@
+[0.040s] Invoking command in '/home/ros/Robot_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/lidar_pkg -- -j6 -l6
+[0.250s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o[0m
+[8.695s] [01m[K/home/ros/Robot_ws/src/lidar_pkg_ros2/src/lidar_node.cpp:[m[K In constructor ‘[01m[KLidarNode::LidarNode()[m[K’:
+[8.696s] [01m[K/home/ros/Robot_ws/src/lidar_pkg_ros2/src/lidar_node.cpp:155:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KLidarNode::last_point_angle_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[8.696s]   155 |     double [01;35m[Klast_point_angle_[m[K;
+[8.696s]       |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[8.696s] [01m[K/home/ros/Robot_ws/src/lidar_pkg_ros2/src/lidar_node.cpp:130:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint LidarNode::scan_count_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[8.697s]   130 |     int [01;35m[Kscan_count_[m[K = 0;
+[8.697s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[8.697s] [01m[K/home/ros/Robot_ws/src/lidar_pkg_ros2/src/lidar_node.cpp:34:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[8.697s]    34 |     [01;35m[KLidarNode[m[K()
+[8.697s]       |     [01;35m[K^~~~~~~~~[m[K
+[8.749s] [01m[K/home/ros/Robot_ws/src/lidar_pkg_ros2/src/lidar_node.cpp:[m[K In member function ‘[01m[Kvoid LidarNode::publishScan()[m[K’:
+[8.749s] [01m[K/home/ros/Robot_ws/src/lidar_pkg_ros2/src/lidar_node.cpp:444:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kraw_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.750s]   444 |             size_t [01;35m[Kraw_size[m[K = full_scan_buffer_.size();
+[8.750s]       |                    [01;35m[K^~~~~~~~[m[K

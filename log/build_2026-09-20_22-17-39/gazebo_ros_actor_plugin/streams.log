@@ -1,0 +1,44 @@
+[0.102s] Invoking command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/gazebo_ros_actor_plugin -- -j6 -l6
+[0.765s] [100%] Built target gazebo_ros_actor_plugin
+[0.995s] Invoked command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/gazebo_ros_actor_plugin -- -j6 -l6
+[1.012s] Invoking command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/gazebo_ros_actor_plugin
+[1.059s] -- Install configuration: ""
+[1.059s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib/libgazebo_ros_actor_plugin.so
+[1.059s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/include
+[1.059s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/include/gazebo_ros_actor_plugin
+[1.068s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/include/gazebo_ros_actor_plugin/gazebo_ros_actor_command.h
+[1.068s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/launch
+[1.068s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/launch/gazebo_sim_world.launch.py
+[1.068s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/launch/sim.launch.py
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/launch/sim_launch_backup.py
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/worlds
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/worlds/move_actor.world
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/worlds/move_actor.world.bak
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/model.config
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk.dae
+[1.069s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Metal.png
+[1.070s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Diffuse.png
+[1.072s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Rough.png
+[1.075s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Normal.png
+[1.075s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/model.sdf
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib/gazebo_ros_actor_plugin/path_publisher.py
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/ament_index/resource_index/package_run_dependencies/gazebo_ros_actor_plugin
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/ament_index/resource_index/parent_prefix_path/gazebo_ros_actor_plugin
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/ament_prefix_path.sh
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/ament_prefix_path.dsv
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/path.sh
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/path.dsv
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.bash
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.sh
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.zsh
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.dsv
+[1.076s] -- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/package.dsv
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/ament_index/resource_index/packages/gazebo_ros_actor_plugin
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/cmake/gazebo_ros_actor_pluginConfig.cmake
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/cmake/gazebo_ros_actor_pluginConfig-version.cmake
+[1.076s] -- Up-to-date: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/package.xml
+[1.115s] Invoked command in '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/gazebo_ros_actor_plugin

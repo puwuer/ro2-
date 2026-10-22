@@ -1,0 +1,61 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/base_controller.dir/src/base_controller.cpp.o[0m
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:[m[K In member function ‘[01m[Kvoid ros2_stm32::driver::MiniDriver::calculateImuQuaternion(ros2_stm32::driver::imu_data)[m[K’:
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  465 |     float [01;35m[Kroll[m[K,pitch,yaw ;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  465 |     float roll,[01;35m[Kpitch[m[K,yaw ;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  465 |     float roll,pitch,[01;35m[Kyaw[m[K ;
+      |                      [01;35m[K^~~[m[K
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:[m[K In member function ‘[01m[Kvoid ros2_stm32::driver::MiniDriver::SendTimerCallback()[m[K’:
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  705 |   double [01;35m[Kleft_d[m[K, right_d, radio;
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  705 |   double left_d, [01;35m[Kright_d[m[K, radio;
+      |                  [01;35m[K^~~~~~~[m[K
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradio[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  705 |   double left_d, right_d, [01;35m[Kradio[m[K;
+      |                           [01;35m[K^~~~~[m[K
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:706:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmodel_param[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  706 |   double [01;35m[Kmodel_param[m[K;
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:707:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  707 |   short [01;35m[Kleft[m[K, right;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:707:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  707 |   short left, [01;35m[Kright[m[K;
+      |               [01;35m[K^~~~~[m[K
+[100%] [32m[1mLinking CXX executable base_controller[0m
+[100%] Built target base_controller
+-- Install configuration: ""
+-- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/lib/ros2_stm32_bridge/base_controller
+-- Set runtime path of "/home/ros/Robot_ws/install/ros2_stm32_bridge/lib/ros2_stm32_bridge/base_controller" to ""
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/stm32_4w.yaml
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/ekf.yaml
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/stm32_2w.yaml
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/robot.launch.py
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/driver_ekf.launch.py
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/robot_ekf.launch.py
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/driver.launch.py
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/rviz
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/rviz/robot.rviz
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_stm32_bridge
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_stm32_bridge
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/path.sh
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/path.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.bash
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.sh
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.zsh
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.dsv
+-- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/packages/ros2_stm32_bridge
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/cmake/ros2_stm32_bridgeConfig.cmake
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/cmake/ros2_stm32_bridgeConfig-version.cmake
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.xml

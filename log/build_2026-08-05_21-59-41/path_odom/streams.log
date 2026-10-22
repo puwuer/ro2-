@@ -1,0 +1,2 @@
+[0.199s] Invoking command in '/home/ros/Robot_ws/build/path_odom': /usr/bin/cmake --build /home/ros/Robot_ws/build/path_odom -- -j6 -l6
+[0.300s] Invoked command in '/home/ros/Robot_ws/build/path_odom' returned '0': /usr/bin/cmake --build /home/ros/Robot_ws/build/path_odom -- -j6 -l6

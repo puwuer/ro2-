@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mycar_interfaces/msg/SystemStatus.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mycar_interfaces {
+  module msg {
+    module SystemStatus_Constants {
+      const uint8 PATROL = 0;
+      const uint8 TRACK = 1;
+      const uint8 SEARCH = 2;
+    };
+    @verbatim (language="comment", text=
+      "系统工作模式常量")
+    struct SystemStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "当前工作模式: PATROL / TRACK / SEARCH")
+      uint8 mode;
+
+      @verbatim (language="comment", text=
+        "是否检测到跟踪目标(人)")
+      boolean target_visible;
+
+      @verbatim (language="comment", text=
+        "目标在 map 坐标系下的位置, target_visible=false 时忽略")
+      geometry_msgs::msg::PoseStamped target_pose;
+
+      @verbatim (language="comment", text=
+        "检测置信度 0~1")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "当前(或最近)巡检点索引, 非巡检模式时保留最后一次的值")
+      int32 waypoint_index;
+
+      @verbatim (language="comment", text=
+        "最近一次状态切换原因/说明, 仅用于调试显示")
+      string detail;
+    };
+  };
+};

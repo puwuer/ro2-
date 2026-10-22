@@ -1,0 +1,46 @@
+# 仿真 EKF: 融合轮式里程计(速度) + IMU(角速度), 输出 /odometry/filtered 给 AMCL
+# 说明:
+#  - 仿真里程计是"真值", 融合的主要目的是与实车 driver_ekf.launch.py 架构一致,
+#    并用 IMU 角速度平滑航向(长走廊/相似地点时航向稳定更重要)
+#  - publish_tf 保持 false: odom->base_footprint 仍由 Gazebo 唯一发布, 避免重复 TF 发布者
+#  - 只融合 IMU 的角速度 vyaw, 不融合绝对航向(IMU 航向是 ENU 绝对朝向, 与 odom 帧初始朝向耦合)
+ekf_filter_node:
+  ros__parameters:
+    use_sim_time: true
+    frequency: 30.0
+    sensor_timeout: 0.1
+    two_d_mode: true
+    transform_time_offset: 0.0
+    transform_timeout: 0.0
+    print_diagnostics: true
+    debug: false
+
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_footprint
+    world_frame: odom
+    publish_tf: false
+
+    # 轮式里程计: 只取速度 (x, y, yaw 角速度)
+    odom0: /odom
+    odom0_config: [false, false, false,
+                   false, false, false,
+                   true,  true,  false,
+                   false, false, true,
+                   false, false, false]
+    odom0_queue_size: 5
+    odom0_nodelay: true
+    odom0_differential: false
+    odom0_relative: false
+
+    # IMU: 只取 z 轴角速度(vyaw)
+    imu0: /imu
+    imu0_config: [false, false, false,
+                  false, false, false,
+                  false, false, false,
+                  false, false, true,
+                  false, false, false]
+    imu0_queue_size: 10
+    imu0_nodelay: true
+    imu0_differential: false
+    imu0_relative: false

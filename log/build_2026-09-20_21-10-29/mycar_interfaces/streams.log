@@ -1,0 +1,82 @@
+[0.023s] Invoking command in '/home/ros/Robot_ws/build/mycar_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/interfaces/mycar_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/mycar_interfaces
+[0.350s] -- The C compiler identification is GNU 11.4.0
+[0.540s] -- The CXX compiler identification is GNU 11.4.0
+[0.563s] -- Detecting C compiler ABI info
+[0.696s] -- Detecting C compiler ABI info - done
+[0.704s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.705s] -- Detecting C compile features
+[0.706s] -- Detecting C compile features - done
+[0.714s] -- Detecting CXX compiler ABI info
+[0.876s] -- Detecting CXX compiler ABI info - done
+[0.885s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.886s] -- Detecting CXX compile features
+[0.887s] -- Detecting CXX compile features - done
+[0.914s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.439s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.644s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.657s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.678s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.889s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[1.964s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.370s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.146s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.152s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.201s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.202s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.202s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.202s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.228s] -- Found PythonExtra: .so  
+[3.425s] -- Configuring done
+[3.482s] -- Generating done
+[3.498s] -- Build files have been written to: /home/ros/Robot_ws/build/mycar_interfaces
+[3.509s] Invoked command in '/home/ros/Robot_ws/build/mycar_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/interfaces/mycar_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/mycar_interfaces
+[3.512s] Invoking command in '/home/ros/Robot_ws/build/mycar_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_interfaces -- -j6 -l6
+[3.608s] [  3%] Generating Rust code for ROS interfaces
+[4.002s] [  3%] Built target mycar_interfaces__rs
+[4.053s] [  3%] Built target ament_cmake_python_copy_mycar_interfaces
+[4.097s] [  6%] Generating C++ code for ROS interfaces
+[4.484s] [  6%] Built target mycar_interfaces__cpp
+[4.769s] running egg_info
+[4.789s] creating mycar_interfaces.egg-info
+[4.789s] writing mycar_interfaces.egg-info/PKG-INFO
+[4.789s] writing dependency_links to mycar_interfaces.egg-info/dependency_links.txt
+[4.790s] writing top-level names to mycar_interfaces.egg-info/top_level.txt
+[4.790s] writing manifest file 'mycar_interfaces.egg-info/SOURCES.txt'
+[4.853s] reading manifest file 'mycar_interfaces.egg-info/SOURCES.txt'
+[4.897s] Traceback (most recent call last):
+[4.897s]   File "/home/ros/Robot_ws/build/mycar_interfaces/ament_cmake_python/mycar_interfaces/setup.py", line 4, in <module>
+[4.897s]     setup(
+[4.897s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[4.898s]     return distutils.core.setup(**attrs)  # type: ignore[return-value]
+[4.898s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[4.898s]     return run_commands(dist)
+[4.898s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[4.898s]     dist.run_commands()
+[4.898s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1001, in run_commands
+[4.900s]     self.run_command(cmd)
+[4.900s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1107, in run_command
+[4.903s]     super().run_command(command)
+[4.903s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1020, in run_command
+[4.903s]     cmd_obj.run()
+[4.904s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 338, in run
+[4.904s]     self.find_sources()
+[4.905s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 346, in find_sources
+[4.906s]     mm.run()
+[4.907s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 573, in run
+[4.907s]     self.prune_file_list()
+[4.907s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 163, in prune_file_list
+[4.907s]     super().prune_file_list()
+[4.907s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[4.907s]     base_dir = self.distribution.get_fullname()
+[4.907s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[4.907s]     return _distribution_fullname(self.get_name(), self.get_version())
+[4.907s]   File "/home/ros/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[4.907s]     canonicalize_version(version, strip_trailing_zero=False),
+[4.907s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[4.957s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_mycar_interfaces_egg.dir/build.make:70：CMakeFiles/ament_cmake_python_build_mycar_interfaces_egg] 错误 1
+[4.957s] gmake[1]: *** [CMakeFiles/Makefile2:466：CMakeFiles/ament_cmake_python_build_mycar_interfaces_egg.dir/all] 错误 2
+[4.958s] gmake: *** [Makefile:146：all] 错误 2
+[4.963s] Invoked command in '/home/ros/Robot_ws/build/mycar_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_interfaces -- -j6 -l6

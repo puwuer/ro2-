@@ -1,0 +1,29 @@
+[100%] Built target base_controller
+-- Install configuration: ""
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/lib/ros2_stm32_bridge/base_controller
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/stm32_4w.yaml
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/ekf.yaml
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/stm32_2w.yaml
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/robot.launch.py
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/driver_ekf.launch.py
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/robot_ekf.launch.py
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/driver.launch.py
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/rviz
+-- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/rviz/robot.rviz
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_stm32_bridge
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_stm32_bridge
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/path.sh
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/path.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.bash
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.sh
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.zsh
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.dsv
+-- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/packages/ros2_stm32_bridge
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/cmake/ros2_stm32_bridgeConfig.cmake
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/cmake/ros2_stm32_bridgeConfig-version.cmake
+-- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.xml

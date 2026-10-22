@@ -1,0 +1,114 @@
+[0.024s] Invoking command in '/home/ros/Robot_ws/build/ros2_stm32_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/ros2_stm32_bridge -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/ros2_stm32_bridge
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.207s] -- The CXX compiler identification is GNU 11.4.0
+[0.215s] -- Detecting C compiler ABI info
+[0.380s] -- Detecting C compiler ABI info - done
+[0.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.394s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.546s] -- Detecting CXX compile features
+[0.546s] -- Detecting CXX compile features - done
+[0.546s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.229s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.390s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.445s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.446s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.456s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.618s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.629s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.844s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.878s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.949s] -- Looking for pthread.h
+[2.226s] -- Looking for pthread.h - found
+[2.227s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.444s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.447s] -- Found Threads: TRUE  
+[2.577s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.661s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.701s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[2.724s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.953s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.131s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.132s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/Robot_ws/src/ros2_stm32_bridge/include>
+[3.132s] -- Configured cppcheck exclude dirs and/or files: 
+[3.138s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.146s] -- Added test 'lint_cmake' to check CMake code style
+[3.147s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.160s] -- Added test 'uncrustify' to check C / C++ code style
+[3.163s] -- Configured uncrustify additional arguments: 
+[3.166s] -- Added test 'xmllint' to check XML markup files
+[3.174s] -- Configuring done
+[3.242s] -- Generating done
+[3.273s] -- Build files have been written to: /home/ros/Robot_ws/build/ros2_stm32_bridge
+[3.343s] Invoked command in '/home/ros/Robot_ws/build/ros2_stm32_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/ros2_stm32_bridge -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/ros2_stm32_bridge
+[3.343s] Invoking command in '/home/ros/Robot_ws/build/ros2_stm32_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/ros2_stm32_bridge -- -j4 -l4
+[3.467s] [ 50%] [32mBuilding CXX object CMakeFiles/base_controller.dir/src/base_controller.cpp.o[0m
+[9.013s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:[m[K In member function ‘[01m[Kvoid ros2_stm32::driver::MiniDriver::calculateImuQuaternion(ros2_stm32::driver::imu_data)[m[K’:
+[9.014s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.014s]   465 |     float [01;35m[Kroll[m[K,pitch,yaw ;
+[9.014s]       |           [01;35m[K^~~~[m[K
+[9.015s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.015s]   465 |     float roll,[01;35m[Kpitch[m[K,yaw ;
+[9.015s]       |                [01;35m[K^~~~~[m[K
+[9.015s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:465:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.015s]   465 |     float roll,pitch,[01;35m[Kyaw[m[K ;
+[9.016s]       |                      [01;35m[K^~~[m[K
+[9.016s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:[m[K In member function ‘[01m[Kvoid ros2_stm32::driver::MiniDriver::SendTimerCallback()[m[K’:
+[9.016s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.016s]   705 |   double [01;35m[Kleft_d[m[K, right_d, radio;
+[9.016s]       |          [01;35m[K^~~~~~[m[K
+[9.016s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.016s]   705 |   double left_d, [01;35m[Kright_d[m[K, radio;
+[9.016s]       |                  [01;35m[K^~~~~~~[m[K
+[9.016s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:705:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradio[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.016s]   705 |   double left_d, right_d, [01;35m[Kradio[m[K;
+[9.017s]       |                           [01;35m[K^~~~~[m[K
+[9.017s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:706:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmodel_param[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.017s]   706 |   double [01;35m[Kmodel_param[m[K;
+[9.017s]       |          [01;35m[K^~~~~~~~~~~[m[K
+[9.017s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:707:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.017s]   707 |   short [01;35m[Kleft[m[K, right;
+[9.017s]       |         [01;35m[K^~~~[m[K
+[9.017s] [01m[K/home/ros/Robot_ws/src/ros2_stm32_bridge/src/base_controller.cpp:707:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.017s]   707 |   short left, [01;35m[Kright[m[K;
+[9.017s]       |               [01;35m[K^~~~~[m[K
+[17.365s] [100%] [32m[1mLinking CXX executable base_controller[0m
+[17.941s] [100%] Built target base_controller
+[17.958s] Invoked command in '/home/ros/Robot_ws/build/ros2_stm32_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/ros2_stm32_bridge -- -j4 -l4
+[17.960s] Invoking command in '/home/ros/Robot_ws/build/ros2_stm32_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/ros2_stm32_bridge
+[17.970s] -- Install configuration: ""
+[17.970s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/lib/ros2_stm32_bridge/base_controller
+[17.977s] -- Set runtime path of "/home/ros/Robot_ws/install/ros2_stm32_bridge/lib/ros2_stm32_bridge/base_controller" to ""
+[17.977s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params
+[17.977s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/stm32_4w.yaml
+[17.978s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/ekf.yaml
+[17.979s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/stm32_2w.yaml
+[17.979s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch
+[17.979s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/robot.launch.py
+[17.980s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/driver_ekf.launch.py
+[17.980s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/robot_ekf.launch.py
+[17.981s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/driver.launch.py
+[17.981s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/rviz
+[17.981s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/rviz/robot.rviz
+[17.982s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_stm32_bridge
+[17.983s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_stm32_bridge
+[17.983s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/ament_prefix_path.sh
+[17.983s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/ament_prefix_path.dsv
+[17.984s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/path.sh
+[17.984s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/path.dsv
+[17.985s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.bash
+[17.985s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.sh
+[17.986s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.zsh
+[17.986s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.dsv
+[17.986s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.dsv
+[17.987s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/packages/ros2_stm32_bridge
+[17.987s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/cmake/ros2_stm32_bridgeConfig.cmake
+[17.988s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/cmake/ros2_stm32_bridgeConfig-version.cmake
+[17.988s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.xml
+[17.993s] Invoked command in '/home/ros/Robot_ws/build/ros2_stm32_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/ros2_stm32_bridge

@@ -1,0 +1,9 @@
+/home/ros/Robot_ws/src/patrol/mycar_patrol/src/patrol_node.cpp:45:8: warning: ‘double {anonymous}::yawFromQuaternion(const Quaternion&)’ defined but not used [-Wunused-function]
+   45 | double yawFromQuaternion(const geometry_msgs::msg::Quaternion & q)
+      |        ^~~~~~~~~~~~~~~~~
+CMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot find
+  "/home/ros/Robot_ws/src/patrol/mycar_patrol/launch": No such file or
+  directory.
+
+

@@ -1,0 +1,10 @@
+/home/ros/Robot_ws/build/lidar_pkg/CMakeFiles/uninstall.dir
+/home/ros/Robot_ws/build/lidar_pkg/CMakeFiles/lidar_pkg_uninstall.dir
+/home/ros/Robot_ws/build/lidar_pkg/CMakeFiles/lidar_node.dir
+/home/ros/Robot_ws/build/lidar_pkg/CMakeFiles/test.dir
+/home/ros/Robot_ws/build/lidar_pkg/CMakeFiles/edit_cache.dir
+/home/ros/Robot_ws/build/lidar_pkg/CMakeFiles/rebuild_cache.dir
+/home/ros/Robot_ws/build/lidar_pkg/CMakeFiles/list_install_components.dir
+/home/ros/Robot_ws/build/lidar_pkg/CMakeFiles/install.dir
+/home/ros/Robot_ws/build/lidar_pkg/CMakeFiles/install/local.dir
+/home/ros/Robot_ws/build/lidar_pkg/CMakeFiles/install/strip.dir

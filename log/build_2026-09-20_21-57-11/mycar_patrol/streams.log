@@ -1,0 +1,28 @@
+[0.067s] Invoking command in '/home/ros/Robot_ws/build/mycar_patrol': CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_patrol:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_patrol -- -j6 -l6
+[0.302s] Consolidate compiler generated dependencies of target patrol_node
+[0.404s] [ 50%] Building CXX object CMakeFiles/patrol_node.dir/src/patrol_node.cpp.o
+[14.981s] [100%] Linking CXX executable patrol_node
+[16.048s] [100%] Built target patrol_node
+[16.082s] Invoked command in '/home/ros/Robot_ws/build/mycar_patrol' returned '0': CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_patrol:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_patrol -- -j6 -l6
+[16.107s] Invoking command in '/home/ros/Robot_ws/build/mycar_patrol': CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_patrol:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_patrol
+[16.122s] -- Install configuration: ""
+[16.125s] -- Installing: /home/ros/Robot_ws/install/mycar_patrol/lib/mycar_patrol/patrol_node
+[16.132s] -- Set runtime path of "/home/ros/Robot_ws/install/mycar_patrol/lib/mycar_patrol/patrol_node" to ""
+[16.134s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/launch
+[16.134s] -- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/launch/patrol_track.launch.py
+[16.140s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/package_run_dependencies/mycar_patrol
+[16.140s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/parent_prefix_path/mycar_patrol
+[16.141s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/ament_prefix_path.sh
+[16.141s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/ament_prefix_path.dsv
+[16.142s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/path.sh
+[16.142s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/path.dsv
+[16.142s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.bash
+[16.143s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.sh
+[16.143s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.zsh
+[16.143s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.dsv
+[16.143s] -- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/package.dsv
+[16.143s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/packages/mycar_patrol
+[16.144s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/cmake/mycar_patrolConfig.cmake
+[16.146s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/cmake/mycar_patrolConfig-version.cmake
+[16.147s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/package.xml
+[16.148s] Invoked command in '/home/ros/Robot_ws/build/mycar_patrol' returned '0': CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_patrol:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_patrol

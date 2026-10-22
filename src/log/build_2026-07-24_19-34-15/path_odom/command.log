@@ -1,0 +1,4 @@
+Invoking command in '/home/ros/Robot_ws/src/build/path_odom': /usr/bin/cmake /home/ros/Robot_ws/src/path_pkg/path_odom -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/src/install/path_odom
+Invoked command in '/home/ros/Robot_ws/src/build/path_odom' returned '0': /usr/bin/cmake /home/ros/Robot_ws/src/path_pkg/path_odom -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/src/install/path_odom
+Invoking command in '/home/ros/Robot_ws/src/build/path_odom': /usr/bin/cmake --build /home/ros/Robot_ws/src/build/path_odom -- -j4 -l4
+Invoked command in '/home/ros/Robot_ws/src/build/path_odom' returned '0': /usr/bin/cmake --build /home/ros/Robot_ws/src/build/path_odom -- -j4 -l4

@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (-) JobUnselected: {'identifier': 'demo_gazebo_sim'}
+[0.000200] (-) JobUnselected: {'identifier': 'gazebo_ros_actor_plugin'}
+[0.000216] (-) JobUnselected: {'identifier': 'lidar_pkg'}
+[0.000228] (-) JobUnselected: {'identifier': 'my_usb_cam'}
+[0.000239] (-) JobUnselected: {'identifier': 'mycar_interfaces'}
+[0.000250] (-) JobUnselected: {'identifier': 'mycar_location'}
+[0.000299] (-) JobUnselected: {'identifier': 'mycar_map_server'}
+[0.000319] (-) JobUnselected: {'identifier': 'mycar_navigation2'}
+[0.000332] (-) JobUnselected: {'identifier': 'mycar_slam_cartographer'}
+[0.000343] (-) JobUnselected: {'identifier': 'mycar_slam_slam_toolbox'}
+[0.000353] (-) JobUnselected: {'identifier': 'path_odom'}
+[0.000399] (-) JobUnselected: {'identifier': 'ros2_stm32_bridge'}
+[0.000419] (-) JobUnselected: {'identifier': 'tracker'}
+[0.000435] (mycar_patrol) JobQueued: {'identifier': 'mycar_patrol', 'dependencies': OrderedDict([('mycar_interfaces', '/home/ros/Robot_ws/install/mycar_interfaces')])}
+[0.000487] (mycar_patrol) JobStarted: {'identifier': 'mycar_patrol'}
+[0.055699] (mycar_patrol) JobProgress: {'identifier': 'mycar_patrol', 'progress': 'cmake'}
+[0.060182] (mycar_patrol) JobProgress: {'identifier': 'mycar_patrol', 'progress': 'build'}
+[0.062370] (mycar_patrol) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/Robot_ws/build/mycar_patrol', '--', '-j6', '-l6'], 'cwd': '/home/ros/Robot_ws/build/mycar_patrol', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ros'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/nls.messages.json","corruptMarkerFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8","_corruptedFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ros/Robot_ws/install/mycar_interfaces/lib:/home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-b2be077a-1.12-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('MYCAR_MODEL', 'stm32_4w'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1629'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1788'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4532'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/Robot_ws/install'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:24223'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'ros'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/home/ros/.codex/tmp/arg0/codex-arg0l8TMOC:/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/openai.chatgpt-26.908.40401-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1766,unix/ros-virtual-machine:/tmp/.ICE-unix/1766'), ('CODEX_VERSION', '0.154.0-alpha.6.2'), ('CODEX_SESSION_ID', '01a0be80-73df-71a3-8a84-bf9775f3a4e6'), ('INVOCATION_ID', 'b48a94b31c534c6e8199622d1b8c8294'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3H26V3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_patrol:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/mycar_interfaces:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0be80-73df-71a3-8a84-bf9775f3a4e6'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/mycar_patrol'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ros/.config/Code/CachedData/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/Robot_ws/install/mycar_interfaces:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_patrol:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble'), ('VSCODE_PID', '4532')]), 'shell': False}
+[0.101093] (-) TimerEvent: {}
+[0.201524] (-) TimerEvent: {}
+[0.302013] (-) TimerEvent: {}
+[0.402222] (-) TimerEvent: {}
+[0.404652] (mycar_patrol) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/patrol_node.dir/src/patrol_node.cpp.o\n'}
+[0.503091] (-) TimerEvent: {}
+[0.603865] (-) TimerEvent: {}
+[0.704376] (-) TimerEvent: {}
+[0.805027] (-) TimerEvent: {}
+[0.905710] (-) TimerEvent: {}
+[1.006099] (-) TimerEvent: {}
+[1.106551] (-) TimerEvent: {}
+[1.207135] (-) TimerEvent: {}
+[1.307761] (-) TimerEvent: {}
+[1.408567] (-) TimerEvent: {}
+[1.509121] (-) TimerEvent: {}
+[1.609412] (-) TimerEvent: {}
+[1.712485] (-) TimerEvent: {}
+[1.813021] (-) TimerEvent: {}
+[1.914078] (-) TimerEvent: {}
+[2.015589] (-) TimerEvent: {}
+[2.116702] (-) TimerEvent: {}
+[2.219004] (-) TimerEvent: {}
+[2.319561] (-) TimerEvent: {}
+[2.420316] (-) TimerEvent: {}
+[2.521447] (-) TimerEvent: {}
+[2.623905] (-) TimerEvent: {}
+[2.725161] (-) TimerEvent: {}
+[2.826058] (-) TimerEvent: {}
+[2.927729] (-) TimerEvent: {}
+[3.028198] (-) TimerEvent: {}
+[3.129130] (-) TimerEvent: {}
+[3.230360] (-) TimerEvent: {}
+[3.331711] (-) TimerEvent: {}
+[3.432176] (-) TimerEvent: {}
+[3.533033] (-) TimerEvent: {}
+[3.634374] (-) TimerEvent: {}
+[3.735911] (-) TimerEvent: {}
+[3.836532] (-) TimerEvent: {}
+[3.937408] (-) TimerEvent: {}
+[4.037889] (-) TimerEvent: {}
+[4.138186] (-) TimerEvent: {}
+[4.238663] (-) TimerEvent: {}
+[4.341096] (-) TimerEvent: {}
+[4.441572] (-) TimerEvent: {}
+[4.542258] (-) TimerEvent: {}
+[4.642885] (-) TimerEvent: {}
+[4.743358] (-) TimerEvent: {}
+[4.843931] (-) TimerEvent: {}
+[4.944505] (-) TimerEvent: {}
+[5.044927] (-) TimerEvent: {}
+[5.145653] (-) TimerEvent: {}
+[5.245960] (-) TimerEvent: {}
+[5.346185] (-) TimerEvent: {}
+[5.446860] (-) TimerEvent: {}
+[5.547270] (-) TimerEvent: {}
+[5.648266] (-) TimerEvent: {}
+[5.748647] (-) TimerEvent: {}
+[5.849730] (-) TimerEvent: {}
+[5.950334] (-) TimerEvent: {}
+[6.051777] (-) TimerEvent: {}
+[6.154410] (-) TimerEvent: {}
+[6.254857] (-) TimerEvent: {}
+[6.355489] (-) TimerEvent: {}
+[6.455798] (-) TimerEvent: {}
+[6.556526] (-) TimerEvent: {}
+[6.657274] (-) TimerEvent: {}
+[6.758212] (-) TimerEvent: {}
+[6.859515] (-) TimerEvent: {}
+[6.960571] (-) TimerEvent: {}
+[7.061616] (-) TimerEvent: {}
+[7.163485] (-) TimerEvent: {}
+[7.266120] (-) TimerEvent: {}
+[7.366512] (-) TimerEvent: {}
+[7.467080] (-) TimerEvent: {}
+[7.567730] (-) TimerEvent: {}
+[7.668192] (-) TimerEvent: {}
+[7.768482] (-) TimerEvent: {}
+[7.873342] (-) TimerEvent: {}
+[7.973793] (-) TimerEvent: {}
+[8.074589] (-) TimerEvent: {}
+[8.175269] (-) TimerEvent: {}
+[8.276352] (-) TimerEvent: {}
+[8.377032] (-) TimerEvent: {}
+[8.478066] (-) TimerEvent: {}
+[8.578784] (-) TimerEvent: {}
+[8.679052] (-) TimerEvent: {}
+[8.779990] (-) TimerEvent: {}
+[8.880935] (-) TimerEvent: {}
+[8.981455] (-) TimerEvent: {}
+[9.081766] (-) TimerEvent: {}
+[9.182488] (-) TimerEvent: {}
+[9.283420] (-) TimerEvent: {}
+[9.384110] (-) TimerEvent: {}
+[9.484791] (-) TimerEvent: {}
+[9.585334] (-) TimerEvent: {}
+[9.686209] (-) TimerEvent: {}
+[9.787034] (-) TimerEvent: {}
+[9.888675] (-) TimerEvent: {}
+[9.989507] (-) TimerEvent: {}
+[10.089854] (-) TimerEvent: {}
+[10.190969] (-) TimerEvent: {}
+[10.291608] (-) TimerEvent: {}
+[10.392215] (-) TimerEvent: {}
+[10.492869] (-) TimerEvent: {}
+[10.593340] (-) TimerEvent: {}
+[10.694020] (-) TimerEvent: {}
+[10.794374] (-) TimerEvent: {}
+[10.895304] (-) TimerEvent: {}
+[10.995938] (-) TimerEvent: {}
+[11.096712] (-) TimerEvent: {}
+[11.197392] (-) TimerEvent: {}
+[11.297978] (-) TimerEvent: {}
+[11.398595] (-) TimerEvent: {}
+[11.499325] (-) TimerEvent: {}
+[11.600302] (-) TimerEvent: {}
+[11.700601] (-) TimerEvent: {}
+[11.801350] (-) TimerEvent: {}
+[11.901760] (-) TimerEvent: {}
+[12.002231] (-) TimerEvent: {}
+[12.102797] (-) TimerEvent: {}
+[12.203386] (-) TimerEvent: {}
+[12.304006] (-) TimerEvent: {}
+[12.405618] (-) TimerEvent: {}
+[12.505920] (-) TimerEvent: {}
+[12.606709] (-) TimerEvent: {}
+[12.706986] (-) TimerEvent: {}
+[12.807233] (-) TimerEvent: {}
+[12.907694] (-) TimerEvent: {}
+[13.008532] (-) TimerEvent: {}
+[13.110266] (-) TimerEvent: {}
+[13.210737] (-) TimerEvent: {}
+[13.311225] (-) TimerEvent: {}
+[13.412021] (-) TimerEvent: {}
+[13.512327] (-) TimerEvent: {}
+[13.612654] (-) TimerEvent: {}
+[13.713183] (-) TimerEvent: {}
+[13.813688] (-) TimerEvent: {}
+[13.914198] (-) TimerEvent: {}
+[14.014973] (-) TimerEvent: {}
+[14.115736] (-) TimerEvent: {}
+[14.217206] (-) TimerEvent: {}
+[14.317891] (-) TimerEvent: {}
+[14.418931] (-) TimerEvent: {}
+[14.519924] (-) TimerEvent: {}
+[14.620828] (-) TimerEvent: {}
+[14.723021] (-) TimerEvent: {}
+[14.823230] (-) TimerEvent: {}
+[14.923831] (-) TimerEvent: {}
+[15.024328] (-) TimerEvent: {}
+[15.125215] (-) TimerEvent: {}
+[15.226536] (-) TimerEvent: {}
+[15.327265] (-) TimerEvent: {}
+[15.428111] (-) TimerEvent: {}
+[15.529433] (-) TimerEvent: {}
+[15.552937] (mycar_patrol) StdoutLine: {'line': b'[100%] Linking CXX executable patrol_node\n'}
+[15.630018] (-) TimerEvent: {}
+[15.730952] (-) TimerEvent: {}
+[15.831834] (-) TimerEvent: {}
+[15.933174] (-) TimerEvent: {}
+[16.033582] (-) TimerEvent: {}
+[16.133971] (-) TimerEvent: {}
+[16.234521] (-) TimerEvent: {}
+[16.334833] (-) TimerEvent: {}
+[16.435363] (-) TimerEvent: {}
+[16.532653] (mycar_patrol) StdoutLine: {'line': b'[100%] Built target patrol_node\n'}
+[16.535596] (-) TimerEvent: {}
+[16.550714] (mycar_patrol) CommandEnded: {'returncode': 0}
+[16.555336] (mycar_patrol) JobProgress: {'identifier': 'mycar_patrol', 'progress': 'install'}
+[16.582618] (mycar_patrol) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/Robot_ws/build/mycar_patrol'], 'cwd': '/home/ros/Robot_ws/build/mycar_patrol', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ros'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/nls.messages.json","corruptMarkerFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8","_corruptedFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ros/Robot_ws/install/mycar_interfaces/lib:/home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-b2be077a-1.12-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('MYCAR_MODEL', 'stm32_4w'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1629'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1788'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4532'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/Robot_ws/install'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:24223'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'ros'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/home/ros/.codex/tmp/arg0/codex-arg0l8TMOC:/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/openai.chatgpt-26.908.40401-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1766,unix/ros-virtual-machine:/tmp/.ICE-unix/1766'), ('CODEX_VERSION', '0.154.0-alpha.6.2'), ('CODEX_SESSION_ID', '01a0be80-73df-71a3-8a84-bf9775f3a4e6'), ('INVOCATION_ID', 'b48a94b31c534c6e8199622d1b8c8294'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3H26V3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_patrol:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/mycar_interfaces:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0be80-73df-71a3-8a84-bf9775f3a4e6'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/mycar_patrol'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ros/.config/Code/CachedData/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/Robot_ws/install/mycar_interfaces:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_patrol:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble'), ('VSCODE_PID', '4532')]), 'shell': False}
+[16.609161] (mycar_patrol) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.613228] (mycar_patrol) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_patrol/lib/mycar_patrol/patrol_node\n'}
+[16.629459] (mycar_patrol) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_patrol/lib/mycar_patrol/patrol_node" to ""\n'}
+[16.629692] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/launch\n'}
+[16.634243] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/launch/__pycache__\n'}
+[16.634418] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/launch/__pycache__/patrol_track.launch.cpython-310.pyc\n'}
+[16.634471] (mycar_patrol) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/launch/patrol_track.launch.py\n'}
+[16.634517] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/package_run_dependencies/mycar_patrol\n'}
+[16.636318] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/parent_prefix_path/mycar_patrol\n'}
+[16.636453] (-) TimerEvent: {}
+[16.636469] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/ament_prefix_path.sh\n'}
+[16.636517] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/ament_prefix_path.dsv\n'}
+[16.636563] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/path.sh\n'}
+[16.636607] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/path.dsv\n'}
+[16.636648] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.bash\n'}
+[16.636690] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.sh\n'}
+[16.636730] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.zsh\n'}
+[16.636768] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.dsv\n'}
+[16.636806] (mycar_patrol) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/package.dsv\n'}
+[16.640746] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/packages/mycar_patrol\n'}
+[16.643501] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/cmake/mycar_patrolConfig.cmake\n'}
+[16.643682] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/cmake/mycar_patrolConfig-version.cmake\n'}
+[16.643742] (mycar_patrol) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/package.xml\n'}
+[16.646139] (mycar_patrol) CommandEnded: {'returncode': 0}
+[16.697040] (mycar_patrol) JobEnded: {'identifier': 'mycar_patrol', 'rc': 0}
+[16.697699] (-) EventReactorShutdown: {}

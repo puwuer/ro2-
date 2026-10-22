@@ -1,0 +1,32 @@
+[0.034s] Invoking command in '/home/ros/Robot_ws/src/build/path_odom': /usr/bin/cmake /home/ros/Robot_ws/src/path_pkg/path_odom -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/src/install/path_odom
+[0.048s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.048s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.048s]   contain a literal, direct call to the project() command.  Add a line of
+[0.049s]   code such as
+[0.049s] 
+[0.049s]     project(ProjectName)
+[0.049s] 
+[0.049s]   near the top of the file, but after cmake_minimum_required().
+[0.049s] 
+[0.049s]   CMake is pretending there is a "project(Project)" command on the first
+[0.049s]   line.
+[0.049s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.052s] [0m
+[0.248s] -- The C compiler identification is GNU 11.4.0
+[0.418s] -- The CXX compiler identification is GNU 11.4.0
+[0.435s] -- Detecting C compiler ABI info
+[0.580s] -- Detecting C compiler ABI info - done
+[0.582s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.583s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.594s] -- Detecting CXX compiler ABI info
+[0.754s] -- Detecting CXX compiler ABI info - done
+[0.767s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.770s] -- Detecting CXX compile features
+[0.774s] -- Detecting CXX compile features - done
+[0.778s] -- Configuring done
+[0.782s] -- Generating done
+[0.786s] -- Build files have been written to: /home/ros/Robot_ws/src/build/path_odom
+[0.793s] Invoked command in '/home/ros/Robot_ws/src/build/path_odom' returned '0': /usr/bin/cmake /home/ros/Robot_ws/src/path_pkg/path_odom -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/src/install/path_odom
+[0.794s] Invoking command in '/home/ros/Robot_ws/src/build/path_odom': /usr/bin/cmake --build /home/ros/Robot_ws/src/build/path_odom -- -j4 -l4
+[0.866s] Invoked command in '/home/ros/Robot_ws/src/build/path_odom' returned '0': /usr/bin/cmake --build /home/ros/Robot_ws/src/build/path_odom -- -j4 -l4

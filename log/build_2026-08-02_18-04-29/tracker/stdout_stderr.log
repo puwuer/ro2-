@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target yolo_tracker_node_unn[0m
+[ 50%] Built target yolo_tracker_node
+[ 75%] [32mBuilding CXX object CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o[0m
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:[m[K In member function ‘[01m[Kvoid YoloTrackerNode::sync_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:139:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  139 |                 int [01;35m[Kcenter_y[m[K = 240 / 2;
+      |                     [01;35m[K^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable yolo_tracker_node_unn[0m
+[100%] Built target yolo_tracker_node_unn
+-- Install configuration: ""
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node
+-- Installing: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node_unn
+-- Set runtime path of "/home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node_unn" to ""
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/include
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/include/tracker
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/launch
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/package_run_dependencies/tracker
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/parent_prefix_path/tracker
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.sh
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.bash
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.sh
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.zsh
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.dsv
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/package.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/packages/tracker
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig.cmake
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig-version.cmake
+-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/package.xml

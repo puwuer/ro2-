@@ -1,0 +1,25 @@
+[0.066s] Invoking command in '/home/ros/Robot_ws/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/demo_gazebo_sim -- -j6 -l6
+[0.162s] Invoked command in '/home/ros/Robot_ws/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/demo_gazebo_sim -- -j6 -l6
+[0.176s] Invoking command in '/home/ros/Robot_ws/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/demo_gazebo_sim
+[0.187s] -- Install configuration: ""
+[0.187s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/rviz
+[0.187s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/world
+[0.188s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/world/house.sdf
+[0.188s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/launch
+[0.189s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/launch/gazebo_sim_world.launch.py
+[0.190s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/demo_gazebo_sim
+[0.190s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/demo_gazebo_sim
+[0.190s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/ament_prefix_path.sh
+[0.190s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/ament_prefix_path.dsv
+[0.190s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/path.sh
+[0.191s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/path.dsv
+[0.194s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.bash
+[0.195s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.sh
+[0.195s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.zsh
+[0.195s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.dsv
+[0.195s] -- Installing: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.dsv
+[0.195s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/ament_index/resource_index/packages/demo_gazebo_sim
+[0.195s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/cmake/demo_gazebo_simConfig.cmake
+[0.195s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/cmake/demo_gazebo_simConfig-version.cmake
+[0.195s] -- Up-to-date: /home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.xml
+[0.223s] Invoked command in '/home/ros/Robot_ws/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/demo_gazebo_sim

@@ -1,0 +1,32 @@
+[0.072s] Invoking command in '/home/ros/Robot_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/lidar_pkg -- -j6 -l6
+[0.397s] [35m[1mConsolidate compiler generated dependencies of target lidar_node[0m
+[0.451s] [100%] Built target lidar_node
+[0.564s] Invoked command in '/home/ros/Robot_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/lidar_pkg -- -j6 -l6
+[0.573s] Invoking command in '/home/ros/Robot_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/lidar_pkg
+[0.655s] -- Install configuration: ""
+[0.655s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/lib/lidar_pkg/lidar_node
+[0.655s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/launch
+[0.655s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/launch/lidar.launch.py
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/launch/monitor.launch.py
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/urdf
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/urdf/lidar.urdf
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/rviz
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/rviz/lidar.rviz
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/config
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/config/lidar_params.yaml
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh
+[0.656s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.dsv
+[0.659s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/environment/path.sh
+[0.659s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/environment/path.dsv
+[0.659s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/local_setup.bash
+[0.659s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/local_setup.sh
+[0.659s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/local_setup.zsh
+[0.659s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/local_setup.dsv
+[0.659s] -- Installing: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.dsv
+[0.659s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/ament_index/resource_index/packages/lidar_pkg
+[0.659s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig.cmake
+[0.659s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig-version.cmake
+[0.660s] -- Up-to-date: /home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.xml
+[0.660s] Invoked command in '/home/ros/Robot_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/lidar_pkg

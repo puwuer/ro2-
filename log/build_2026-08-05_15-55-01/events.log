@@ -1,0 +1,726 @@
+[0.000000] (-) TimerEvent: {}
+[0.000741] (-) JobUnselected: {'identifier': 'lidar_pkg'}
+[0.000797] (-) JobUnselected: {'identifier': 'my_usb_cam'}
+[0.000816] (-) JobUnselected: {'identifier': 'mycar_location'}
+[0.000864] (-) JobUnselected: {'identifier': 'mycar_map_server'}
+[0.000881] (-) JobUnselected: {'identifier': 'mycar_navigation2'}
+[0.000894] (-) JobUnselected: {'identifier': 'mycar_slam_cartographer'}
+[0.000936] (-) JobUnselected: {'identifier': 'mycar_slam_slam_toolbox'}
+[0.000952] (-) JobUnselected: {'identifier': 'path_odom'}
+[0.000967] (-) JobUnselected: {'identifier': 'ros2_stm32_bridge'}
+[0.000981] (tracker) JobQueued: {'identifier': 'tracker', 'dependencies': OrderedDict()}
+[0.001590] (tracker) JobStarted: {'identifier': 'tracker'}
+[0.012323] (tracker) JobProgress: {'identifier': 'tracker', 'progress': 'cmake'}
+[0.012675] (tracker) JobProgress: {'identifier': 'tracker', 'progress': 'build'}
+[0.015285] (tracker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/Robot_ws/build/tracker', '--', '-j4', '-l4'], 'cwd': '/home/ros/Robot_ws/build/tracker', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('MYCAR_MODEL', 'stm32_4w'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1576'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1744'), ('BUNDLED_DEBUGPY_PATH', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2409'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:20378'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1708,unix/ros-virtual-machine:/tmp/.ICE-unix/1708'), ('INVOCATION_ID', '66c984d323454399ab83b060ccb21733'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0251135b87c4beb5.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ros/.config/Code/User/workspaceStorage/86947640a0205132b21785934c9f46b7/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O2ULT3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca0684aa96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/tracker'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.064477] (tracker) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100533] (-) TimerEvent: {}
+[0.201147] (-) TimerEvent: {}
+[0.263709] (tracker) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.301377] (-) TimerEvent: {}
+[0.343446] (tracker) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.349278] (tracker) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.366862] (tracker) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.389880] (tracker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.401640] (-) TimerEvent: {}
+[0.413453] (tracker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.483344] (tracker) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.488295] (tracker) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.501844] (-) TimerEvent: {}
+[0.602507] (-) TimerEvent: {}
+[0.646001] (tracker) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.703020] (-) TimerEvent: {}
+[0.749052] (tracker) StdoutLine: {'line': b'-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.803302] (-) TimerEvent: {}
+[0.839724] (tracker) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.858069] (tracker) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.867988] (tracker) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.870590] (tracker) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.903640] (-) TimerEvent: {}
+[1.004282] (-) TimerEvent: {}
+[1.026043] (tracker) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.094058] (tracker) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.104294] (-) TimerEvent: {}
+[1.191436] (tracker) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.191896] (tracker) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.191975] (tracker) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.192490] (tracker) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.193784] (tracker) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.194601] (tracker) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.196428] (tracker) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.196608] (tracker) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.197434] (tracker) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.200521] (tracker) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.204547] (-) TimerEvent: {}
+[1.242405] (tracker) StdoutLine: {'line': b'-- Generating done\n'}
+[1.254309] (tracker) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/Robot_ws/build/tracker\n'}
+[1.290866] (tracker) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target yolo_tracker_node_unn\x1b[0m\n'}
+[1.291065] (tracker) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target yolo_tracker_node\x1b[0m\n'}
+[1.305178] (-) TimerEvent: {}
+[1.316830] (tracker) StdoutLine: {'line': b'[ 50%] Built target yolo_tracker_node\n'}
+[1.317219] (tracker) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o\x1b[0m\n'}
+[1.405565] (-) TimerEvent: {}
+[1.506179] (-) TimerEvent: {}
+[1.607056] (-) TimerEvent: {}
+[1.707786] (-) TimerEvent: {}
+[1.808398] (-) TimerEvent: {}
+[1.908785] (-) TimerEvent: {}
+[2.009522] (-) TimerEvent: {}
+[2.110109] (-) TimerEvent: {}
+[2.211009] (-) TimerEvent: {}
+[2.311913] (-) TimerEvent: {}
+[2.412901] (-) TimerEvent: {}
+[2.513344] (-) TimerEvent: {}
+[2.613849] (-) TimerEvent: {}
+[2.714490] (-) TimerEvent: {}
+[2.815910] (-) TimerEvent: {}
+[2.916380] (-) TimerEvent: {}
+[3.016989] (-) TimerEvent: {}
+[3.117971] (-) TimerEvent: {}
+[3.219156] (-) TimerEvent: {}
+[3.320134] (-) TimerEvent: {}
+[3.420824] (-) TimerEvent: {}
+[3.521876] (-) TimerEvent: {}
+[3.622839] (-) TimerEvent: {}
+[3.723416] (-) TimerEvent: {}
+[3.824428] (-) TimerEvent: {}
+[3.925919] (-) TimerEvent: {}
+[4.026544] (-) TimerEvent: {}
+[4.127521] (-) TimerEvent: {}
+[4.228093] (-) TimerEvent: {}
+[4.328616] (-) TimerEvent: {}
+[4.429414] (-) TimerEvent: {}
+[4.530446] (-) TimerEvent: {}
+[4.631371] (-) TimerEvent: {}
+[4.732634] (-) TimerEvent: {}
+[4.833188] (-) TimerEvent: {}
+[4.934079] (-) TimerEvent: {}
+[5.035088] (-) TimerEvent: {}
+[5.135699] (-) TimerEvent: {}
+[5.236393] (-) TimerEvent: {}
+[5.336791] (-) TimerEvent: {}
+[5.437303] (-) TimerEvent: {}
+[5.538201] (-) TimerEvent: {}
+[5.638950] (-) TimerEvent: {}
+[5.739779] (-) TimerEvent: {}
+[5.840653] (-) TimerEvent: {}
+[5.941524] (-) TimerEvent: {}
+[6.038219] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KYoloTrackerNode::YoloTrackerNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.038456] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:194:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KYoloTrackerNode::frame_counter_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.038700] (tracker) StderrLine: {'line': b'  194 |   int \x1b[01;35m\x1b[Kframe_counter_\x1b[m\x1b[K;\n'}
+[6.038797] (tracker) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.038850] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:177:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer YoloTrackerNode::tf_buffer_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.038897] (tracker) StderrLine: {'line': b'  177 |   tf2_ros::Buffer \x1b[01;35m\x1b[Ktf_buffer_\x1b[m\x1b[K;\n'}
+[6.038937] (tracker) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.039123] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:56:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.039178] (tracker) StderrLine: {'line': b'   56 |   \x1b[01;35m\x1b[KYoloTrackerNode\x1b[m\x1b[K()\n'}
+[6.039229] (tracker) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.042041] (-) TimerEvent: {}
+[6.142631] (-) TimerEvent: {}
+[6.243509] (-) TimerEvent: {}
+[6.344138] (-) TimerEvent: {}
+[6.445037] (-) TimerEvent: {}
+[6.545947] (-) TimerEvent: {}
+[6.646983] (-) TimerEvent: {}
+[6.670416] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[6.671155] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.672327] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), \x1b[32m\x1b[Kgh->get_goal_id()\x1b[m\x1b[K \x1b[01;31m\x1b[K+\x1b[m\x1b[K \x1b[34m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.672492] (tracker) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~\x1b[m\x1b[K\n'}
+[6.672653] (tracker) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K|\x1b[m\x1b[K    \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[6.672710] (tracker) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K|\x1b[m\x1b[K    \x1b[34m\x1b[Kint\x1b[m\x1b[K\n'}
+[6.672754] (tracker) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[Kconst GoalUUID {aka const std::array<unsigned char, 16>}\x1b[m\x1b[K\n'}
+[6.672840] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[6.672888] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[6.672970] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.673029] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.673203] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.673263] (tracker) StderrLine: {'line': b'  585 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(typename reverse_iterator<_Iterator>::difference_type __n,\n'}
+[6.673306] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.673346] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.673385] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.673425] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.673463] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.673500] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[6.673537] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[6.673573] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.673609] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.673645] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.673691] (tracker) StderrLine: {'line': b' 1700 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(typename move_iterator<_Iterator>::difference_type __n,\n'}
+[6.673772] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.673821] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.673863] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.673905] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.673984] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.674040] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.674082] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.674121] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.674158] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.674201] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.675971] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.676159] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.676349] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.676760] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6095:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.677088] (tracker) StderrLine: {'line': b' 6095 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[6.677372] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.677617] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6095:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.677930] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.678374] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.678480] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.678526] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:56\x1b[m\x1b[K,\n'}
+[6.678570] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.678611] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.678650] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.678687] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.678723] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.678759] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.678797] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.678836] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.678878] (tracker) StderrLine: {'line': b' 1169 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const _CharT* __lhs,\n'}
+[6.678916] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.678956] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.679008] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.679050] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.679090] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.679130] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:56\x1b[m\x1b[K,\n'}
+[6.679168] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.679210] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.679253] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.679289] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.679326] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.679368] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.679408] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.679446] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.680569] (tracker) StderrLine: {'line': b' 1189 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)\n'}
+[6.680905] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.681282] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.681600] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.681801] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.681854] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.681897] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.681936] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.681975] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.682014] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.682059] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.682203] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.682260] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.682300] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.682339] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6132:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.682382] (tracker) StderrLine: {'line': b' 6132 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[6.682421] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.682459] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6132:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.682496] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.682535] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.682571] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.682606] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.682642] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.682685] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.682722] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.682759] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.682794] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.682830] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.682865] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.682900] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.682953] (tracker) StderrLine: {'line': b' 6148 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)\n'}
+[6.682991] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.683029] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.683115] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.683170] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.683212] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.683252] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.684059] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.684460] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.684716] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.684896] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.685315] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.685600] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.685871] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.686148] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6160:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.686449] (tracker) StderrLine: {'line': b' 6160 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[6.686580] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.686628] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6160:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.686673] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} have incompatible cv-qualifiers\n'}
+[6.686726] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.686766] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.686805] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.686843] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.686879] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.686916] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.686952] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.686997] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.688122] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.688515] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.688580] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.688628] (tracker) StderrLine: {'line': b' 6166 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[6.688713] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.688761] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.688802] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.688980] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.689027] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.689068] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.689107] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.689148] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.689187] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.689224] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.689262] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.689299] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.689335] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.689477] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6172:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.689586] (tracker) StderrLine: {'line': b' 6172 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[6.689636] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.689677] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6172:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.689723] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} have incompatible cv-qualifiers\n'}
+[6.689784] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.689822] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.689858] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.689894] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.689931] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.689969] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.690005] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.690041] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.690077] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.690112] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.690147] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6194:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.690192] (tracker) StderrLine: {'line': b' 6194 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const _CharT* __lhs,\n'}
+[6.690230] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.690266] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6194:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.690305] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.690344] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.690382] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.690527] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.690575] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.690670] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.690724] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.690771] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.690814] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.690852] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.690888] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.690929] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6200:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.690970] (tracker) StderrLine: {'line': b' 6200 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(_CharT __lhs,\n'}
+[6.691109] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.691158] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6200:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.691199] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.691245] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.691281] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.691318] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.691354] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.691389] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.691425] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.691463] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.691501] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.691571] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.691623] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.691707] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6206:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.691765] (tracker) StderrLine: {'line': b' 6206 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[6.691847] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.691895] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6206:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.691937] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} have incompatible cv-qualifiers\n'}
+[6.692035] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.692081] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.692121] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.692158] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.692357] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.692407] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.692490] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.692537] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.692576] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.692657] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.692704] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6212:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.692752] (tracker) StderrLine: {'line': b' 6212 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[6.692790] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.692829] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6212:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.692867] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} have incompatible cv-qualifiers\n'}
+[6.692911] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.692947] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.692983] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47\x1b[m\x1b[K,\n'}
+[6.693021] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:3306\x1b[m\x1b[K,\n'}
+[6.693103] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[6.693301] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[6.693392] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3\x1b[m\x1b[K:\n'}
+[6.693453] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:332:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.693503] (tracker) StderrLine: {'line': b'  332 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const complex<_Tp>& __x, const complex<_Tp>& __y)\n'}
+[6.693604] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.693690] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:332:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.693775] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.693864] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.694041] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.694129] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47\x1b[m\x1b[K,\n'}
+[6.694216] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:3306\x1b[m\x1b[K,\n'}
+[6.694316] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[6.694407] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[6.694494] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3\x1b[m\x1b[K:\n'}
+[6.694589] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:341:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.694743] (tracker) StderrLine: {'line': b'  341 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const complex<_Tp>& __x, const _Tp& __y)\n'}
+[6.694804] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.694855] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:341:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.694899] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.694941] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.694979] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.695025] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47\x1b[m\x1b[K,\n'}
+[6.695065] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:3306\x1b[m\x1b[K,\n'}
+[6.695102] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[6.695346] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[6.695458] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3\x1b[m\x1b[K:\n'}
+[6.695545] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:350:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const _Tp&, const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.695633] (tracker) StderrLine: {'line': b'  350 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const _Tp& __x, const complex<_Tp>& __y)\n'}
+[6.695740] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.695790] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:350:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.696081] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.696137] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.696226] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.696274] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47\x1b[m\x1b[K,\n'}
+[6.696357] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:3306\x1b[m\x1b[K,\n'}
+[6.696442] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[6.696527] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[6.696574] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3\x1b[m\x1b[K:\n'}
+[6.696657] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:451:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.696745] (tracker) StderrLine: {'line': b'  451 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const complex<_Tp>& __x)\n'}
+[6.696830] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.696877] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:451:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.696957] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:463:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.697006] (tracker) StderrLine: {'line': b'  463 |           std::copy(gh->get_goal_id(), gh->get_goal_id() + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.697046] (tracker) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.697084] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[6.697122] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.697217] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, \x1b[32m\x1b[Kresult.goal_id\x1b[m\x1b[K \x1b[01;31m\x1b[K+\x1b[m\x1b[K \x1b[34m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.697304] (tracker) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~\x1b[m\x1b[K\n'}
+[6.697353] (tracker) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K|\x1b[m\x1b[K         \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[6.697470] (tracker) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K|\x1b[m\x1b[K         \x1b[34m\x1b[Kint\x1b[m\x1b[K\n'}
+[6.697700] (tracker) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Kconst GoalUUID {aka const std::array<unsigned char, 16>}\x1b[m\x1b[K\n'}
+[6.697794] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[6.697879] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[6.698044] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.698151] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.698237] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.698331] (tracker) StderrLine: {'line': b'  585 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(typename reverse_iterator<_Iterator>::difference_type __n,\n'}
+[6.698418] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.698504] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.698552] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.698635] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.698720] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.698768] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[6.698849] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[6.698934] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.698983] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.699026] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.699078] (tracker) StderrLine: {'line': b' 1700 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(typename move_iterator<_Iterator>::difference_type __n,\n'}
+[6.699159] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.699328] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.699414] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.699499] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.699546] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.699627] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.699674] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.699780] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.699869] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.699916] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.699956] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.699995] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.700034] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.700073] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6095:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.700122] (tracker) StderrLine: {'line': b' 6095 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[6.700163] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.700249] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6095:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.700297] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.700347] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.700490] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.700548] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:56\x1b[m\x1b[K,\n'}
+[6.700593] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.700677] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.700724] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.700764] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.700803] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.700840] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.700876] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.700912] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.700952] (tracker) StderrLine: {'line': b' 1169 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const _CharT* __lhs,\n'}
+[6.700989] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.701066] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.701113] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.701196] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.701245] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.701299] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:56\x1b[m\x1b[K,\n'}
+[6.701338] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.701418] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.701554] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.701644] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.701710] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.701768] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.701810] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.701848] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.701899] (tracker) StderrLine: {'line': b' 1189 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)\n'}
+[6.701937] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.701973] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.702105] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.702157] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.702197] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.702236] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.702317] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.702434] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.702482] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.702561] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.702609] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.702689] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.702736] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.702781] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6132:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.702824] (tracker) StderrLine: {'line': b' 6132 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[6.702862] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.702900] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6132:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.702937] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.702976] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.703013] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.703049] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.703090] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.703125] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.703274] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.703344] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.703427] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.703510] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.703616] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.703663] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.703792] (tracker) StderrLine: {'line': b' 6148 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)\n'}
+[6.703851] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.703933] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.704017] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.704076] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.704117] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.704154] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.704193] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.704271] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.704510] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.704574] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.704628] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.704710] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.704757] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.704838] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6160:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.704944] (tracker) StderrLine: {'line': b' 6160 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[6.705003] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.705092] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6160:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.705138] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} have incompatible cv-qualifiers\n'}
+[6.705183] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.705222] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.705261] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.705298] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.705334] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.705370] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.705405] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.705440] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.705593] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.705832] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.705970] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.706271] (tracker) StderrLine: {'line': b' 6166 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[6.706326] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.706367] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.706449] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.706747] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.706839] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.706933] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.706981] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.707062] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.707258] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.707350] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.707398] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.707479] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.707563] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.707649] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6172:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.707737] (tracker) StderrLine: {'line': b' 6172 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[6.707786] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.707867] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6172:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.707934] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} have incompatible cv-qualifiers\n'}
+[6.708038] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.708084] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.708123] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.708203] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.708250] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.708412] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.708462] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.708502] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.708540] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.708578] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.708615] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6194:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.708705] (tracker) StderrLine: {'line': b' 6194 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const _CharT* __lhs,\n'}
+[6.708788] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.708872] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6194:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.708919] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.708961] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.709042] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.709087] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.709127] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.709166] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.709245] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.709411] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.709478] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.709564] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.709611] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.709659] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6200:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.709744] (tracker) StderrLine: {'line': b' 6200 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(_CharT __lhs,\n'}
+[6.709790] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.709890] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6200:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.710078] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.710146] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.710238] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.710284] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.710326] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.710373] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.710603] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.710656] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.710741] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.710827] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.710885] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.710965] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6206:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.711020] (tracker) StderrLine: {'line': b' 6206 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[6.711061] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.711116] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6206:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.711205] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} have incompatible cv-qualifiers\n'}
+[6.711312] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.711357] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.711537] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[6.711785] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[6.711900] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[6.712014] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[6.712148] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.712246] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.712293] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.712333] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.712413] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6212:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.712461] (tracker) StderrLine: {'line': b' 6212 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[6.712551] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.712633] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6212:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.712681] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} have incompatible cv-qualifiers\n'}
+[6.712774] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.712858] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.712905] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47\x1b[m\x1b[K,\n'}
+[6.712985] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:3306\x1b[m\x1b[K,\n'}
+[6.713113] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[6.713220] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[6.713302] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3\x1b[m\x1b[K:\n'}
+[6.713347] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:332:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.713431] (tracker) StderrLine: {'line': b'  332 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const complex<_Tp>& __x, const complex<_Tp>& __y)\n'}
+[6.713540] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.713626] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:332:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.713712] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.713762] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.713845] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.713928] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47\x1b[m\x1b[K,\n'}
+[6.714005] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:3306\x1b[m\x1b[K,\n'}
+[6.714055] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[6.714225] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[6.714277] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3\x1b[m\x1b[K:\n'}
+[6.714365] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:341:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.714450] (tracker) StderrLine: {'line': b'  341 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const complex<_Tp>& __x, const _Tp& __y)\n'}
+[6.714551] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.714597] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:341:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.714678] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.714763] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.714847] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.714893] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47\x1b[m\x1b[K,\n'}
+[6.714973] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:3306\x1b[m\x1b[K,\n'}
+[6.715019] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[6.715058] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[6.715097] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3\x1b[m\x1b[K:\n'}
+[6.715134] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:350:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const _Tp&, const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.715328] (tracker) StderrLine: {'line': b'  350 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const _Tp& __x, const complex<_Tp>& __y)\n'}
+[6.715379] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.715461] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:350:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.715546] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.715595] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.715711] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.715801] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47\x1b[m\x1b[K,\n'}
+[6.715848] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:3306\x1b[m\x1b[K,\n'}
+[6.715930] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[6.716045] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[6.716098] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:3\x1b[m\x1b[K:\n'}
+[6.716179] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:451:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.716355] (tracker) StderrLine: {'line': b'  451 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const complex<_Tp>& __x)\n'}
+[6.716462] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.716509] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:451:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.716550] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:485:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst GoalUUID\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<unsigned char, 16>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.716592] (tracker) StderrLine: {'line': b'  485 |         if (std::equal(result.goal_id, result.goal_id + \x1b[01;36m\x1b[K16\x1b[m\x1b[K,\n'}
+[6.716630] (tracker) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.716668] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YoloTrackerNode::cancel_nav_goal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.716751] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:503:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<ClientGoalHandle<[...]>>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<ClientGoalHandle<[...]>>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.716805] (tracker) StderrLine: {'line': b'  503 |       nav_client_->async_cancel_goal(\x1b[01;31m\x1b[Kgoal_handle_\x1b[m\x1b[K);\n'}
+[6.716887] (tracker) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.716971] (tracker) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.717018] (tracker) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[Kshared_ptr<ClientGoalHandle<[...]>>\x1b[m\x1b[K\n'}
+[6.717059] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36\x1b[m\x1b[K,\n'}
+[6.717098] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:20\x1b[m\x1b[K:\n'}
+[6.717136] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:531:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_future<typename ActionT::Impl::CancelGoalService::Response::SharedPtr> rclcpp_action::Client<ActionT>::async_cancel_goal(typename rclcpp_action::Client<ActionT>::GoalHandle::SharedPtr, rclcpp_action::Client<ActionT>::CancelCallback) [with ActionT = nav2_msgs::action::NavigateToPose; typename ActionT::Impl::CancelGoalService::Response::SharedPtr = std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > >; typename ActionT::Impl::CancelGoalService::Response = action_msgs::srv::CancelGoal_Response_<std::allocator<void> >; typename ActionT::Impl::CancelGoalService = action_msgs::srv::CancelGoal; typename ActionT::Impl = nav2_msgs::action::NavigateToPose::Impl; typename rclcpp_action::Client<ActionT>::GoalHandle::SharedPtr = std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> >; rclcpp_action::Client<ActionT>::GoalHandle = rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>; rclcpp_action::Client<ActionT>::CancelCallback = std::function<void(std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > >)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.717228] (tracker) StderrLine: {'line': b'  531 |     \x1b[01;36m\x1b[Ktypename GoalHandle::SharedPtr goal_handle\x1b[m\x1b[K,\n'}
+[6.717425] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.717477] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.717560] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:607:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.717605] (tracker) StderrLine: {'line': b'  607 |   rclcpp::init(argc, argv);\x1b[01;31m\x1b[Kz\x1b[m\x1b[K\n'}
+[6.717687] (tracker) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.747224] (-) TimerEvent: {}
+[6.848544] (-) TimerEvent: {}
+[6.949131] (-) TimerEvent: {}
+[7.049824] (-) TimerEvent: {}
+[7.150671] (-) TimerEvent: {}
+[7.251172] (-) TimerEvent: {}
+[7.351974] (-) TimerEvent: {}
+[7.452961] (-) TimerEvent: {}
+[7.553471] (-) TimerEvent: {}
+[7.654279] (-) TimerEvent: {}
+[7.755108] (-) TimerEvent: {}
+[7.856083] (-) TimerEvent: {}
+[7.958504] (-) TimerEvent: {}
+[8.059107] (-) TimerEvent: {}
+[8.161074] (-) TimerEvent: {}
+[8.261507] (-) TimerEvent: {}
+[8.363394] (-) TimerEvent: {}
+[8.464017] (-) TimerEvent: {}
+[8.565328] (-) TimerEvent: {}
+[8.665929] (-) TimerEvent: {}
+[8.766359] (-) TimerEvent: {}
+[8.867135] (-) TimerEvent: {}
+[8.967887] (-) TimerEvent: {}
+[9.069477] (-) TimerEvent: {}
+[9.169970] (-) TimerEvent: {}
+[9.271324] (-) TimerEvent: {}
+[9.372140] (-) TimerEvent: {}
+[9.472983] (-) TimerEvent: {}
+[9.573910] (-) TimerEvent: {}
+[9.674958] (-) TimerEvent: {}
+[9.775610] (-) TimerEvent: {}
+[9.876692] (-) TimerEvent: {}
+[9.977375] (-) TimerEvent: {}
+[10.077906] (-) TimerEvent: {}
+[10.178680] (-) TimerEvent: {}
+[10.279195] (-) TimerEvent: {}
+[10.383926] (-) TimerEvent: {}
+[10.485166] (-) TimerEvent: {}
+[10.586667] (-) TimerEvent: {}
+[10.687696] (-) TimerEvent: {}
+[10.788480] (-) TimerEvent: {}
+[10.889606] (-) TimerEvent: {}
+[10.990717] (-) TimerEvent: {}
+[11.092175] (-) TimerEvent: {}
+[11.192744] (-) TimerEvent: {}
+[11.293102] (-) TimerEvent: {}
+[11.393739] (-) TimerEvent: {}
+[11.494903] (-) TimerEvent: {}
+[11.596321] (-) TimerEvent: {}
+[11.698630] (-) TimerEvent: {}
+[11.799441] (-) TimerEvent: {}
+[11.899943] (-) TimerEvent: {}
+[12.000487] (-) TimerEvent: {}
+[12.101391] (-) TimerEvent: {}
+[12.202052] (-) TimerEvent: {}
+[12.302826] (-) TimerEvent: {}
+[12.404212] (-) TimerEvent: {}
+[12.505368] (-) TimerEvent: {}
+[12.606094] (-) TimerEvent: {}
+[12.706775] (-) TimerEvent: {}
+[12.807327] (-) TimerEvent: {}
+[12.908831] (-) TimerEvent: {}
+[13.009541] (-) TimerEvent: {}
+[13.110370] (-) TimerEvent: {}
+[13.211057] (-) TimerEvent: {}
+[13.311864] (-) TimerEvent: {}
+[13.412398] (-) TimerEvent: {}
+[13.446542] (tracker) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/yolo_tracker_node_unn.dir/build.make:76\xef\xbc\x9aCMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[13.450017] (tracker) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/yolo_tracker_node_unn.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[13.450214] (tracker) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[13.453239] (tracker) CommandEnded: {'returncode': 2}
+[13.473671] (tracker) JobEnded: {'identifier': 'tracker', 'rc': 2}
+[13.478863] (-) EventReactorShutdown: {}

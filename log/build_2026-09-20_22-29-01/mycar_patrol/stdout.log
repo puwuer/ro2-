@@ -1,0 +1,21 @@
+Consolidate compiler generated dependencies of target patrol_node
+[100%] Built target patrol_node
+-- Install configuration: ""
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/lib/mycar_patrol/patrol_node
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/launch
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/launch/patrol_track.launch.py
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/package_run_dependencies/mycar_patrol
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/parent_prefix_path/mycar_patrol
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/path.sh
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/path.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.bash
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.sh
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.zsh
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.dsv
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/package.dsv
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/packages/mycar_patrol
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/cmake/mycar_patrolConfig.cmake
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/cmake/mycar_patrolConfig-version.cmake
+-- Up-to-date: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/package.xml

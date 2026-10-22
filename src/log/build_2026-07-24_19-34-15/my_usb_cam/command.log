@@ -1,0 +1,4 @@
+Invoking command in '/home/ros/Robot_ws/src/build/my_usb_cam': /usr/bin/cmake /home/ros/Robot_ws/src/camera/my_usb_cam -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/src/install/my_usb_cam
+Invoked command in '/home/ros/Robot_ws/src/build/my_usb_cam' returned '0': /usr/bin/cmake /home/ros/Robot_ws/src/camera/my_usb_cam -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/src/install/my_usb_cam
+Invoking command in '/home/ros/Robot_ws/src/build/my_usb_cam': /usr/bin/cmake --build /home/ros/Robot_ws/src/build/my_usb_cam -- -j4 -l4
+Invoked command in '/home/ros/Robot_ws/src/build/my_usb_cam' returned '0': /usr/bin/cmake --build /home/ros/Robot_ws/src/build/my_usb_cam -- -j4 -l4

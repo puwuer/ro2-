@@ -1,0 +1,15 @@
+/home/ros/Robot_ws/install/mycar_location/share/ament_index/resource_index/package_run_dependencies/mycar_location
+/home/ros/Robot_ws/install/mycar_location/share/ament_index/resource_index/parent_prefix_path/mycar_location
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/environment/ament_prefix_path.sh
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/environment/ament_prefix_path.dsv
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/environment/path.sh
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/environment/path.dsv
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/local_setup.bash
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/local_setup.sh
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/local_setup.zsh
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/local_setup.dsv
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.dsv
+/home/ros/Robot_ws/install/mycar_location/share/ament_index/resource_index/packages/mycar_location
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/cmake/mycar_locationConfig.cmake
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/cmake/mycar_locationConfig-version.cmake
+/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.xml

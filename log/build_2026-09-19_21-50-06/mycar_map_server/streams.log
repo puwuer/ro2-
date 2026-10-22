@@ -1,0 +1,1 @@
+[0.064s] Invoking command in '/home/ros/Robot_ws/build/mycar_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_map_server -- -j6 -l6

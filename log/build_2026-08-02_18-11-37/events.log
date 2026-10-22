@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (-) JobUnselected: {'identifier': 'lidar_pkg'}
+[0.000492] (-) JobUnselected: {'identifier': 'my_usb_cam'}
+[0.000709] (-) JobUnselected: {'identifier': 'mycar_location'}
+[0.000784] (-) JobUnselected: {'identifier': 'mycar_map_server'}
+[0.000806] (-) JobUnselected: {'identifier': 'mycar_navigation2'}
+[0.000999] (-) JobUnselected: {'identifier': 'mycar_slam_cartographer'}
+[0.001058] (-) JobUnselected: {'identifier': 'mycar_slam_slam_toolbox'}
+[0.001080] (-) JobUnselected: {'identifier': 'path_odom'}
+[0.001096] (-) JobUnselected: {'identifier': 'ros2_stm32_bridge'}
+[0.001111] (tracker) JobQueued: {'identifier': 'tracker', 'dependencies': OrderedDict()}
+[0.001128] (tracker) JobStarted: {'identifier': 'tracker'}
+[0.016237] (tracker) JobProgress: {'identifier': 'tracker', 'progress': 'cmake'}
+[0.017568] (tracker) JobProgress: {'identifier': 'tracker', 'progress': 'build'}
+[0.020091] (tracker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/Robot_ws/build/tracker', '--', '-j4', '-l4'], 'cwd': '/home/ros/Robot_ws/build/tracker', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('MYCAR_MODEL', 'stm32_4w'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1571'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1725'), ('BUNDLED_DEBUGPY_PATH', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3119'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:24651'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1707,unix/ros-virtual-machine:/tmp/.ICE-unix/1707'), ('INVOCATION_ID', '36907cec866a420fae3256761586512b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0008140417224b9f.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ros/.config/Code/User/workspaceStorage/86947640a0205132b21785934c9f46b7/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5157S3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca0684aa96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/Robot_ws/install/tracker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/tracker'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/Robot_ws/install/tracker:/opt/ros/humble')]), 'shell': False}
+[0.099722] (-) TimerEvent: {}
+[0.200557] (-) TimerEvent: {}
+[0.245794] (tracker) StdoutLine: {'line': b'[ 50%] Built target yolo_tracker_node\n'}
+[0.278144] (tracker) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target yolo_tracker_node_unn\x1b[0m\n'}
+[0.302080] (-) TimerEvent: {}
+[0.333604] (tracker) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o\x1b[0m\n'}
+[0.403483] (-) TimerEvent: {}
+[0.504449] (-) TimerEvent: {}
+[0.606388] (-) TimerEvent: {}
+[0.708206] (-) TimerEvent: {}
+[0.808722] (-) TimerEvent: {}
+[0.909455] (-) TimerEvent: {}
+[1.012719] (-) TimerEvent: {}
+[1.113540] (-) TimerEvent: {}
+[1.215685] (-) TimerEvent: {}
+[1.316527] (-) TimerEvent: {}
+[1.419295] (-) TimerEvent: {}
+[1.520503] (-) TimerEvent: {}
+[1.621147] (-) TimerEvent: {}
+[1.721996] (-) TimerEvent: {}
+[1.824603] (-) TimerEvent: {}
+[1.925833] (-) TimerEvent: {}
+[2.026748] (-) TimerEvent: {}
+[2.129573] (-) TimerEvent: {}
+[2.230297] (-) TimerEvent: {}
+[2.332041] (-) TimerEvent: {}
+[2.434633] (-) TimerEvent: {}
+[2.535292] (-) TimerEvent: {}
+[2.636263] (-) TimerEvent: {}
+[2.736734] (-) TimerEvent: {}
+[2.837413] (-) TimerEvent: {}
+[2.939150] (-) TimerEvent: {}
+[3.040919] (-) TimerEvent: {}
+[3.141946] (-) TimerEvent: {}
+[3.245015] (-) TimerEvent: {}
+[3.345572] (-) TimerEvent: {}
+[3.447418] (-) TimerEvent: {}
+[3.548794] (-) TimerEvent: {}
+[3.651292] (-) TimerEvent: {}
+[3.752119] (-) TimerEvent: {}
+[3.852873] (-) TimerEvent: {}
+[3.955480] (-) TimerEvent: {}
+[4.055868] (-) TimerEvent: {}
+[4.156362] (-) TimerEvent: {}
+[4.257355] (-) TimerEvent: {}
+[4.358560] (-) TimerEvent: {}
+[4.459130] (-) TimerEvent: {}
+[4.561031] (-) TimerEvent: {}
+[4.661841] (-) TimerEvent: {}
+[4.764146] (-) TimerEvent: {}
+[4.865027] (-) TimerEvent: {}
+[4.965664] (-) TimerEvent: {}
+[5.066677] (-) TimerEvent: {}
+[5.119431] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YoloTrackerNode::sync_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.119808] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:139:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcenter_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.119928] (tracker) StderrLine: {'line': b'  139 |                 int \x1b[01;35m\x1b[Kcenter_y\x1b[m\x1b[K = 240 / 2;\n'}
+[5.122608] (tracker) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.168421] (-) TimerEvent: {}
+[5.269130] (-) TimerEvent: {}
+[5.370571] (-) TimerEvent: {}
+[5.473833] (-) TimerEvent: {}
+[5.574361] (-) TimerEvent: {}
+[5.675030] (-) TimerEvent: {}
+[5.777228] (-) TimerEvent: {}
+[5.878108] (-) TimerEvent: {}
+[5.978745] (-) TimerEvent: {}
+[6.079943] (-) TimerEvent: {}
+[6.180891] (-) TimerEvent: {}
+[6.281507] (-) TimerEvent: {}
+[6.383690] (-) TimerEvent: {}
+[6.484723] (-) TimerEvent: {}
+[6.585524] (-) TimerEvent: {}
+[6.686147] (-) TimerEvent: {}
+[6.787467] (-) TimerEvent: {}
+[6.887936] (-) TimerEvent: {}
+[6.990225] (-) TimerEvent: {}
+[7.090821] (-) TimerEvent: {}
+[7.191615] (-) TimerEvent: {}
+[7.293045] (-) TimerEvent: {}
+[7.394183] (-) TimerEvent: {}
+[7.495578] (-) TimerEvent: {}
+[7.597951] (-) TimerEvent: {}
+[7.698358] (-) TimerEvent: {}
+[7.799204] (-) TimerEvent: {}
+[7.899871] (-) TimerEvent: {}
+[8.001052] (-) TimerEvent: {}
+[8.101600] (-) TimerEvent: {}
+[8.202364] (-) TimerEvent: {}
+[8.303284] (-) TimerEvent: {}
+[8.403807] (-) TimerEvent: {}
+[8.504764] (-) TimerEvent: {}
+[8.605691] (-) TimerEvent: {}
+[8.706922] (-) TimerEvent: {}
+[8.808832] (-) TimerEvent: {}
+[8.910604] (-) TimerEvent: {}
+[9.012793] (-) TimerEvent: {}
+[9.113163] (-) TimerEvent: {}
+[9.214185] (-) TimerEvent: {}
+[9.314868] (-) TimerEvent: {}
+[9.415769] (-) TimerEvent: {}
+[9.516859] (-) TimerEvent: {}
+[9.617546] (-) TimerEvent: {}
+[9.718468] (-) TimerEvent: {}
+[9.818884] (-) TimerEvent: {}
+[9.919979] (-) TimerEvent: {}
+[10.020458] (-) TimerEvent: {}
+[10.121003] (-) TimerEvent: {}
+[10.221583] (-) TimerEvent: {}
+[10.322436] (-) TimerEvent: {}
+[10.423114] (-) TimerEvent: {}
+[10.524262] (-) TimerEvent: {}
+[10.626917] (-) TimerEvent: {}
+[10.727366] (-) TimerEvent: {}
+[10.828471] (-) TimerEvent: {}
+[10.930128] (-) TimerEvent: {}
+[11.030984] (-) TimerEvent: {}
+[11.132206] (-) TimerEvent: {}
+[11.233198] (-) TimerEvent: {}
+[11.334259] (-) TimerEvent: {}
+[11.435324] (-) TimerEvent: {}
+[11.536009] (-) TimerEvent: {}
+[11.636735] (-) TimerEvent: {}
+[11.737569] (-) TimerEvent: {}
+[11.838474] (-) TimerEvent: {}
+[11.939813] (-) TimerEvent: {}
+[12.040142] (-) TimerEvent: {}
+[12.141004] (-) TimerEvent: {}
+[12.241650] (-) TimerEvent: {}
+[12.342424] (-) TimerEvent: {}
+[12.443105] (-) TimerEvent: {}
+[12.543992] (-) TimerEvent: {}
+[12.644709] (-) TimerEvent: {}
+[12.745732] (-) TimerEvent: {}
+[12.846506] (-) TimerEvent: {}
+[12.947382] (-) TimerEvent: {}
+[13.048008] (-) TimerEvent: {}
+[13.149192] (-) TimerEvent: {}
+[13.250048] (-) TimerEvent: {}
+[13.350575] (-) TimerEvent: {}
+[13.451417] (-) TimerEvent: {}
+[13.552015] (-) TimerEvent: {}
+[13.652522] (-) TimerEvent: {}
+[13.753350] (-) TimerEvent: {}
+[13.854156] (-) TimerEvent: {}
+[13.954736] (-) TimerEvent: {}
+[14.055932] (-) TimerEvent: {}
+[14.157044] (-) TimerEvent: {}
+[14.257446] (-) TimerEvent: {}
+[14.358414] (-) TimerEvent: {}
+[14.459022] (-) TimerEvent: {}
+[14.559990] (-) TimerEvent: {}
+[14.660989] (-) TimerEvent: {}
+[14.761561] (-) TimerEvent: {}
+[14.862628] (-) TimerEvent: {}
+[14.963469] (-) TimerEvent: {}
+[15.064721] (-) TimerEvent: {}
+[15.165380] (-) TimerEvent: {}
+[15.266585] (-) TimerEvent: {}
+[15.367451] (-) TimerEvent: {}
+[15.468978] (-) TimerEvent: {}
+[15.570154] (-) TimerEvent: {}
+[15.671812] (-) TimerEvent: {}
+[15.773458] (-) TimerEvent: {}
+[15.782856] (tracker) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable yolo_tracker_node_unn\x1b[0m\n'}
+[15.873892] (-) TimerEvent: {}
+[15.977560] (-) TimerEvent: {}
+[16.078497] (-) TimerEvent: {}
+[16.179244] (-) TimerEvent: {}
+[16.279753] (-) TimerEvent: {}
+[16.380385] (-) TimerEvent: {}
+[16.480858] (-) TimerEvent: {}
+[16.581578] (-) TimerEvent: {}
+[16.682237] (-) TimerEvent: {}
+[16.783661] (-) TimerEvent: {}
+[16.884156] (-) TimerEvent: {}
+[16.985384] (-) TimerEvent: {}
+[17.086428] (-) TimerEvent: {}
+[17.188431] (-) TimerEvent: {}
+[17.225056] (tracker) StdoutLine: {'line': b'[100%] Built target yolo_tracker_node_unn\n'}
+[17.248277] (tracker) CommandEnded: {'returncode': 0}
+[17.256454] (tracker) JobProgress: {'identifier': 'tracker', 'progress': 'install'}
+[17.272098] (tracker) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/Robot_ws/build/tracker'], 'cwd': '/home/ros/Robot_ws/build/tracker', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('MYCAR_MODEL', 'stm32_4w'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1571'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1725'), ('BUNDLED_DEBUGPY_PATH', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3119'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:24651'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1707,unix/ros-virtual-machine:/tmp/.ICE-unix/1707'), ('INVOCATION_ID', '36907cec866a420fae3256761586512b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0008140417224b9f.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ros/.config/Code/User/workspaceStorage/86947640a0205132b21785934c9f46b7/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5157S3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca0684aa96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/Robot_ws/install/tracker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/tracker'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/Robot_ws/install/tracker:/opt/ros/humble')]), 'shell': False}
+[17.286864] (tracker) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.288426] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node\n'}
+[17.288658] (-) TimerEvent: {}
+[17.289790] (tracker) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node_unn\n'}
+[17.302526] (tracker) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node_unn" to ""\n'}
+[17.303446] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/include\n'}
+[17.304914] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/include/tracker\n'}
+[17.305501] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/launch\n'}
+[17.308763] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/package_run_dependencies/tracker\n'}
+[17.309730] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/parent_prefix_path/tracker\n'}
+[17.312552] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.sh\n'}
+[17.315811] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.dsv\n'}
+[17.316180] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.sh\n'}
+[17.316252] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.dsv\n'}
+[17.316309] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.bash\n'}
+[17.316353] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.sh\n'}
+[17.316399] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.zsh\n'}
+[17.316439] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.dsv\n'}
+[17.316479] (tracker) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/package.dsv\n'}
+[17.316994] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/packages/tracker\n'}
+[17.322343] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig.cmake\n'}
+[17.322542] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig-version.cmake\n'}
+[17.322864] (tracker) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/package.xml\n'}
+[17.328021] (tracker) CommandEnded: {'returncode': 0}
+[17.374693] (tracker) JobEnded: {'identifier': 'tracker', 'rc': 0}
+[17.375940] (-) EventReactorShutdown: {}

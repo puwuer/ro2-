@@ -1,0 +1,2 @@
+[0.055s] Invoking command in '/home/ros/Robot_ws/build/my_usb_cam': /usr/bin/cmake --build /home/ros/Robot_ws/build/my_usb_cam -- -j6 -l6
+[0.165s] Invoked command in '/home/ros/Robot_ws/build/my_usb_cam' returned '0': /usr/bin/cmake --build /home/ros/Robot_ws/build/my_usb_cam -- -j6 -l6

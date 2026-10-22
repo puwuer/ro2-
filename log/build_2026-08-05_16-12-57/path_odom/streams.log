@@ -1,0 +1,32 @@
+[0.024s] Invoking command in '/home/ros/Robot_ws/build/path_odom': /usr/bin/cmake /home/ros/Robot_ws/src/path_pkg/path_odom -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/path_odom
+[0.056s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.057s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.057s]   contain a literal, direct call to the project() command.  Add a line of
+[0.057s]   code such as
+[0.057s] 
+[0.057s]     project(ProjectName)
+[0.057s] 
+[0.057s]   near the top of the file, but after cmake_minimum_required().
+[0.057s] 
+[0.057s]   CMake is pretending there is a "project(Project)" command on the first
+[0.057s]   line.
+[0.057s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.057s] [0m
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[0.283s] -- The CXX compiler identification is GNU 11.4.0
+[0.299s] -- Detecting C compiler ABI info
+[0.417s] -- Detecting C compiler ABI info - done
+[0.427s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.429s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.433s] -- Detecting CXX compiler ABI info
+[0.591s] -- Detecting CXX compiler ABI info - done
+[0.603s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.605s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.606s] -- Configuring done
+[0.608s] -- Generating done
+[0.611s] -- Build files have been written to: /home/ros/Robot_ws/build/path_odom
+[0.616s] Invoked command in '/home/ros/Robot_ws/build/path_odom' returned '0': /usr/bin/cmake /home/ros/Robot_ws/src/path_pkg/path_odom -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/path_odom
+[0.620s] Invoking command in '/home/ros/Robot_ws/build/path_odom': /usr/bin/cmake --build /home/ros/Robot_ws/build/path_odom -- -j4 -l4
+[0.693s] Invoked command in '/home/ros/Robot_ws/build/path_odom' returned '0': /usr/bin/cmake --build /home/ros/Robot_ws/build/path_odom -- -j4 -l4

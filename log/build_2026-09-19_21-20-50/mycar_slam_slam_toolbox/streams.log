@@ -1,0 +1,64 @@
+[0.060s] Invoking command in '/home/ros/Robot_ws/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_slam_slam_toolbox -- -j6 -l6
+[0.199s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.546s] -- Found slam_toolbox: 2.6.10 (/opt/ros/humble/share/slam_toolbox/cmake)
+[0.619s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.626s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.644s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.955s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.955s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.143s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.527s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.529s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.658s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.682s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.687s] -- Found OGRE
+[1.688s] --   static     : OFF
+[1.688s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.688s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.688s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.688s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.688s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.689s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.689s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.689s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.689s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.689s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.689s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.693s] -- Could not find freeimage library
+[1.821s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.003s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.103s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.104s] -- Added test 'lint_cmake' to check CMake code style
+[2.105s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.106s] -- Added test 'xmllint' to check XML markup files
+[2.111s] -- Configuring done
+[2.125s] -- Generating done
+[2.130s] -- Build files have been written to: /home/ros/Robot_ws/build/mycar_slam_slam_toolbox
+[2.184s] Invoked command in '/home/ros/Robot_ws/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_slam_slam_toolbox -- -j6 -l6
+[2.186s] Invoking command in '/home/ros/Robot_ws/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_slam_slam_toolbox
+[2.201s] -- Install configuration: ""
+[2.201s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/launch
+[2.201s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/launch/online_sync.launch.py
+[2.201s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/launch/online_async.launch.py
+[2.201s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/params
+[2.202s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/params/online_async_slam.yaml
+[2.202s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/params/online_sync_slam.yaml
+[2.202s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/params/online_sync_slam1.yaml
+[2.202s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/ament_index/resource_index/package_run_dependencies/mycar_slam_slam_toolbox
+[2.203s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/ament_index/resource_index/parent_prefix_path/mycar_slam_slam_toolbox
+[2.203s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/ament_prefix_path.sh
+[2.204s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/ament_prefix_path.dsv
+[2.204s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/path.sh
+[2.204s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/path.dsv
+[2.204s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.bash
+[2.205s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.sh
+[2.205s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.zsh
+[2.205s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.dsv
+[2.206s] -- Installing: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.dsv
+[2.206s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/ament_index/resource_index/packages/mycar_slam_slam_toolbox
+[2.206s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/cmake/mycar_slam_slam_toolboxConfig.cmake
+[2.206s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/cmake/mycar_slam_slam_toolboxConfig-version.cmake
+[2.206s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.xml
+[2.210s] Invoked command in '/home/ros/Robot_ws/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_slam_slam_toolbox

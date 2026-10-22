@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target yolo_tracker_node_unn[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o[0m
+[ 75%] Built target yolo_tracker_node
+[100%] [32m[1mLinking CXX executable yolo_tracker_node_unn[0m
+[100%] Built target yolo_tracker_node_unn
+-- Install configuration: ""
+-- Installing: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node
+-- Set runtime path of "/home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node" to ""
+-- Installing: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node_unn
+-- Set runtime path of "/home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node_unn" to ""
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/include
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/include/tracker
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/launch
+-- Installing: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/package_run_dependencies/tracker
+-- Installing: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/parent_prefix_path/tracker
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.sh
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.dsv
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.sh
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.dsv
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.bash
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.sh
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.zsh
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.dsv
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/package.dsv
+-- Installing: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/packages/tracker
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig.cmake
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig-version.cmake
+-- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/package.xml

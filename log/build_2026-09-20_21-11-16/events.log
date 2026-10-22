@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (-) JobUnselected: {'identifier': 'demo_gazebo_sim'}
+[0.000393] (-) JobUnselected: {'identifier': 'gazebo_ros_actor_plugin'}
+[0.000487] (-) JobUnselected: {'identifier': 'lidar_pkg'}
+[0.000549] (-) JobUnselected: {'identifier': 'my_usb_cam'}
+[0.000723] (-) JobUnselected: {'identifier': 'mycar_location'}
+[0.000795] (-) JobUnselected: {'identifier': 'mycar_map_server'}
+[0.000848] (-) JobUnselected: {'identifier': 'mycar_navigation2'}
+[0.000897] (-) JobUnselected: {'identifier': 'mycar_slam_cartographer'}
+[0.000946] (-) JobUnselected: {'identifier': 'mycar_slam_slam_toolbox'}
+[0.000994] (-) JobUnselected: {'identifier': 'path_odom'}
+[0.001042] (-) JobUnselected: {'identifier': 'ros2_stm32_bridge'}
+[0.001089] (-) JobUnselected: {'identifier': 'tracker'}
+[0.001140] (mycar_interfaces) JobQueued: {'identifier': 'mycar_interfaces', 'dependencies': OrderedDict()}
+[0.001195] (mycar_interfaces) JobStarted: {'identifier': 'mycar_interfaces'}
+[0.032454] (mycar_interfaces) JobProgress: {'identifier': 'mycar_interfaces', 'progress': 'cmake'}
+[0.033169] (mycar_interfaces) JobProgress: {'identifier': 'mycar_interfaces', 'progress': 'build'}
+[0.033227] (mycar_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/Robot_ws/build/mycar_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/ros/Robot_ws/build/mycar_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ros'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/nls.messages.json","corruptMarkerFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8","_corruptedFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-b2be077a-1.12-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('MYCAR_MODEL', 'stm32_4w'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1613'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1780'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '54499'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:21314'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'ros'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/home/ros/.codex/tmp/arg0/codex-arg0meb1S6:/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/openai.chatgpt-26.908.40401-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1747,unix/ros-virtual-machine:/tmp/.ICE-unix/1747'), ('CODEX_VERSION', '0.154.0-alpha.6.2'), ('CODEX_SESSION_ID', '01a0be80-73df-71a3-8a84-bf9775f3a4e6'), ('INVOCATION_ID', 'c9584303a9c44d7a88bf59438d201457'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L4ZQV3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0be80-73df-71a3-8a84-bf9775f3a4e6'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/mycar_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ros/.config/Code/CachedData/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '54499'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099680] (-) TimerEvent: {}
+[0.125400] (mycar_interfaces) StdoutLine: {'line': b'[  3%] Built target mycar_interfaces__rs\n'}
+[0.171948] (mycar_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_mycar_interfaces\n'}
+[0.201631] (-) TimerEvent: {}
+[0.215618] (mycar_interfaces) StdoutLine: {'line': b'[  6%] Built target mycar_interfaces__cpp\n'}
+[0.302893] (-) TimerEvent: {}
+[0.403463] (-) TimerEvent: {}
+[0.478188] (mycar_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.495496] (mycar_interfaces) StdoutLine: {'line': b'writing mycar_interfaces.egg-info/PKG-INFO\n'}
+[0.496505] (mycar_interfaces) StdoutLine: {'line': b'writing dependency_links to mycar_interfaces.egg-info/dependency_links.txt\n'}
+[0.497276] (mycar_interfaces) StdoutLine: {'line': b'writing top-level names to mycar_interfaces.egg-info/top_level.txt\n'}
+[0.503933] (-) TimerEvent: {}
+[0.553759] (mycar_interfaces) StdoutLine: {'line': b"reading manifest file 'mycar_interfaces.egg-info/SOURCES.txt'\n"}
+[0.555230] (mycar_interfaces) StdoutLine: {'line': b"writing manifest file 'mycar_interfaces.egg-info/SOURCES.txt'\n"}
+[0.604522] (-) TimerEvent: {}
+[0.605681] (mycar_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_mycar_interfaces_egg\n'}
+[0.632025] (mycar_interfaces) StdoutLine: {'line': b'[  9%] Generating C++ type support dispatch for ROS interfaces\n'}
+[0.704888] (-) TimerEvent: {}
+[0.805235] (-) TimerEvent: {}
+[0.905621] (-) TimerEvent: {}
+[0.979880] (mycar_interfaces) StdoutLine: {'line': b'[ 12%] Building CXX object CMakeFiles/mycar_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycar_interfaces/msg/system_status__type_support.cpp.o\n'}
+[1.006358] (-) TimerEvent: {}
+[1.107171] (-) TimerEvent: {}
+[1.207847] (-) TimerEvent: {}
+[1.308110] (-) TimerEvent: {}
+[1.408558] (-) TimerEvent: {}
+[1.503386] (mycar_interfaces) StdoutLine: {'line': b'[ 15%] Linking CXX shared library libmycar_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.508915] (-) TimerEvent: {}
+[1.583235] (mycar_interfaces) StdoutLine: {'line': b'[ 15%] Built target mycar_interfaces__rosidl_typesupport_cpp\n'}
+[1.606412] (mycar_interfaces) StdoutLine: {'line': b'[ 18%] Generating C++ introspection for ROS interfaces\n'}
+[1.609604] (-) TimerEvent: {}
+[1.710562] (-) TimerEvent: {}
+[1.811486] (-) TimerEvent: {}
+[1.912172] (-) TimerEvent: {}
+[1.948983] (mycar_interfaces) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/mycar_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycar_interfaces/msg/detail/system_status__type_support.cpp.o\n'}
+[2.012460] (-) TimerEvent: {}
+[2.113695] (-) TimerEvent: {}
+[2.214340] (-) TimerEvent: {}
+[2.314863] (-) TimerEvent: {}
+[2.416128] (-) TimerEvent: {}
+[2.431979] (mycar_interfaces) StdoutLine: {'line': b'[ 25%] Linking CXX shared library libmycar_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.516483] (-) TimerEvent: {}
+[2.587794] (mycar_interfaces) StdoutLine: {'line': b'[ 25%] Built target mycar_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.616747] (-) TimerEvent: {}
+[2.624686] (mycar_interfaces) StdoutLine: {'line': b'[ 28%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[2.717223] (-) TimerEvent: {}
+[2.818293] (-) TimerEvent: {}
+[2.918808] (-) TimerEvent: {}
+[3.019453] (-) TimerEvent: {}
+[3.022669] (mycar_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/mycar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycar_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o\n'}
+[3.119578] (-) TimerEvent: {}
+[3.221130] (-) TimerEvent: {}
+[3.321787] (-) TimerEvent: {}
+[3.425884] (-) TimerEvent: {}
+[3.526420] (-) TimerEvent: {}
+[3.626720] (-) TimerEvent: {}
+[3.693817] (mycar_interfaces) StdoutLine: {'line': b'[ 34%] Linking CXX shared library libmycar_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.727516] (-) TimerEvent: {}
+[3.828239] (-) TimerEvent: {}
+[3.840076] (mycar_interfaces) StdoutLine: {'line': b'[ 34%] Built target mycar_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.863567] (mycar_interfaces) StdoutLine: {'line': b'[ 37%] Generating C code for ROS interfaces\n'}
+[3.929448] (-) TimerEvent: {}
+[4.030556] (-) TimerEvent: {}
+[4.132574] (-) TimerEvent: {}
+[4.233045] (-) TimerEvent: {}
+[4.333323] (-) TimerEvent: {}
+[4.382961] (mycar_interfaces) StdoutLine: {'line': b'[ 40%] Building C object CMakeFiles/mycar_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycar_interfaces/msg/detail/system_status__functions.c.o\n'}
+[4.435178] (-) TimerEvent: {}
+[4.518292] (mycar_interfaces) StdoutLine: {'line': b'[ 43%] Linking C shared library libmycar_interfaces__rosidl_generator_c.so\n'}
+[4.536702] (-) TimerEvent: {}
+[4.603668] (mycar_interfaces) StdoutLine: {'line': b'[ 43%] Built target mycar_interfaces__rosidl_generator_c\n'}
+[4.628422] (mycar_interfaces) StdoutLine: {'line': b'[ 46%] Generating C type support for eProsima Fast-RTPS\n'}
+[4.636997] (-) TimerEvent: {}
+[4.739382] (-) TimerEvent: {}
+[4.839912] (-) TimerEvent: {}
+[4.940388] (-) TimerEvent: {}
+[5.040944] (-) TimerEvent: {}
+[5.085479] (mycar_interfaces) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/mycar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycar_interfaces/msg/detail/system_status__type_support_c.cpp.o\n'}
+[5.142308] (-) TimerEvent: {}
+[5.242906] (-) TimerEvent: {}
+[5.343763] (-) TimerEvent: {}
+[5.445626] (-) TimerEvent: {}
+[5.546598] (-) TimerEvent: {}
+[5.611952] (mycar_interfaces) StdoutLine: {'line': b'[ 53%] Linking CXX shared library libmycar_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.647000] (-) TimerEvent: {}
+[5.745654] (mycar_interfaces) StdoutLine: {'line': b'[ 53%] Built target mycar_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.747040] (-) TimerEvent: {}
+[5.768906] (mycar_interfaces) StdoutLine: {'line': b'[ 56%] Generating C type support dispatch for ROS interfaces\n'}
+[5.847398] (-) TimerEvent: {}
+[5.948359] (-) TimerEvent: {}
+[6.048798] (-) TimerEvent: {}
+[6.148692] (mycar_interfaces) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/mycar_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycar_interfaces/msg/system_status__type_support.cpp.o\n'}
+[6.149062] (-) TimerEvent: {}
+[6.211852] (mycar_interfaces) StdoutLine: {'line': b'[ 62%] Linking CXX shared library libmycar_interfaces__rosidl_typesupport_c.so\n'}
+[6.249349] (-) TimerEvent: {}
+[6.308465] (mycar_interfaces) StdoutLine: {'line': b'[ 62%] Built target mycar_interfaces__rosidl_typesupport_c\n'}
+[6.333047] (mycar_interfaces) StdoutLine: {'line': b'[ 65%] Generating C introspection for ROS interfaces\n'}
+[6.349834] (-) TimerEvent: {}
+[6.450176] (-) TimerEvent: {}
+[6.551500] (-) TimerEvent: {}
+[6.652258] (-) TimerEvent: {}
+[6.734136] (mycar_interfaces) StdoutLine: {'line': b'[ 68%] Building C object CMakeFiles/mycar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycar_interfaces/msg/detail/system_status__type_support.c.o\n'}
+[6.753050] (-) TimerEvent: {}
+[6.810069] (mycar_interfaces) StdoutLine: {'line': b'[ 71%] Linking C shared library libmycar_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[6.853527] (-) TimerEvent: {}
+[6.870594] (mycar_interfaces) StdoutLine: {'line': b'[ 71%] Built target mycar_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.914996] (mycar_interfaces) StdoutLine: {'line': b'[ 71%] Built target mycar_interfaces\n'}
+[6.954812] (-) TimerEvent: {}
+[6.955980] (mycar_interfaces) StdoutLine: {'line': b'[ 75%] Generating Python code for ROS interfaces\n'}
+[7.056171] (-) TimerEvent: {}
+[7.157375] (-) TimerEvent: {}
+[7.257684] (-) TimerEvent: {}
+[7.358236] (-) TimerEvent: {}
+[7.458472] (-) TimerEvent: {}
+[7.519775] (mycar_interfaces) StdoutLine: {'line': b'[ 75%] Built target mycar_interfaces__py\n'}
+[7.558943] (-) TimerEvent: {}
+[7.567036] (mycar_interfaces) StdoutLine: {'line': b'[ 78%] Building C object CMakeFiles/mycar_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycar_interfaces/msg/_system_status_s.c.o\n'}
+[7.659283] (-) TimerEvent: {}
+[7.759563] (-) TimerEvent: {}
+[7.860493] (-) TimerEvent: {}
+[7.906015] (mycar_interfaces) StdoutLine: {'line': b'[ 81%] Linking C shared library rosidl_generator_py/mycar_interfaces/libmycar_interfaces__rosidl_generator_py.so\n'}
+[7.960787] (-) TimerEvent: {}
+[8.009752] (mycar_interfaces) StdoutLine: {'line': b'[ 81%] Built target mycar_interfaces__rosidl_generator_py\n'}
+[8.061616] (-) TimerEvent: {}
+[8.068740] (mycar_interfaces) StdoutLine: {'line': b'[ 84%] Building C object CMakeFiles/mycar_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mycar_interfaces/_mycar_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[8.162657] (-) TimerEvent: {}
+[8.248126] (mycar_interfaces) StdoutLine: {'line': b'[ 87%] Linking C shared library rosidl_generator_py/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.265265] (-) TimerEvent: {}
+[8.366339] (-) TimerEvent: {}
+[8.371707] (mycar_interfaces) StdoutLine: {'line': b'[ 87%] Built target mycar_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.416109] (mycar_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/mycar_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mycar_interfaces/_mycar_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[8.466353] (-) TimerEvent: {}
+[8.566960] (-) TimerEvent: {}
+[8.594765] (mycar_interfaces) StdoutLine: {'line': b'[ 93%] Linking C shared library rosidl_generator_py/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.667284] (-) TimerEvent: {}
+[8.714338] (mycar_interfaces) StdoutLine: {'line': b'[ 93%] Built target mycar_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.768577] (-) TimerEvent: {}
+[8.772923] (mycar_interfaces) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/mycar_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mycar_interfaces/_mycar_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[8.869457] (-) TimerEvent: {}
+[8.899667] (mycar_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.964249] (mycar_interfaces) StdoutLine: {'line': b'[100%] Built target mycar_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.970007] (-) TimerEvent: {}
+[8.993874] (mycar_interfaces) CommandEnded: {'returncode': 0}
+[8.995051] (mycar_interfaces) JobProgress: {'identifier': 'mycar_interfaces', 'progress': 'install'}
+[9.007949] (mycar_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/Robot_ws/build/mycar_interfaces'], 'cwd': '/home/ros/Robot_ws/build/mycar_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ros'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/nls.messages.json","corruptMarkerFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8","_corruptedFile":"/home/ros/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-b2be077a-1.12-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('MYCAR_MODEL', 'stm32_4w'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1613'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1780'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '54499'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:21314'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'ros'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/home/ros/.codex/tmp/arg0/codex-arg0meb1S6:/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/openai.chatgpt-26.908.40401-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1747,unix/ros-virtual-machine:/tmp/.ICE-unix/1747'), ('CODEX_VERSION', '0.154.0-alpha.6.2'), ('CODEX_SESSION_ID', '01a0be80-73df-71a3-8a84-bf9775f3a4e6'), ('INVOCATION_ID', 'c9584303a9c44d7a88bf59438d201457'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L4ZQV3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0be80-73df-71a3-8a84-bf9775f3a4e6'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/mycar_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ros/.config/Code/CachedData/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '54499'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.030530] (mycar_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.032113] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/ament_index/resource_index/rosidl_interfaces/mycar_interfaces\n'}
+[9.032996] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces\n'}
+[9.033108] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg\n'}
+[9.033164] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail\n'}
+[9.033213] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__functions.h\n'}
+[9.033260] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__type_support.h\n'}
+[9.033302] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__struct.h\n'}
+[9.033343] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__functions.c\n'}
+[9.033383] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/system_status.h\n'}
+[9.035121] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.035777] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/environment/library_path.sh\n'}
+[9.037367] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/environment/library_path.dsv\n'}
+[9.038136] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_generator_c.so\n'}
+[9.041074] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.041615] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces\n'}
+[9.041727] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg\n'}
+[9.041794] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail\n'}
+[9.041845] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[9.041895] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.046833] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.047240] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.047337] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces\n'}
+[9.047395] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg\n'}
+[9.047442] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.048129] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail\n'}
+[9.048707] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[9.049107] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__type_support.c\n'}
+[9.051095] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.051245] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.051304] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_c.so\n'}
+[9.051353] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.051399] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces\n'}
+[9.051442] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg\n'}
+[9.051483] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/system_status.hpp\n'}
+[9.051826] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.052488] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail\n'}
+[9.052809] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__struct.hpp\n'}
+[9.053239] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[9.055329] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__builder.hpp\n'}
+[9.055585] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__traits.hpp\n'}
+[9.055828] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces\n'}
+[9.055901] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg\n'}
+[9.055949] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail\n'}
+[9.056044] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.056167] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/dds_fastrtps\n'}
+[9.056226] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.056791] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.057293] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.057376] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces\n'}
+[9.057424] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg\n'}
+[9.057468] (mycar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail\n'}
+[9.058496] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.058723] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/include/mycar_interfaces/mycar_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[9.058782] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.058829] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.059229] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.061849] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.062049] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/environment/pythonpath.sh\n'}
+[9.062140] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/environment/pythonpath.dsv\n'}
+[9.062216] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces-0.0.0-py3.10.egg-info\n'}
+[9.062272] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.062321] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.062445] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.062522] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.062569] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces\n'}
+[9.062614] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/_mycar_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.062655] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/_mycar_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.062708] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/__init__.py\n'}
+[9.062753] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/_mycar_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.063944] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.066699] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/msg\n'}
+[9.066881] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/msg/_system_status_s.c\n'}
+[9.066963] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/msg/__init__.py\n'}
+[9.067020] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/msg/_system_status.py\n'}
+[9.067071] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.067116] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/libmycar_interfaces__rosidl_generator_py.so\n'}
+[9.067169] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.070247] (-) TimerEvent: {}
+[9.112824] (mycar_interfaces) StdoutLine: {'line': b"Listing '/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces'...\n"}
+[9.113022] (mycar_interfaces) StdoutLine: {'line': b"Compiling '/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/__init__.py'...\n"}
+[9.113079] (mycar_interfaces) StdoutLine: {'line': b"Listing '/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/msg'...\n"}
+[9.113138] (mycar_interfaces) StdoutLine: {'line': b"Compiling '/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/msg/__init__.py'...\n"}
+[9.113183] (mycar_interfaces) StdoutLine: {'line': b"Compiling '/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/msg/_system_status.py'...\n"}
+[9.123598] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.123899] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.124071] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.124234] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.124832] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.124945] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages/mycar_interfaces/mycar_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.124999] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_generator_py.so\n'}
+[9.125048] (mycar_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/mycar_interfaces/lib/libmycar_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.125092] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/ament_index/resource_index/rust_packages/mycar_interfaces\n'}
+[9.125135] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/rust\n'}
+[9.125176] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/rust/build.rs\n'}
+[9.125216] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/rust/Cargo.toml\n'}
+[9.125258] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/rust/src\n'}
+[9.125461] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/rust/src/msg.rs\n'}
+[9.127433] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/rust/src/msg\n'}
+[9.127548] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/rust/src/msg/rmw.rs\n'}
+[9.127599] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/rust/src/lib.rs\n'}
+[9.127642] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/msg/SystemStatus.idl\n'}
+[9.127684] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/msg/SystemStatus.msg\n'}
+[9.129101] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/ament_index/resource_index/package_run_dependencies/mycar_interfaces\n'}
+[9.129574] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/ament_index/resource_index/parent_prefix_path/mycar_interfaces\n'}
+[9.132103] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/environment/ament_prefix_path.sh\n'}
+[9.132725] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.132865] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/environment/path.sh\n'}
+[9.133026] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/environment/path.dsv\n'}
+[9.134138] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/local_setup.bash\n'}
+[9.135729] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/local_setup.sh\n'}
+[9.135828] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/local_setup.zsh\n'}
+[9.135999] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/local_setup.dsv\n'}
+[9.136057] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/package.dsv\n'}
+[9.136103] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/ament_index/resource_index/packages/mycar_interfaces\n'}
+[9.136146] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/export_mycar_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.136187] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/export_mycar_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.136321] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/export_mycar_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.136374] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/export_mycar_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.136425] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/mycar_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.136553] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/mycar_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.136608] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/mycar_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.136665] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/mycar_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.139777] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/export_mycar_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.140086] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/export_mycar_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.140398] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/export_mycar_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.140965] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/mycar_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.141117] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/mycar_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.144285] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/mycar_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.144502] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/mycar_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.144559] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/export_mycar_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.144606] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/export_mycar_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.144651] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.144694] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.144737] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.144787] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.144829] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.144868] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.144911] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.144952] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[9.144991] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/mycar_interfacesConfig.cmake\n'}
+[9.145029] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/cmake/mycar_interfacesConfig-version.cmake\n'}
+[9.145068] (mycar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/mycar_interfaces/share/mycar_interfaces/package.xml\n'}
+[9.147895] (mycar_interfaces) CommandEnded: {'returncode': 0}
+[9.171376] (-) TimerEvent: {}
+[9.192022] (mycar_interfaces) JobEnded: {'identifier': 'mycar_interfaces', 'rc': 0}
+[9.193828] (-) EventReactorShutdown: {}

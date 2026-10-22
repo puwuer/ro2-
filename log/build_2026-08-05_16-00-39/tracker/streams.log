@@ -1,0 +1,33 @@
+[0.020s] Invoking command in '/home/ros/Robot_ws/build/tracker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j4 -l4
+[0.205s] [35m[1mConsolidate compiler generated dependencies of target yolo_tracker_node_unn[0m
+[0.243s] [ 50%] Built target yolo_tracker_node
+[0.244s] [ 75%] [32mBuilding CXX object CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o[0m
+[5.132s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:[m[K In constructor ‘[01m[KYoloTrackerNode::YoloTrackerNode()[m[K’:
+[5.132s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:194:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KYoloTrackerNode::frame_counter_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.133s]   194 |   int [01;35m[Kframe_counter_[m[K;
+[5.133s]       |       [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.133s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:177:19:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ktf2_ros::Buffer YoloTrackerNode::tf_buffer_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.134s]   177 |   tf2_ros::Buffer [01;35m[Ktf_buffer_[m[K;
+[5.134s]       |                   [01;35m[K^~~~~~~~~~[m[K
+[5.134s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:56:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.134s]    56 |   [01;35m[KYoloTrackerNode[m[K()
+[5.134s]       |   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.748s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:[m[K In member function ‘[01m[Kvoid YoloTrackerNode::cancel_nav_goal()[m[K’:
+[5.748s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:503:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kshared_ptr<ClientGoalHandle<[...]>>[m[K’ to ‘[01m[Kshared_ptr<ClientGoalHandle<[...]>>[m[K’
+[5.748s]   503 |       nav_client_->async_cancel_goal([01;31m[Kgoal_handle_[m[K);
+[5.748s]       |                                      [01;31m[K^~~~~~~~~~~~[m[K
+[5.748s]       |                                      [01;31m[K|[m[K
+[5.749s]       |                                      [01;31m[Kshared_ptr<ClientGoalHandle<[...]>>[m[K
+[5.749s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+[5.749s]                  from [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:20[m[K:
+[5.749s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:531:36:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::shared_future<typename ActionT::Impl::CancelGoalService::Response::SharedPtr> rclcpp_action::Client<ActionT>::async_cancel_goal(typename rclcpp_action::Client<ActionT>::GoalHandle::SharedPtr, rclcpp_action::Client<ActionT>::CancelCallback) [with ActionT = nav2_msgs::action::NavigateToPose; typename ActionT::Impl::CancelGoalService::Response::SharedPtr = std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > >; typename ActionT::Impl::CancelGoalService::Response = action_msgs::srv::CancelGoal_Response_<std::allocator<void> >; typename ActionT::Impl::CancelGoalService = action_msgs::srv::CancelGoal; typename ActionT::Impl = nav2_msgs::action::NavigateToPose::Impl; typename rclcpp_action::Client<ActionT>::GoalHandle::SharedPtr = std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> >; rclcpp_action::Client<ActionT>::GoalHandle = rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>; rclcpp_action::Client<ActionT>::CancelCallback = std::function<void(std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > >)>][m[K’
+[5.749s]   531 |     [01;36m[Ktypename GoalHandle::SharedPtr goal_handle[m[K,
+[5.749s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[5.760s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.760s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:607:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+[5.760s]   607 |   rclcpp::init(argc, argv);[01;31m[Kz[m[K
+[5.760s]       |                            [01;31m[K^[m[K
+[11.170s] gmake[2]: *** [CMakeFiles/yolo_tracker_node_unn.dir/build.make:76：CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o] 错误 1
+[11.170s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/yolo_tracker_node_unn.dir/all] 错误 2
+[11.173s] gmake: *** [Makefile:146：all] 错误 2
+[11.175s] Invoked command in '/home/ros/Robot_ws/build/tracker' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j4 -l4

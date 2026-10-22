@@ -1,0 +1,10 @@
+/home/ros/Robot_ws/build/mycar_patrol/CMakeFiles/uninstall.dir
+/home/ros/Robot_ws/build/mycar_patrol/CMakeFiles/mycar_patrol_uninstall.dir
+/home/ros/Robot_ws/build/mycar_patrol/CMakeFiles/patrol_node.dir
+/home/ros/Robot_ws/build/mycar_patrol/CMakeFiles/test.dir
+/home/ros/Robot_ws/build/mycar_patrol/CMakeFiles/edit_cache.dir
+/home/ros/Robot_ws/build/mycar_patrol/CMakeFiles/rebuild_cache.dir
+/home/ros/Robot_ws/build/mycar_patrol/CMakeFiles/list_install_components.dir
+/home/ros/Robot_ws/build/mycar_patrol/CMakeFiles/install.dir
+/home/ros/Robot_ws/build/mycar_patrol/CMakeFiles/install/local.dir
+/home/ros/Robot_ws/build/mycar_patrol/CMakeFiles/install/strip.dir

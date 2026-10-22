@@ -1,0 +1,24 @@
+Consolidate compiler generated dependencies of target patrol_node
+[ 50%] Building CXX object CMakeFiles/patrol_node.dir/src/patrol_node.cpp.o
+[100%] Linking CXX executable patrol_node
+[100%] Built target patrol_node
+-- Install configuration: ""
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/lib/mycar_patrol/patrol_node
+-- Set runtime path of "/home/ros/Robot_ws/install/mycar_patrol/lib/mycar_patrol/patrol_node" to ""
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/launch
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/launch/patrol_track.launch.py
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/package_run_dependencies/mycar_patrol
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/parent_prefix_path/mycar_patrol
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/ament_prefix_path.sh
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/ament_prefix_path.dsv
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/path.sh
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/environment/path.dsv
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.bash
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.sh
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.zsh
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/local_setup.dsv
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/package.dsv
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/ament_index/resource_index/packages/mycar_patrol
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/cmake/mycar_patrolConfig.cmake
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/cmake/mycar_patrolConfig-version.cmake
+-- Installing: /home/ros/Robot_ws/install/mycar_patrol/share/mycar_patrol/package.xml

@@ -1,0 +1,6 @@
+{
+  "package_name": "mycar_interfaces",
+  "non_idl_tuples": [
+    "/home/ros/Robot_ws/src/interfaces/mycar_interfaces:msg/SystemStatus.msg"
+  ]
+}

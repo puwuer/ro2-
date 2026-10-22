@@ -1,0 +1,15 @@
+[0.020s] Invoking command in '/home/ros/Robot_ws/build/tracker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j4 -l4
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target yolo_tracker_node_unn[0m
+[0.143s] [ 50%] Built target yolo_tracker_node
+[0.162s] [ 75%] [32mBuilding CXX object CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o[0m
+[4.385s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:[m[K In member function ‘[01m[Kvoid YoloTrackerNode::sync_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[4.385s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:139:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.385s]   139 |                 int [01;35m[Kcenter_y[m[K = 240 / 2;
+[4.386s]       |                     [01;35m[K^~~~~~~~[m[K
+[13.494s] [100%] [32m[1mLinking CXX executable yolo_tracker_node_unn[0m
+[13.699s] /usr/bin/ld: error: /usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/libonnxruntime.so: file too short
+[13.706s] collect2: error: ld returned 1 exit status
+[13.709s] gmake[2]: *** [CMakeFiles/yolo_tracker_node_unn.dir/build.make:232：yolo_tracker_node_unn] 错误 1
+[13.709s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/yolo_tracker_node_unn.dir/all] 错误 2
+[13.709s] gmake: *** [Makefile:146：all] 错误 2
+[13.713s] Invoked command in '/home/ros/Robot_ws/build/tracker' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j4 -l4

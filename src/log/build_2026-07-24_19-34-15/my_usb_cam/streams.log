@@ -1,0 +1,32 @@
+[0.028s] Invoking command in '/home/ros/Robot_ws/src/build/my_usb_cam': /usr/bin/cmake /home/ros/Robot_ws/src/camera/my_usb_cam -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/src/install/my_usb_cam
+[0.050s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.050s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.050s]   contain a literal, direct call to the project() command.  Add a line of
+[0.051s]   code such as
+[0.051s] 
+[0.051s]     project(ProjectName)
+[0.051s] 
+[0.051s]   near the top of the file, but after cmake_minimum_required().
+[0.051s] 
+[0.052s]   CMake is pretending there is a "project(Project)" command on the first
+[0.052s]   line.
+[0.052s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.052s] [0m
+[0.264s] -- The C compiler identification is GNU 11.4.0
+[0.416s] -- The CXX compiler identification is GNU 11.4.0
+[0.439s] -- Detecting C compiler ABI info
+[0.571s] -- Detecting C compiler ABI info - done
+[0.599s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.600s] -- Detecting C compile features
+[0.600s] -- Detecting C compile features - done
+[0.603s] -- Detecting CXX compiler ABI info
+[0.774s] -- Detecting CXX compiler ABI info - done
+[0.806s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.806s] -- Detecting CXX compile features
+[0.807s] -- Detecting CXX compile features - done
+[0.807s] -- Configuring done
+[0.811s] -- Generating done
+[0.816s] -- Build files have been written to: /home/ros/Robot_ws/src/build/my_usb_cam
+[0.825s] Invoked command in '/home/ros/Robot_ws/src/build/my_usb_cam' returned '0': /usr/bin/cmake /home/ros/Robot_ws/src/camera/my_usb_cam -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/src/install/my_usb_cam
+[0.827s] Invoking command in '/home/ros/Robot_ws/src/build/my_usb_cam': /usr/bin/cmake --build /home/ros/Robot_ws/src/build/my_usb_cam -- -j4 -l4
+[0.893s] Invoked command in '/home/ros/Robot_ws/src/build/my_usb_cam' returned '0': /usr/bin/cmake --build /home/ros/Robot_ws/src/build/my_usb_cam -- -j4 -l4

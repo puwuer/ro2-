@@ -1,0 +1,443 @@
+[0.000000] (-) TimerEvent: {}
+[0.001803] (-) JobUnselected: {'identifier': 'demo_gazebo_sim'}
+[0.001881] (-) JobUnselected: {'identifier': 'lidar_pkg'}
+[0.001904] (-) JobUnselected: {'identifier': 'my_usb_cam'}
+[0.001920] (-) JobUnselected: {'identifier': 'mycar_location'}
+[0.001933] (-) JobUnselected: {'identifier': 'mycar_map_server'}
+[0.001944] (-) JobUnselected: {'identifier': 'mycar_navigation2'}
+[0.001957] (-) JobUnselected: {'identifier': 'mycar_slam_cartographer'}
+[0.001969] (-) JobUnselected: {'identifier': 'mycar_slam_slam_toolbox'}
+[0.001978] (-) JobUnselected: {'identifier': 'path_odom'}
+[0.001989] (-) JobUnselected: {'identifier': 'ros2_stm32_bridge'}
+[0.002000] (-) JobUnselected: {'identifier': 'tracker'}
+[0.002047] (gazebo_ros_actor_plugin) JobQueued: {'identifier': 'gazebo_ros_actor_plugin', 'dependencies': OrderedDict()}
+[0.002070] (gazebo_ros_actor_plugin) JobStarted: {'identifier': 'gazebo_ros_actor_plugin'}
+[0.019393] (gazebo_ros_actor_plugin) JobProgress: {'identifier': 'gazebo_ros_actor_plugin', 'progress': 'cmake'}
+[0.020006] (gazebo_ros_actor_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/Robot_ws/src/gazebo-ros-actor-plugin', '-DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/gazebo_ros_actor_plugin'], 'cwd': '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('MYCAR_MODEL', 'stm32_4w'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1639'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1803'), ('BUNDLED_DEBUGPY_PATH', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4829'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:25735'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1771,unix/ros-virtual-machine:/tmp/.ICE-unix/1771'), ('INVOCATION_ID', '3292dcad957d4caabf5f163f8b57df28'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b246fee035e366f0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ros/.config/Code/User/workspaceStorage/86947640a0205132b21785934c9f46b7/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NWOTV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca0684aa96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble')]), 'shell': False}
+[0.099651] (-) TimerEvent: {}
+[0.175522] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200090] (-) TimerEvent: {}
+[0.269469] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.287726] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300362] (-) TimerEvent: {}
+[0.397198] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400575] (-) TimerEvent: {}
+[0.404373] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.405349] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.406501] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.410706] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501304] (-) TimerEvent: {}
+[0.518049] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.524341] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.525200] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.525761] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.530980] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.602048] (-) TimerEvent: {}
+[0.702649] (-) TimerEvent: {}
+[0.803180] (-) TimerEvent: {}
+[0.903897] (-) TimerEvent: {}
+[0.935772] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.004584] (-) TimerEvent: {}
+[1.070593] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.105340] (-) TimerEvent: {}
+[1.158831] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.168919] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.186225] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.205683] (-) TimerEvent: {}
+[1.207557] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.234594] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.305926] (-) TimerEvent: {}
+[1.313642] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.319695] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.406238] (-) TimerEvent: {}
+[1.474385] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.506539] (-) TimerEvent: {}
+[1.513065] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.568189] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.593585] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.607477] (-) TimerEvent: {}
+[1.708045] (-) TimerEvent: {}
+[1.717077] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.717391] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.808225] (-) TimerEvent: {}
+[1.819077] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.820326] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.908603] (-) TimerEvent: {}
+[1.910799] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.935079] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.975826] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.18.0\n'}
+[1.990664] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[1.996402] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.9.0\n'}
+[1.996799] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[2.006447] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.008976] (-) TimerEvent: {}
+[2.034404] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.101720] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[2.102179] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.110407] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[2.110668] (-) TimerEvent: {}
+[2.110776] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[2.122681] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.123426] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[2.127133] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[2.128572] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[2.129215] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[2.130116] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[2.136162] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[2.136643] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[2.143646] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.2\n'}
+[2.144034] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[2.189767] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.206018] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.211260] (-) TimerEvent: {}
+[2.212514] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.242377] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.299208] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.307932] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.311477] (-) TimerEvent: {}
+[2.328615] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.378680] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.379413] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[2.379773] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[2.379842] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[2.383629] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[2.387312] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[2.390461] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.1\n'}
+[2.390951] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[2.411656] (-) TimerEvent: {}
+[2.416092] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[2.428823] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[2.433625] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.2\n'}
+[2.434047] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[2.434553] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[2.442012] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.2\n'}
+[2.443061] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[2.444943] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.1\n'}
+[2.449686] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.8.1\n'}
+[2.450644] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[2.453727] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.454405] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.454554] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.470548] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[2.476485] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.8.1\n'}
+[2.477143] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[2.478225] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[2.482973] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.8.1\n'}
+[2.483630] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[2.484244] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[2.485619] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[2.490438] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.8.1\n'}
+[2.490932] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[2.499693] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[2.511881] (-) TimerEvent: {}
+[2.519913] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[2.573064] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[2.579473] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[2.599675] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[2.612757] (-) TimerEvent: {}
+[2.655300] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[2.661496] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[2.679842] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[2.713397] (-) TimerEvent: {}
+[2.733232] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[2.739997] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[2.759972] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[2.813734] (-) TimerEvent: {}
+[2.814538] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[2.821451] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[2.842932] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[2.895462] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[2.901678] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.1\n'}
+[2.902188] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[2.914556] (-) TimerEvent: {}
+[3.012863] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[3.014802] (-) TimerEvent: {}
+[3.036857] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.058770] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[3.111024] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.115075] (-) TimerEvent: {}
+[3.118766] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.140078] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.190421] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.190876] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.8.1\n'}
+[3.191125] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.191530] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.1\n'}
+[3.197988] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.9.0\n'}
+[3.198352] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[3.215248] (-) TimerEvent: {}
+[3.232791] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.233316] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.8.1\n'}
+[3.233664] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[3.233884] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.2\n'}
+[3.238869] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.4\n'}
+[3.239333] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[3.239572] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.240212] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.240336] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[3.244693] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.16.0\n'}
+[3.245320] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[3.257204] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.8.1\n'}
+[3.257588] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[3.257860] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.258067] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.268843] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[3.273602] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.8.1\n'}
+[3.274181] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[3.274613] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.274961] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[3.276117] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[3.276838] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[3.277452] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[3.277704] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[3.281726] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[3.282365] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[3.285198] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.1\n'}
+[3.315471] (-) TimerEvent: {}
+[3.356811] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.4.0\n'}
+[3.357145] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[3.357775] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.358050] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[3.358397] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[3.360126] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[3.364771] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.4.0\n'}
+[3.365216] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[3.365548] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.8.1\n'}
+[3.366179] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[3.370136] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.4.0\n'}
+[3.370627] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[3.371075] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.8.1\n'}
+[3.371753] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[3.375917] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.4.0\n'}
+[3.376272] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[3.376569] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.9.0\n'}
+[3.386329] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.9.0\n'}
+[3.386769] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[3.412355] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.412826] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.8.1\n'}
+[3.413138] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.2\n'}
+[3.413472] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.4\n'}
+[3.413760] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.1\n'}
+[3.414305] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.9.0\n'}
+[3.415525] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[3.415646] (-) TimerEvent: {}
+[3.419670] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.9.0\n'}
+[3.420187] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[3.421243] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[3.425680] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.9.0\n'}
+[3.426192] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[3.427249] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[3.431741] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.9.0\n'}
+[3.432283] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[3.433288] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[3.438216] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.9.0\n'}
+[3.438701] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[3.439864] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[3.443805] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.9.0\n'}
+[3.444512] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[3.445573] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[3.451014] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.9.0\n'}
+[3.451987] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[3.453250] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[3.457967] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.9.0\n'}
+[3.458711] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[3.459822] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[3.463985] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.9.0\n'}
+[3.464549] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[3.465794] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[3.469884] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.9.0\n'}
+[3.470326] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[3.470640] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.9.0\n'}
+[3.471784] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[3.475926] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.9.0\n'}
+[3.476186] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[3.476594] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.9.0\n'}
+[3.477901] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[3.482201] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.9.0\n'}
+[3.482751] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[3.483180] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.9.0\n'}
+[3.484289] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[3.488776] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.9.0\n'}
+[3.489205] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[3.490356] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[3.494837] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.9.0\n'}
+[3.495309] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[3.496399] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[3.500759] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.9.0\n'}
+[3.501161] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[3.501533] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.9.0\n'}
+[3.502790] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[3.507585] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.9.0\n'}
+[3.507919] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[3.508325] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.9.0\n'}
+[3.509443] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[3.514791] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.9.0\n'}
+[3.515229] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[3.515658] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.9.0\n'}
+[3.515899] (-) TimerEvent: {}
+[3.517277] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.4\n'}
+[3.517707] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.522296] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[3.549325] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[3.549903] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.8.1\n'}
+[3.550368] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.550720] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.2\n'}
+[3.551073] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.1\n'}
+[3.555855] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.616759] (-) TimerEvent: {}
+[3.668131] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.673695] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.673907] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/Robot_ws/src/gazebo-ros-actor-plugin/include>\n'}
+[3.674102] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.679020] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.679233] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.680726] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.682635] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.684127] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.689480] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.689654] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.691194] (gazebo_ros_actor_plugin) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.694286] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.717461] (-) TimerEvent: {}
+[3.720124] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[3.726330] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/Robot_ws/build/gazebo_ros_actor_plugin\n'}
+[3.745219] (gazebo_ros_actor_plugin) CommandEnded: {'returncode': 0}
+[3.747899] (gazebo_ros_actor_plugin) JobProgress: {'identifier': 'gazebo_ros_actor_plugin', 'progress': 'build'}
+[3.747988] (gazebo_ros_actor_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin', '--', '-j6', '-l6'], 'cwd': '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('MYCAR_MODEL', 'stm32_4w'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1639'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1803'), ('BUNDLED_DEBUGPY_PATH', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4829'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:25735'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1771,unix/ros-virtual-machine:/tmp/.ICE-unix/1771'), ('INVOCATION_ID', '3292dcad957d4caabf5f163f8b57df28'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b246fee035e366f0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ros/.config/Code/User/workspaceStorage/86947640a0205132b21785934c9f46b7/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NWOTV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca0684aa96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble')]), 'shell': False}
+[3.817043] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_actor_plugin.dir/src/gazebo_ros_actor_command.cpp.o\x1b[0m\n'}
+[3.817470] (-) TimerEvent: {}
+[3.917891] (-) TimerEvent: {}
+[4.018382] (-) TimerEvent: {}
+[4.119857] (-) TimerEvent: {}
+[4.220371] (-) TimerEvent: {}
+[4.321314] (-) TimerEvent: {}
+[4.422083] (-) TimerEvent: {}
+[4.523094] (-) TimerEvent: {}
+[4.623881] (-) TimerEvent: {}
+[4.724310] (-) TimerEvent: {}
+[4.825425] (-) TimerEvent: {}
+[4.926081] (-) TimerEvent: {}
+[5.027064] (-) TimerEvent: {}
+[5.128097] (-) TimerEvent: {}
+[5.228566] (-) TimerEvent: {}
+[5.329344] (-) TimerEvent: {}
+[5.430123] (-) TimerEvent: {}
+[5.531166] (-) TimerEvent: {}
+[5.631693] (-) TimerEvent: {}
+[5.732303] (-) TimerEvent: {}
+[5.832904] (-) TimerEvent: {}
+[5.933622] (-) TimerEvent: {}
+[6.034940] (-) TimerEvent: {}
+[6.135712] (-) TimerEvent: {}
+[6.236641] (-) TimerEvent: {}
+[6.337533] (-) TimerEvent: {}
+[6.438321] (-) TimerEvent: {}
+[6.539723] (-) TimerEvent: {}
+[6.640255] (-) TimerEvent: {}
+[6.741143] (-) TimerEvent: {}
+[6.841847] (-) TimerEvent: {}
+[6.942563] (-) TimerEvent: {}
+[7.043344] (-) TimerEvent: {}
+[7.144283] (-) TimerEvent: {}
+[7.245109] (-) TimerEvent: {}
+[7.345852] (-) TimerEvent: {}
+[7.446648] (-) TimerEvent: {}
+[7.547286] (-) TimerEvent: {}
+[7.648133] (-) TimerEvent: {}
+[7.748715] (-) TimerEvent: {}
+[7.849287] (-) TimerEvent: {}
+[7.949672] (-) TimerEvent: {}
+[8.050478] (-) TimerEvent: {}
+[8.151088] (-) TimerEvent: {}
+[8.251825] (-) TimerEvent: {}
+[8.352709] (-) TimerEvent: {}
+[8.453559] (-) TimerEvent: {}
+[8.554669] (-) TimerEvent: {}
+[8.655142] (-) TimerEvent: {}
+[8.755846] (-) TimerEvent: {}
+[8.856868] (-) TimerEvent: {}
+[8.957731] (-) TimerEvent: {}
+[9.058119] (-) TimerEvent: {}
+[9.158680] (-) TimerEvent: {}
+[9.259431] (-) TimerEvent: {}
+[9.360164] (-) TimerEvent: {}
+[9.461192] (-) TimerEvent: {}
+[9.561853] (-) TimerEvent: {}
+[9.662488] (-) TimerEvent: {}
+[9.763141] (-) TimerEvent: {}
+[9.864207] (-) TimerEvent: {}
+[9.964915] (-) TimerEvent: {}
+[10.065788] (-) TimerEvent: {}
+[10.166593] (-) TimerEvent: {}
+[10.267411] (-) TimerEvent: {}
+[10.368329] (-) TimerEvent: {}
+[10.468949] (-) TimerEvent: {}
+[10.569513] (-) TimerEvent: {}
+[10.670049] (-) TimerEvent: {}
+[10.771055] (-) TimerEvent: {}
+[10.871903] (-) TimerEvent: {}
+[10.972721] (-) TimerEvent: {}
+[11.073910] (-) TimerEvent: {}
+[11.174584] (-) TimerEvent: {}
+[11.275139] (-) TimerEvent: {}
+[11.376095] (-) TimerEvent: {}
+[11.476916] (-) TimerEvent: {}
+[11.577489] (-) TimerEvent: {}
+[11.678662] (-) TimerEvent: {}
+[11.779670] (-) TimerEvent: {}
+[11.880652] (-) TimerEvent: {}
+[11.981489] (-) TimerEvent: {}
+[12.082799] (-) TimerEvent: {}
+[12.183696] (-) TimerEvent: {}
+[12.284559] (-) TimerEvent: {}
+[12.385805] (-) TimerEvent: {}
+[12.433914] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_actor_plugin.so\x1b[0m\n'}
+[12.486054] (-) TimerEvent: {}
+[12.586973] (-) TimerEvent: {}
+[12.687916] (-) TimerEvent: {}
+[12.788586] (-) TimerEvent: {}
+[12.889368] (-) TimerEvent: {}
+[12.942447] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'[100%] Built target gazebo_ros_actor_plugin\n'}
+[12.957369] (gazebo_ros_actor_plugin) CommandEnded: {'returncode': 0}
+[12.958391] (gazebo_ros_actor_plugin) JobProgress: {'identifier': 'gazebo_ros_actor_plugin', 'progress': 'install'}
+[12.970656] (gazebo_ros_actor_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin'], 'cwd': '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('MYCAR_MODEL', 'stm32_4w'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1639'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1803'), ('BUNDLED_DEBUGPY_PATH', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4829'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/Robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:25735'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1771,unix/ros-virtual-machine:/tmp/.ICE-unix/1771'), ('INVOCATION_ID', '3292dcad957d4caabf5f163f8b57df28'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b246fee035e366f0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ros/.config/Code/User/workspaceStorage/86947640a0205132b21785934c9f46b7/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NWOTV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca0684aa96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/gazebo_ros_actor_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/Robot_ws/install/gazebo_ros_actor_plugin:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/lidar_pkg:/home/ros/Robot_ws/install/demo_gazebo_sim:/opt/ros/humble')]), 'shell': False}
+[12.980666] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.980976] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib/libgazebo_ros_actor_plugin.so\n'}
+[12.985547] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib/libgazebo_ros_actor_plugin.so" to ""\n'}
+[12.985657] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/include\n'}
+[12.985966] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/include/gazebo_ros_actor_plugin\n'}
+[12.986486] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/include/gazebo_ros_actor_plugin/gazebo_ros_actor_command.h\n'}
+[12.986805] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/launch\n'}
+[12.986903] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/launch/sim.launch.py\n'}
+[12.987042] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config\n'}
+[12.987517] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/worlds\n'}
+[12.987673] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/worlds/move_actor.world\n'}
+[12.987812] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins\n'}
+[12.987945] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk\n'}
+[12.988081] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/model.config\n'}
+[12.988284] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes\n'}
+[12.988412] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk.dae\n'}
+[12.989860] (-) TimerEvent: {}
+[12.990223] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Metal.png\n'}
+[12.990395] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Diffuse.png\n'}
+[12.993316] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Rough.png\n'}
+[12.993718] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/meshes/DoctorFemaleWalk_Normal.png\n'}
+[12.994908] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/config/skins/DoctorFemaleWalk/model.sdf\n'}
+[12.995276] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/lib/gazebo_ros_actor_plugin/path_publisher.py\n'}
+[12.995618] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/ament_index/resource_index/package_run_dependencies/gazebo_ros_actor_plugin\n'}
+[12.995838] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/ament_index/resource_index/parent_prefix_path/gazebo_ros_actor_plugin\n'}
+[12.996061] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/ament_prefix_path.sh\n'}
+[12.996359] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/ament_prefix_path.dsv\n'}
+[12.996518] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/path.sh\n'}
+[12.996660] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/environment/path.dsv\n'}
+[12.996874] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.bash\n'}
+[12.996974] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.sh\n'}
+[12.997225] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.zsh\n'}
+[12.997643] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/local_setup.dsv\n'}
+[12.998111] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/package.dsv\n'}
+[12.998277] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/ament_index/resource_index/packages/gazebo_ros_actor_plugin\n'}
+[12.998332] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/cmake/gazebo_ros_actor_pluginConfig.cmake\n'}
+[12.999381] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/cmake/gazebo_ros_actor_pluginConfig-version.cmake\n'}
+[12.999534] (gazebo_ros_actor_plugin) StdoutLine: {'line': b'-- Installing: /home/ros/Robot_ws/install/gazebo_ros_actor_plugin/share/gazebo_ros_actor_plugin/package.xml\n'}
+[13.001689] (gazebo_ros_actor_plugin) CommandEnded: {'returncode': 0}
+[13.039378] (gazebo_ros_actor_plugin) JobEnded: {'identifier': 'gazebo_ros_actor_plugin', 'rc': 0}
+[13.040797] (-) EventReactorShutdown: {}

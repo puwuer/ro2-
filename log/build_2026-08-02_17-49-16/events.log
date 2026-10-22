@@ -1,0 +1,265 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (-) JobUnselected: {'identifier': 'lidar_pkg'}
+[0.000325] (-) JobUnselected: {'identifier': 'my_usb_cam'}
+[0.000343] (-) JobUnselected: {'identifier': 'mycar_location'}
+[0.000355] (-) JobUnselected: {'identifier': 'mycar_map_server'}
+[0.000394] (-) JobUnselected: {'identifier': 'mycar_navigation2'}
+[0.000410] (-) JobUnselected: {'identifier': 'mycar_slam_cartographer'}
+[0.000424] (-) JobUnselected: {'identifier': 'mycar_slam_slam_toolbox'}
+[0.000436] (-) JobUnselected: {'identifier': 'path_odom'}
+[0.000446] (-) JobUnselected: {'identifier': 'ros2_stm32_bridge'}
+[0.000458] (tracker) JobQueued: {'identifier': 'tracker', 'dependencies': OrderedDict()}
+[0.000473] (tracker) JobStarted: {'identifier': 'tracker'}
+[0.012265] (tracker) JobProgress: {'identifier': 'tracker', 'progress': 'cmake'}
+[0.013436] (tracker) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/Robot_ws/src/tracker', '-DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/tracker'], 'cwd': '/home/ros/Robot_ws/build/tracker', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('MYCAR_MODEL', 'stm32_4w'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1571'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1725'), ('BUNDLED_DEBUGPY_PATH', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3119'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:24651'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1707,unix/ros-virtual-machine:/tmp/.ICE-unix/1707'), ('INVOCATION_ID', '36907cec866a420fae3256761586512b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0008140417224b9f.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ros/.config/Code/User/workspaceStorage/86947640a0205132b21785934c9f46b7/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5157S3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca0684aa96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/tracker'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099518] (-) TimerEvent: {}
+[0.186722] (tracker) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200911] (-) TimerEvent: {}
+[0.268475] (tracker) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.281915] (tracker) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301651] (-) TimerEvent: {}
+[0.375097] (tracker) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.380773] (tracker) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.381537] (tracker) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.382691] (tracker) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.386458] (tracker) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401750] (-) TimerEvent: {}
+[0.488229] (tracker) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.494386] (tracker) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.494778] (tracker) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.495108] (tracker) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.502180] (-) TimerEvent: {}
+[0.503754] (tracker) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.602491] (-) TimerEvent: {}
+[0.703383] (-) TimerEvent: {}
+[0.803972] (-) TimerEvent: {}
+[0.904493] (-) TimerEvent: {}
+[0.919580] (tracker) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.005284] (-) TimerEvent: {}
+[1.043487] (tracker) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.103253] (tracker) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.105644] (-) TimerEvent: {}
+[1.111044] (tracker) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.126231] (tracker) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.146786] (tracker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.170442] (tracker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.206586] (-) TimerEvent: {}
+[1.237816] (tracker) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.241872] (tracker) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.306978] (-) TimerEvent: {}
+[1.381766] (tracker) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.407351] (-) TimerEvent: {}
+[1.412702] (tracker) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.464316] (tracker) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.479387] (tracker) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.507890] (-) TimerEvent: {}
+[1.581892] (tracker) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.582077] (tracker) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.608340] (-) TimerEvent: {}
+[1.681967] (tracker) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.683141] (tracker) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.708735] (-) TimerEvent: {}
+[1.756165] (tracker) StdoutLine: {'line': b'-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.810506] (-) TimerEvent: {}
+[1.843654] (tracker) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.861021] (tracker) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.861811] (tracker) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.879934] (tracker) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.881520] (tracker) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.881643] (tracker) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.910776] (-) TimerEvent: {}
+[2.006021] (tracker) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[2.010973] (-) TimerEvent: {}
+[2.065516] (tracker) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.111542] (-) TimerEvent: {}
+[2.157912] (tracker) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.158208] (tracker) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.158266] (tracker) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.159263] (tracker) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.161330] (tracker) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.161432] (tracker) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.163033] (tracker) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.165022] (tracker) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.191105] (tracker) StdoutLine: {'line': b'-- Generating done\n'}
+[2.198310] (tracker) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/Robot_ws/build/tracker\n'}
+[2.212174] (-) TimerEvent: {}
+[2.212860] (tracker) CommandEnded: {'returncode': 0}
+[2.213365] (tracker) JobProgress: {'identifier': 'tracker', 'progress': 'build'}
+[2.214980] (tracker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/Robot_ws/build/tracker', '--', '-j4', '-l4'], 'cwd': '/home/ros/Robot_ws/build/tracker', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/Robot_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('MYCAR_MODEL', 'stm32_4w'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1571'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1725'), ('BUNDLED_DEBUGPY_PATH', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3119'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:24651'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ros-virtual-machine:@/tmp/.ICE-unix/1707,unix/ros-virtual-machine:/tmp/.ICE-unix/1707'), ('INVOCATION_ID', '36907cec866a420fae3256761586512b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0008140417224b9f.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ros/.config/Code/User/workspaceStorage/86947640a0205132b21785934c9f46b7/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5157S3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca0684aa96.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/Robot_ws/build/tracker'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.287703] (tracker) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yolo_tracker_node.dir/src/yolo_tracker_node.cpp.o\x1b[0m\n'}
+[2.288744] (tracker) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o\x1b[0m\n'}
+[2.313475] (-) TimerEvent: {}
+[2.413968] (-) TimerEvent: {}
+[2.514633] (-) TimerEvent: {}
+[2.615214] (-) TimerEvent: {}
+[2.715975] (-) TimerEvent: {}
+[2.816745] (-) TimerEvent: {}
+[2.917262] (-) TimerEvent: {}
+[3.017962] (-) TimerEvent: {}
+[3.118654] (-) TimerEvent: {}
+[3.218989] (-) TimerEvent: {}
+[3.320214] (-) TimerEvent: {}
+[3.421001] (-) TimerEvent: {}
+[3.523276] (-) TimerEvent: {}
+[3.626518] (-) TimerEvent: {}
+[3.728255] (-) TimerEvent: {}
+[3.828692] (-) TimerEvent: {}
+[3.929574] (-) TimerEvent: {}
+[4.030516] (-) TimerEvent: {}
+[4.131761] (-) TimerEvent: {}
+[4.232483] (-) TimerEvent: {}
+[4.333000] (-) TimerEvent: {}
+[4.433818] (-) TimerEvent: {}
+[4.534298] (-) TimerEvent: {}
+[4.635125] (-) TimerEvent: {}
+[4.736040] (-) TimerEvent: {}
+[4.836806] (-) TimerEvent: {}
+[4.937472] (-) TimerEvent: {}
+[5.038349] (-) TimerEvent: {}
+[5.138990] (-) TimerEvent: {}
+[5.239647] (-) TimerEvent: {}
+[5.341129] (-) TimerEvent: {}
+[5.442862] (-) TimerEvent: {}
+[5.544098] (-) TimerEvent: {}
+[5.646094] (-) TimerEvent: {}
+[5.747009] (-) TimerEvent: {}
+[5.847636] (-) TimerEvent: {}
+[5.948297] (-) TimerEvent: {}
+[6.008534] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YoloTrackerNode::sync_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.008753] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node.cpp:132:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kerror_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.008819] (tracker) StderrLine: {'line': b'  132 |                 float \x1b[01;35m\x1b[Kerror_y\x1b[m\x1b[K = center_y - cy;\n'}
+[6.008867] (tracker) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.050732] (-) TimerEvent: {}
+[6.129130] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KYoloTrackerNode::YoloTrackerNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.129441] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:39:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct Ort::Session\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KAppendExecutionProvider_Cpu\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.129546] (tracker) StderrLine: {'line': b'   39 |             session_->\x1b[01;31m\x1b[KAppendExecutionProvider_Cpu\x1b[m\x1b[K();\n'}
+[6.129599] (tracker) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.140360] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:60:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSync\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksync\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.140682] (tracker) StderrLine: {'line': b'   60 |         sync_ = std::make_shared<\x1b[01;31m\x1b[KSync\x1b[m\x1b[K>(SyncPolicy(10), rgb_sub_, depth_sub_);\n'}
+[6.140773] (tracker) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.140837] (tracker) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[Ksync\x1b[m\x1b[K\n'}
+[6.151980] (-) TimerEvent: {}
+[6.209672] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:60:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >(YoloTrackerNode::SyncPolicy, message_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >&, message_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.210083] (tracker) StderrLine: {'line': b'   60 |         sync_ = \x1b[01;31m\x1b[Kstd::make_shared<Sync>(SyncPolicy(10), rgb_sub_, depth_sub_)\x1b[m\x1b[K;\n'}
+[6.210158] (tracker) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.210832] (tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[6.210928] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.210975] (tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:1\x1b[m\x1b[K:\n'}
+[6.211015] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.211054] (tracker) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[6.211091] (tracker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.211128] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.211164] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:60:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.211201] (tracker) StderrLine: {'line': b'   60 |         sync_ = \x1b[01;31m\x1b[Kstd::make_shared<Sync>(SyncPolicy(10), rgb_sub_, depth_sub_)\x1b[m\x1b[K;\n'}
+[6.211235] (tracker) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.229633] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YoloTrackerNode::sync_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.229813] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:110:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::TrackerCSRT\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.229899] (tracker) StderrLine: {'line': b'  110 |                     if (!tracker_) tracker_ = cv::\x1b[01;31m\x1b[KTrackerCSRT\x1b[m\x1b[K::create();\n'}
+[6.229944] (tracker) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.230618] (tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node_unn.cpp:137:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcenter_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.230723] (tracker) StderrLine: {'line': b'  137 |                 int \x1b[01;35m\x1b[Kcenter_y\x1b[m\x1b[K = 240 / 2;\n'}
+[6.230769] (tracker) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.252764] (-) TimerEvent: {}
+[6.353155] (-) TimerEvent: {}
+[6.453671] (-) TimerEvent: {}
+[6.554829] (-) TimerEvent: {}
+[6.655485] (-) TimerEvent: {}
+[6.755933] (-) TimerEvent: {}
+[6.856898] (-) TimerEvent: {}
+[6.957807] (-) TimerEvent: {}
+[7.058901] (-) TimerEvent: {}
+[7.160221] (-) TimerEvent: {}
+[7.260948] (-) TimerEvent: {}
+[7.361875] (-) TimerEvent: {}
+[7.462666] (-) TimerEvent: {}
+[7.563451] (-) TimerEvent: {}
+[7.664133] (-) TimerEvent: {}
+[7.766541] (-) TimerEvent: {}
+[7.867389] (-) TimerEvent: {}
+[7.967981] (-) TimerEvent: {}
+[8.068962] (-) TimerEvent: {}
+[8.170222] (-) TimerEvent: {}
+[8.270722] (-) TimerEvent: {}
+[8.372571] (-) TimerEvent: {}
+[8.475160] (-) TimerEvent: {}
+[8.575795] (-) TimerEvent: {}
+[8.677588] (-) TimerEvent: {}
+[8.779463] (-) TimerEvent: {}
+[8.879930] (-) TimerEvent: {}
+[8.980858] (-) TimerEvent: {}
+[9.081630] (-) TimerEvent: {}
+[9.182481] (-) TimerEvent: {}
+[9.282895] (-) TimerEvent: {}
+[9.383464] (-) TimerEvent: {}
+[9.484678] (-) TimerEvent: {}
+[9.586909] (-) TimerEvent: {}
+[9.687426] (-) TimerEvent: {}
+[9.788793] (-) TimerEvent: {}
+[9.890346] (-) TimerEvent: {}
+[9.978272] (tracker) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/yolo_tracker_node_unn.dir/build.make:76\xef\xbc\x9aCMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[9.979775] (tracker) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/yolo_tracker_node_unn.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[9.980122] (tracker) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[9.991029] (-) TimerEvent: {}
+[10.091930] (-) TimerEvent: {}
+[10.192903] (-) TimerEvent: {}
+[10.293559] (-) TimerEvent: {}
+[10.394389] (-) TimerEvent: {}
+[10.495036] (-) TimerEvent: {}
+[10.595494] (-) TimerEvent: {}
+[10.695856] (-) TimerEvent: {}
+[10.796508] (-) TimerEvent: {}
+[10.897066] (-) TimerEvent: {}
+[10.997689] (-) TimerEvent: {}
+[11.098551] (-) TimerEvent: {}
+[11.199200] (-) TimerEvent: {}
+[11.299991] (-) TimerEvent: {}
+[11.401053] (-) TimerEvent: {}
+[11.501909] (-) TimerEvent: {}
+[11.602639] (-) TimerEvent: {}
+[11.703392] (-) TimerEvent: {}
+[11.804010] (-) TimerEvent: {}
+[11.905085] (-) TimerEvent: {}
+[12.005762] (-) TimerEvent: {}
+[12.106535] (-) TimerEvent: {}
+[12.206988] (-) TimerEvent: {}
+[12.307625] (-) TimerEvent: {}
+[12.408417] (-) TimerEvent: {}
+[12.509174] (-) TimerEvent: {}
+[12.610255] (-) TimerEvent: {}
+[12.711148] (-) TimerEvent: {}
+[12.811929] (-) TimerEvent: {}
+[12.912574] (-) TimerEvent: {}
+[13.013851] (-) TimerEvent: {}
+[13.115010] (-) TimerEvent: {}
+[13.215865] (-) TimerEvent: {}
+[13.316267] (-) TimerEvent: {}
+[13.418529] (-) TimerEvent: {}
+[13.518936] (-) TimerEvent: {}
+[13.619502] (-) TimerEvent: {}
+[13.720223] (-) TimerEvent: {}
+[13.821227] (-) TimerEvent: {}
+[13.921764] (-) TimerEvent: {}
+[14.022485] (-) TimerEvent: {}
+[14.123517] (-) TimerEvent: {}
+[14.224181] (-) TimerEvent: {}
+[14.326030] (-) TimerEvent: {}
+[14.426842] (-) TimerEvent: {}
+[14.527511] (-) TimerEvent: {}
+[14.628870] (-) TimerEvent: {}
+[14.729671] (-) TimerEvent: {}
+[14.732287] (tracker) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable yolo_tracker_node\x1b[0m\n'}
+[14.830088] (-) TimerEvent: {}
+[14.930639] (-) TimerEvent: {}
+[15.031114] (-) TimerEvent: {}
+[15.131486] (-) TimerEvent: {}
+[15.231991] (-) TimerEvent: {}
+[15.332992] (-) TimerEvent: {}
+[15.433634] (-) TimerEvent: {}
+[15.533995] (-) TimerEvent: {}
+[15.634495] (-) TimerEvent: {}
+[15.735760] (-) TimerEvent: {}
+[15.780210] (tracker) StdoutLine: {'line': b'[ 75%] Built target yolo_tracker_node\n'}
+[15.781984] (tracker) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[15.784866] (tracker) CommandEnded: {'returncode': 2}
+[15.805269] (tracker) JobEnded: {'identifier': 'tracker', 'rc': 2}
+[15.816757] (-) EventReactorShutdown: {}

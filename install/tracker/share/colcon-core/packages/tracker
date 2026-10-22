@@ -1,0 +1,1 @@
+cv_bridge:geometry_msgs:image_transport:libonnxruntime-dev:libopencv-dev:message_filters:mycar_interfaces:nav2_msgs:opencv2:rclcpp:rclcpp_action:sensor_msgs:tf2_geometry_msgs:tf2_ros

@@ -1,0 +1,20 @@
+[0.113s] Invoking command in '/home/ros/Robot_ws/build/mycar_location': CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/lidar_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_location -- -j6 -l6
+[0.222s] Invoked command in '/home/ros/Robot_ws/build/mycar_location' returned '0': CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/lidar_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_location -- -j6 -l6
+[0.225s] Invoking command in '/home/ros/Robot_ws/build/mycar_location': CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/lidar_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_location
+[0.241s] -- Install configuration: ""
+[0.241s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/ament_index/resource_index/package_run_dependencies/mycar_location
+[0.241s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/ament_index/resource_index/parent_prefix_path/mycar_location
+[0.242s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/environment/ament_prefix_path.sh
+[0.242s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/environment/ament_prefix_path.dsv
+[0.242s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/environment/path.sh
+[0.242s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/environment/path.dsv
+[0.242s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/local_setup.bash
+[0.243s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/local_setup.sh
+[0.243s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/local_setup.zsh
+[0.243s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/local_setup.dsv
+[0.243s] -- Installing: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.dsv
+[0.243s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/ament_index/resource_index/packages/mycar_location
+[0.244s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/cmake/mycar_locationConfig.cmake
+[0.244s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/cmake/mycar_locationConfig-version.cmake
+[0.244s] -- Up-to-date: /home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.xml
+[0.246s] Invoked command in '/home/ros/Robot_ws/build/mycar_location' returned '0': CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:/home/ros/Robot_ws/install/tracker:/home/ros/Robot_ws/install/ros2_stm32_bridge:/home/ros/Robot_ws/install/mycar_slam_slam_toolbox:/home/ros/Robot_ws/install/mycar_slam_cartographer:/home/ros/Robot_ws/install/mycar_navigation2:/home/ros/Robot_ws/install/mycar_location:/home/ros/Robot_ws/install/lidar_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_location

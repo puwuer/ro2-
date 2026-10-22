@@ -1,0 +1,28 @@
+[0.066s] Invoking command in '/home/ros/Robot_ws/build/tracker': AMENT_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Robot_ws/install/mycar_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j6 -l6
+[0.231s] [ 50%] Built target yolo_tracker_node
+[0.318s] [100%] Built target yolo_tracker_node_unn
+[0.378s] Invoked command in '/home/ros/Robot_ws/build/tracker' returned '0': AMENT_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Robot_ws/install/mycar_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j6 -l6
+[0.388s] Invoking command in '/home/ros/Robot_ws/build/tracker': AMENT_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Robot_ws/install/mycar_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/Robot_ws/build/tracker
+[0.402s] -- Install configuration: ""
+[0.407s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node
+[0.409s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node_unn
+[0.409s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/launch
+[0.409s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/launch/yolo_nav2.launch.py
+[0.409s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/include
+[0.410s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/include/tracker
+[0.410s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/package_run_dependencies/tracker
+[0.410s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/parent_prefix_path/tracker
+[0.410s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.sh
+[0.411s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.dsv
+[0.411s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.sh
+[0.411s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.dsv
+[0.411s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.bash
+[0.411s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.sh
+[0.412s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.zsh
+[0.412s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.dsv
+[0.412s] -- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/package.dsv
+[0.412s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/packages/tracker
+[0.412s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig.cmake
+[0.412s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig-version.cmake
+[0.412s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/package.xml
+[0.420s] Invoked command in '/home/ros/Robot_ws/build/tracker' returned '0': AMENT_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Robot_ws/install/mycar_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Robot_ws/install/mycar_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/Robot_ws/build/tracker

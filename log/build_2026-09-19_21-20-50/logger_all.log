@@ -1,0 +1,881 @@
+[0.465s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.465s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7113f360f2b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7113f360eda0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7113f360eda0>>)[0m
+[0.578s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.578s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.578s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.578s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.579s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.579s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.579s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/ros/Robot_ws'
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'ignore'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'ignore_ament_install'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['colcon_pkg']
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'colcon_pkg'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['colcon_meta']
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'colcon_meta'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['ros']
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'ros'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['cmake', 'python']
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'cmake'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'python'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['python_setup_py']
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'python_setup_py'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) by extension 'ignore'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) ignored
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extension 'ignore'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extension 'ignore_ament_install'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extensions ['colcon_pkg']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extension 'colcon_pkg'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extensions ['colcon_meta']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extension 'colcon_meta'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extensions ['ros']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extension 'ros'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extensions ['cmake', 'python']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extension 'cmake'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extension 'python'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extensions ['python_setup_py']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera) by extension 'python_setup_py'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extension 'ignore'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extension 'ignore_ament_install'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extensions ['colcon_pkg']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extension 'colcon_pkg'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extensions ['colcon_meta']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extension 'colcon_meta'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extensions ['ros']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extension 'ros'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mFailed to parse potential ROS package manifest in'src/camera/my_usb_cam': Error(s) in package 'src/camera/my_usb_cam/package.xml':
+The manifest contains invalid XML:
+no element found: line 1, column 0[0m
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extensions ['cmake', 'python']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extension 'cmake'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/my_usb_cam) by extension 'python'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/camera/my_usb_cam' with type 'cmake' and name 'my_usb_cam'[0m
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extension 'ignore'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extension 'ignore_ament_install'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extensions ['colcon_pkg']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extension 'colcon_pkg'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extensions ['colcon_meta']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extension 'colcon_meta'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extensions ['ros']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extension 'ros'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extensions ['cmake', 'python']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extension 'cmake'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extension 'python'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extensions ['python_setup_py']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/camera/usb_cam) by extension 'python_setup_py'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) by extension 'ignore'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) ignored
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_pkg_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_pkg_ros2) by extension 'ignore'
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_pkg_ros2) by extension 'ignore_ament_install'
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_pkg_ros2) by extensions ['colcon_pkg']
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_pkg_ros2) by extension 'colcon_pkg'
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_pkg_ros2) by extensions ['colcon_meta']
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_pkg_ros2) by extension 'colcon_meta'
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_pkg_ros2) by extensions ['ros']
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_pkg_ros2) by extension 'ros'
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/lidar_pkg_ros2' with type 'ros.ament_cmake' and name 'lidar_pkg'[0m
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) by extension 'ignore'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) ignored
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extension 'ignore'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extension 'ignore_ament_install'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extensions ['colcon_pkg']
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extension 'colcon_pkg'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extensions ['colcon_meta']
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extension 'colcon_meta'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extensions ['ros']
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extension 'ros'
+[0.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extensions ['cmake', 'python']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extension 'cmake'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extension 'python'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extensions ['python_setup_py']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2) by extension 'python_setup_py'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_location) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_location) by extension 'ignore'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_location) by extension 'ignore_ament_install'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_location) by extensions ['colcon_pkg']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_location) by extension 'colcon_pkg'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_location) by extensions ['colcon_meta']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_location) by extension 'colcon_meta'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_location) by extensions ['ros']
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_location) by extension 'ros'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/nav2/mycar_location' with type 'ros.ament_cmake' and name 'mycar_location'[0m
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_map_server) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_map_server) by extension 'ignore'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_map_server) by extension 'ignore_ament_install'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_map_server) by extensions ['colcon_pkg']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_map_server) by extension 'colcon_pkg'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_map_server) by extensions ['colcon_meta']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_map_server) by extension 'colcon_meta'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_map_server) by extensions ['ros']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_map_server) by extension 'ros'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/nav2/mycar_map_server' with type 'ros.ament_cmake' and name 'mycar_map_server'[0m
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_navigtaton2) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_navigtaton2) by extension 'ignore'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_navigtaton2) by extension 'ignore_ament_install'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_navigtaton2) by extensions ['colcon_pkg']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_navigtaton2) by extension 'colcon_pkg'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_navigtaton2) by extensions ['colcon_meta']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_navigtaton2) by extension 'colcon_meta'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_navigtaton2) by extensions ['ros']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nav2/mycar_navigtaton2) by extension 'ros'
+[0.603s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/nav2/mycar_navigtaton2' with type 'ros.ament_cmake' and name 'mycar_navigation2'[0m
+[0.603s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extension 'ignore'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extension 'ignore_ament_install'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extensions ['colcon_pkg']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extension 'colcon_pkg'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extensions ['colcon_meta']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extension 'colcon_meta'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extensions ['ros']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extension 'ros'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extensions ['cmake', 'python']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extension 'cmake'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extension 'python'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extensions ['python_setup_py']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg) by extension 'python_setup_py'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extension 'ignore'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extension 'ignore_ament_install'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extensions ['colcon_pkg']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extension 'colcon_pkg'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extensions ['colcon_meta']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extension 'colcon_meta'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extensions ['ros']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extension 'ros'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mFailed to parse potential ROS package manifest in'src/path_pkg/path_odom': Error(s) in package 'src/path_pkg/path_odom/package.xml':
+The manifest contains invalid XML:
+no element found: line 1, column 0[0m
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extensions ['cmake', 'python']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extension 'cmake'
+[0.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/path_pkg/path_odom) by extension 'python'
+[0.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/path_pkg/path_odom' with type 'cmake' and name 'path_odom'[0m
+[0.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_stm32_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_stm32_bridge) by extension 'ignore'
+[0.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_stm32_bridge) by extension 'ignore_ament_install'
+[0.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_stm32_bridge) by extensions ['colcon_pkg']
+[0.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_stm32_bridge) by extension 'colcon_pkg'
+[0.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_stm32_bridge) by extensions ['colcon_meta']
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_stm32_bridge) by extension 'colcon_meta'
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_stm32_bridge) by extensions ['ros']
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_stm32_bridge) by extension 'ros'
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_stm32_bridge' with type 'ros.ament_cmake' and name 'ros2_stm32_bridge'[0m
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extension 'ignore'
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extension 'ignore_ament_install'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extensions ['colcon_pkg']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extension 'colcon_pkg'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extensions ['colcon_meta']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extension 'colcon_meta'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extensions ['ros']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extension 'ros'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extensions ['cmake', 'python']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extension 'cmake'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extension 'python'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extensions ['python_setup_py']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo) by extension 'python_setup_py'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo/demo_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo/demo_gazebo_sim) by extension 'ignore'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo/demo_gazebo_sim) by extension 'ignore_ament_install'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo/demo_gazebo_sim) by extensions ['colcon_pkg']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo/demo_gazebo_sim) by extension 'colcon_pkg'
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo/demo_gazebo_sim) by extensions ['colcon_meta']
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo/demo_gazebo_sim) by extension 'colcon_meta'
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo/demo_gazebo_sim) by extensions ['ros']
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sim_gazebo/demo_gazebo_sim) by extension 'ros'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/sim_gazebo/demo_gazebo_sim' with type 'ros.ament_cmake' and name 'demo_gazebo_sim'[0m
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extension 'ignore'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extension 'ignore_ament_install'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extensions ['colcon_pkg']
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extension 'colcon_pkg'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extensions ['colcon_meta']
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extension 'colcon_meta'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extensions ['ros']
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extension 'ros'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extensions ['cmake', 'python']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extension 'cmake'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extension 'python'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extensions ['python_setup_py']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam) by extension 'python_setup_py'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_cartographer) by extension 'ignore'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_cartographer) by extension 'ignore_ament_install'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_cartographer) by extensions ['colcon_pkg']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_cartographer) by extension 'colcon_pkg'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_cartographer) by extensions ['colcon_meta']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_cartographer) by extension 'colcon_meta'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_cartographer) by extensions ['ros']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_cartographer) by extension 'ros'
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/slam/mycar_slam_cartographer' with type 'ros.ament_cmake' and name 'mycar_slam_cartographer'[0m
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_slam_toolbox) by extension 'ignore'
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_slam_toolbox) by extension 'ignore_ament_install'
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_slam_toolbox) by extensions ['colcon_pkg']
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_slam_toolbox) by extension 'colcon_pkg'
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_slam_toolbox) by extensions ['colcon_meta']
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_slam_toolbox) by extension 'colcon_meta'
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_slam_toolbox) by extensions ['ros']
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam/mycar_slam_slam_toolbox) by extension 'ros'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/slam/mycar_slam_slam_toolbox' with type 'ros.ament_cmake' and name 'mycar_slam_slam_toolbox'[0m
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extension 'ignore'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extension 'ignore_ament_install'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extensions ['colcon_pkg']
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extension 'colcon_pkg'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extensions ['colcon_meta']
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extension 'colcon_meta'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extensions ['ros']
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extension 'ros'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extensions ['cmake', 'python']
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extension 'cmake'
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extension 'python'
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extensions ['python_setup_py']
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp) by extension 'python_setup_py'
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extension 'ignore'
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extension 'ignore_ament_install'
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extensions ['colcon_pkg']
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extension 'colcon_pkg'
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extensions ['colcon_meta']
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extension 'colcon_meta'
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extensions ['ros']
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extension 'ros'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extensions ['cmake', 'python']
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extension 'cmake'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extension 'python'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extensions ['python_setup_py']
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha) by extension 'python_setup_py'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extension 'ignore'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extension 'ignore_ament_install'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extensions ['colcon_pkg']
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extension 'colcon_pkg'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extensions ['colcon_meta']
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extension 'colcon_meta'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extensions ['ros']
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extension 'ros'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extensions ['cmake', 'python']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extension 'cmake'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extension 'python'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extensions ['python_setup_py']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tmp/aha/dconf) by extension 'python_setup_py'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tracker) by extension 'ignore'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tracker) by extension 'ignore_ament_install'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tracker) by extensions ['colcon_pkg']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tracker) by extension 'colcon_pkg'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tracker) by extensions ['colcon_meta']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tracker) by extension 'colcon_meta'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tracker) by extensions ['ros']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tracker) by extension 'ros'
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/tracker' with type 'ros.ament_cmake' and name 'tracker'[0m
+[0.620s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.620s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.620s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.620s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.620s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.651s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.651s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.657s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 384 installed packages in /opt/ros/humble[0m
+[0.658s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.700s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'demo_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/demo_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/demo_gazebo_sim', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/sim_gazebo/demo_gazebo_sim', 'symlink_install': False, 'test_result_base': None}[0m
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_pkg' build argument 'cmake_args' from command line to 'None'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_pkg' build argument 'cmake_target' from command line to 'None'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.701s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'lidar_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/lidar_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/lidar_pkg', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/lidar_pkg_ros2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_usb_cam' build argument 'cmake_args' from command line to 'None'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_usb_cam' build argument 'cmake_target' from command line to 'None'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/my_usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/my_usb_cam', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/camera/my_usb_cam', 'symlink_install': False, 'test_result_base': None}[0m
+[0.702s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_map_server' build argument 'cmake_args' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_map_server' build argument 'cmake_target' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_map_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_map_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_map_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_map_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_map_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_map_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_map_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mycar_map_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/mycar_map_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/mycar_map_server', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/nav2/mycar_map_server', 'symlink_install': False, 'test_result_base': None}[0m
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.703s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mycar_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/mycar_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/mycar_navigation2', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/nav2/mycar_navigtaton2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mycar_slam_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/mycar_slam_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/mycar_slam_cartographer', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/slam/mycar_slam_cartographer', 'symlink_install': False, 'test_result_base': None}[0m
+[0.704s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_slam_slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mycar_slam_slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/mycar_slam_slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/slam/mycar_slam_slam_toolbox', 'symlink_install': False, 'test_result_base': None}[0m
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'path_odom' build argument 'cmake_args' from command line to 'None'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'path_odom' build argument 'cmake_target' from command line to 'None'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'path_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'path_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'path_odom' build argument 'cmake_clean_first' from command line to 'False'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'path_odom' build argument 'cmake_force_configure' from command line to 'False'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'path_odom' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'path_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'path_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.705s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'path_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/path_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/path_odom', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/path_pkg/path_odom', 'symlink_install': False, 'test_result_base': None}[0m
+[0.706s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_stm32_bridge' build argument 'cmake_args' from command line to 'None'
+[0.706s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_stm32_bridge' build argument 'cmake_target' from command line to 'None'
+[0.706s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_stm32_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.706s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_stm32_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.706s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_stm32_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.706s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_stm32_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.706s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_stm32_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.706s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_stm32_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.706s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_stm32_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.706s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_stm32_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/ros2_stm32_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/ros2_stm32_bridge', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/ros2_stm32_bridge', 'symlink_install': False, 'test_result_base': None}[0m
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tracker' build argument 'cmake_args' from command line to 'None'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tracker' build argument 'cmake_target' from command line to 'None'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/tracker', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/tracker', 'symlink_install': False, 'test_result_base': None}[0m
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_location' build argument 'cmake_args' from command line to 'None'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_location' build argument 'cmake_target' from command line to 'None'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_location' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_location' build argument 'cmake_clean_cache' from command line to 'False'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_location' build argument 'cmake_clean_first' from command line to 'False'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_location' build argument 'cmake_force_configure' from command line to 'False'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_location' build argument 'ament_cmake_args' from command line to 'None'
+[0.707s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_location' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mycar_location' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mycar_location' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/Robot_ws/build/mycar_location', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/Robot_ws/install/mycar_location', 'merge_install': False, 'path': '/home/ros/Robot_ws/src/nav2/mycar_location', 'symlink_install': False, 'test_result_base': None}[0m
+[0.708s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.709s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.709s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ros/Robot_ws/src/nav2/mycar_map_server' with build type 'ament_cmake'
+[0.709s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/nav2/mycar_map_server'
+[0.719s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.719s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.719s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.724s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ros/Robot_ws/src/sim_gazebo/demo_gazebo_sim' with build type 'ament_cmake'
+[0.724s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/sim_gazebo/demo_gazebo_sim'
+[0.725s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.725s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.729s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ros/Robot_ws/src/lidar_pkg_ros2' with build type 'ament_cmake'
+[0.730s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/lidar_pkg_ros2'
+[0.730s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.730s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.734s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/camera/my_usb_cam'
+[0.734s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.734s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.738s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ros/Robot_ws/src/nav2/mycar_navigtaton2' with build type 'ament_cmake'
+[0.739s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/nav2/mycar_navigtaton2'
+[0.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.739s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.743s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ros/Robot_ws/src/slam/mycar_slam_cartographer' with build type 'ament_cmake'
+[0.743s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/slam/mycar_slam_cartographer'
+[0.744s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.744s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.758s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/mycar_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_map_server -- -j6 -l6[0m
+[0.766s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/sim_gazebo/demo_gazebo_sim -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/demo_gazebo_sim[0m
+[0.772s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/lidar_pkg -- -j6 -l6[0m
+[0.779s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/my_usb_cam': /usr/bin/cmake --build /home/ros/Robot_ws/build/my_usb_cam -- -j6 -l6[0m
+[0.799s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/mycar_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_navigation2 -- -j6 -l6[0m
+[0.819s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_slam_cartographer -- -j6 -l6[0m
+[0.855s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/my_usb_cam' returned '0': /usr/bin/cmake --build /home/ros/Robot_ws/build/my_usb_cam -- -j6 -l6[0m
+[0.859s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mWARNING[0m [33mCould not run installation step for package 'my_usb_cam' because it has no 'install' target[0m
+[0.859s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_usb_cam)
+[0.884s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/my_usb_cam' for CMake module files
+[0.884s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/my_usb_cam' for CMake config files
+[0.885s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/my_usb_cam/bin'
+[0.885s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/my_usb_cam/lib/pkgconfig/my_usb_cam.pc'
+[0.886s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/my_usb_cam/lib/python3.10/site-packages'
+[0.886s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/my_usb_cam/bin'
+[0.887s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/my_usb_cam/share/my_usb_cam/package.ps1'
+[0.890s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/my_usb_cam/share/my_usb_cam/package.dsv'
+[0.891s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/my_usb_cam/share/my_usb_cam/package.sh'
+[0.893s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/my_usb_cam/share/my_usb_cam/package.bash'
+[0.895s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/my_usb_cam/share/my_usb_cam/package.zsh'
+[0.899s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/my_usb_cam/share/colcon-core/packages/my_usb_cam)
+[0.899s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ros/Robot_ws/src/slam/mycar_slam_slam_toolbox' with build type 'ament_cmake'
+[0.900s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/slam/mycar_slam_slam_toolbox'
+[0.901s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.901s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.912s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_slam_cartographer -- -j6 -l6[0m
+[0.940s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_slam_cartographer[0m
+[0.944s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/mycar_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_navigation2 -- -j6 -l6[0m
+[0.948s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/mycar_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_navigation2[0m
+[0.962s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_slam_slam_toolbox -- -j6 -l6[0m
+[0.965s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/mycar_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_map_server -- -j6 -l6[0m
+[0.974s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/mycar_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_map_server[0m
+[0.978s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mycar_navigation2)
+[0.979s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2' for CMake module files
+[0.979s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/mycar_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_navigation2[0m
+[0.980s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2' for CMake config files
+[0.981s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mycar_navigation2', 'cmake_prefix_path')
+[0.982s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.ps1'
+[0.983s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.dsv'
+[0.984s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.sh'
+[0.985s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2/bin'
+[0.985s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2/lib/pkgconfig/mycar_navigation2.pc'
+[0.986s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2/lib/python3.10/site-packages'
+[0.986s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2/bin'
+[0.986s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/package.ps1'
+[0.987s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/package.dsv'
+[0.988s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/package.sh'
+[0.990s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/package.bash'
+[0.994s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/package.zsh'
+[0.995s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/mycar_navigation2/share/colcon-core/packages/mycar_navigation2)
+[0.997s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mycar_navigation2)
+[0.998s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2' for CMake module files
+[0.999s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2' for CMake config files
+[0.999s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mycar_navigation2', 'cmake_prefix_path')
+[1.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.ps1'
+[1.001s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.dsv'
+[1.002s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.sh'
+[1.003s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2/bin'
+[1.003s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2/lib/pkgconfig/mycar_navigation2.pc'
+[1.004s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2/lib/python3.10/site-packages'
+[1.004s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_navigation2/bin'
+[1.004s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/package.ps1'
+[1.005s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/package.dsv'
+[1.006s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/package.sh'
+[1.008s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/package.bash'
+[1.009s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_navigation2/share/mycar_navigation2/package.zsh'
+[1.011s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/mycar_navigation2/share/colcon-core/packages/mycar_navigation2)
+[1.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mycar_slam_cartographer)
+[1.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer' for CMake module files
+[1.013s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer' for CMake config files
+[1.013s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mycar_slam_cartographer', 'cmake_prefix_path')
+[1.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/hook/cmake_prefix_path.ps1'
+[1.014s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_slam_cartographer[0m
+[1.015s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/hook/cmake_prefix_path.dsv'
+[1.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/hook/cmake_prefix_path.sh'
+[1.016s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer/bin'
+[1.017s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer/lib/pkgconfig/mycar_slam_cartographer.pc'
+[1.017s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer/lib/python3.10/site-packages'
+[1.017s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer/bin'
+[1.018s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.ps1'
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.dsv'
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.sh'
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.bash'
+[1.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.zsh'
+[1.021s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/mycar_slam_cartographer/share/colcon-core/packages/mycar_slam_cartographer)
+[1.022s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mycar_slam_cartographer)
+[1.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer' for CMake module files
+[1.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer' for CMake config files
+[1.023s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mycar_slam_cartographer', 'cmake_prefix_path')
+[1.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/hook/cmake_prefix_path.ps1'
+[1.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/hook/cmake_prefix_path.dsv'
+[1.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/hook/cmake_prefix_path.sh'
+[1.026s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer/bin'
+[1.026s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer/lib/pkgconfig/mycar_slam_cartographer.pc'
+[1.026s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer/lib/python3.10/site-packages'
+[1.026s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_cartographer/bin'
+[1.027s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.ps1'
+[1.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.dsv'
+[1.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.sh'
+[1.029s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.bash'
+[1.029s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.zsh'
+[1.030s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/mycar_slam_cartographer/share/colcon-core/packages/mycar_slam_cartographer)
+[1.031s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/path_pkg/path_odom'
+[1.032s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.032s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.038s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ros/Robot_ws/src/ros2_stm32_bridge' with build type 'ament_cmake'
+[1.039s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/ros2_stm32_bridge'
+[1.039s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.039s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.062s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/path_odom': /usr/bin/cmake --build /home/ros/Robot_ws/build/path_odom -- -j6 -l6[0m
+[1.066s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mycar_map_server)
+[1.066s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server' for CMake module files
+[1.068s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/mycar_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_map_server[0m
+[1.068s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server' for CMake config files
+[1.071s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mycar_map_server', 'cmake_prefix_path')
+[1.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.ps1'
+[1.072s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.dsv'
+[1.074s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.sh'
+[1.076s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server/bin'
+[1.076s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server/lib/pkgconfig/mycar_map_server.pc'
+[1.076s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server/lib/python3.10/site-packages'
+[1.076s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server/bin'
+[1.077s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/package.ps1'
+[1.078s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/package.dsv'
+[1.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/package.sh'
+[1.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/package.bash'
+[1.080s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/package.zsh'
+[1.081s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/mycar_map_server/share/colcon-core/packages/mycar_map_server)
+[1.081s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mycar_map_server)
+[1.082s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server' for CMake module files
+[1.082s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server' for CMake config files
+[1.083s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mycar_map_server', 'cmake_prefix_path')
+[1.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.ps1'
+[1.084s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.dsv'
+[1.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.sh'
+[1.086s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server/bin'
+[1.086s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server/lib/pkgconfig/mycar_map_server.pc'
+[1.086s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server/lib/python3.10/site-packages'
+[1.087s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_map_server/bin'
+[1.087s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/package.ps1'
+[1.089s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/package.dsv'
+[1.090s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/package.sh'
+[1.091s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/package.bash'
+[1.091s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_map_server/share/mycar_map_server/package.zsh'
+[1.092s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/mycar_map_server/share/colcon-core/packages/mycar_map_server)
+[1.092s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ros/Robot_ws/src/tracker' with build type 'ament_cmake'
+[1.093s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/tracker'
+[1.093s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.093s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.108s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/ros2_stm32_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/ros2_stm32_bridge -- -j6 -l6[0m
+[1.121s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/tracker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j6 -l6[0m
+[1.166s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/path_odom' returned '0': /usr/bin/cmake --build /home/ros/Robot_ws/build/path_odom -- -j6 -l6[0m
+[1.173s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mWARNING[0m [33mCould not run installation step for package 'path_odom' because it has no 'install' target[0m
+[1.173s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(path_odom)
+[1.174s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/path_odom' for CMake module files
+[1.174s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/path_odom' for CMake config files
+[1.175s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/path_odom/bin'
+[1.178s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/path_odom/lib/pkgconfig/path_odom.pc'
+[1.179s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/path_odom/lib/python3.10/site-packages'
+[1.179s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/path_odom/bin'
+[1.180s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/path_odom/share/path_odom/package.ps1'
+[1.182s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/path_odom/share/path_odom/package.dsv'
+[1.183s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/path_odom/share/path_odom/package.sh'
+[1.184s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/path_odom/share/path_odom/package.bash'
+[1.184s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/path_odom/share/path_odom/package.zsh'
+[1.185s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/path_odom/share/colcon-core/packages/path_odom)
+[1.185s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ros/Robot_ws/src/nav2/mycar_location' with build type 'ament_cmake'
+[1.185s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ros/Robot_ws/src/nav2/mycar_location'
+[1.185s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.215s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/mycar_location': AMENT_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_location -- -j6 -l6[0m
+[2.788s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/Robot_ws/src/sim_gazebo/demo_gazebo_sim -DCMAKE_INSTALL_PREFIX=/home/ros/Robot_ws/install/demo_gazebo_sim[0m
+[2.788s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/demo_gazebo_sim -- -j6 -l6[0m
+[2.880s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/mycar_location' returned '0': AMENT_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_location -- -j6 -l6[0m
+[2.883s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/mycar_location': AMENT_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_location[0m
+[2.889s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/demo_gazebo_sim -- -j6 -l6[0m
+[2.891s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/demo_gazebo_sim[0m
+[2.900s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mycar_location)
+[2.900s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location' for CMake module files
+[2.902s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location' for CMake config files
+[2.903s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mycar_location', 'cmake_prefix_path')
+[2.904s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/hook/cmake_prefix_path.ps1'
+[2.903s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/mycar_location' returned '0': AMENT_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Robot_ws/install/mycar_map_server:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_location[0m
+[2.905s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/hook/cmake_prefix_path.dsv'
+[2.906s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/hook/cmake_prefix_path.sh'
+[2.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location/bin'
+[2.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location/lib/pkgconfig/mycar_location.pc'
+[2.910s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location/lib/python3.10/site-packages'
+[2.910s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location/bin'
+[2.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.ps1'
+[2.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.dsv'
+[2.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.sh'
+[2.917s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.bash'
+[2.918s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.zsh'
+[2.919s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/mycar_location/share/colcon-core/packages/mycar_location)
+[2.920s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mycar_location)
+[2.920s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location' for CMake module files
+[2.920s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location' for CMake config files
+[2.921s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mycar_location', 'cmake_prefix_path')
+[2.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/hook/cmake_prefix_path.ps1'
+[2.922s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/hook/cmake_prefix_path.dsv'
+[2.922s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/hook/cmake_prefix_path.sh'
+[2.923s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location/bin'
+[2.923s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location/lib/pkgconfig/mycar_location.pc'
+[2.924s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location/lib/python3.10/site-packages'
+[2.924s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_location/bin'
+[2.924s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.ps1'
+[2.926s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.dsv'
+[2.926s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.sh'
+[2.927s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.bash'
+[2.928s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_location/share/mycar_location/package.zsh'
+[2.929s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/mycar_location/share/colcon-core/packages/mycar_location)
+[2.931s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(demo_gazebo_sim)
+[2.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim' for CMake module files
+[2.932s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/demo_gazebo_sim[0m
+[2.933s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim' for CMake config files
+[2.933s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('demo_gazebo_sim', 'cmake_prefix_path')
+[2.933s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.ps1'
+[2.934s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.dsv'
+[2.934s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.sh'
+[2.935s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim/bin'
+[2.935s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim/lib/pkgconfig/demo_gazebo_sim.pc'
+[2.935s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim/lib/python3.10/site-packages'
+[2.935s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim/bin'
+[2.936s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.ps1'
+[2.936s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.dsv'
+[2.937s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.sh'
+[2.937s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.bash'
+[2.938s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.zsh'
+[2.938s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/demo_gazebo_sim/share/colcon-core/packages/demo_gazebo_sim)
+[2.939s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(demo_gazebo_sim)
+[2.939s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim' for CMake module files
+[2.940s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim' for CMake config files
+[2.940s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('demo_gazebo_sim', 'cmake_prefix_path')
+[2.940s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.ps1'
+[2.941s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.dsv'
+[2.942s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.sh'
+[2.943s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim/bin'
+[2.943s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim/lib/pkgconfig/demo_gazebo_sim.pc'
+[2.943s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim/lib/python3.10/site-packages'
+[2.944s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/demo_gazebo_sim/bin'
+[2.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.ps1'
+[2.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.dsv'
+[2.946s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.sh'
+[2.947s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.bash'
+[2.948s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/demo_gazebo_sim/share/demo_gazebo_sim/package.zsh'
+[2.948s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/demo_gazebo_sim/share/colcon-core/packages/demo_gazebo_sim)
+[3.086s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/mycar_slam_slam_toolbox -- -j6 -l6[0m
+[3.089s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_slam_slam_toolbox[0m
+[3.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mycar_slam_slam_toolbox)
+[3.112s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox' for CMake module files
+[3.112s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/mycar_slam_slam_toolbox[0m
+[3.113s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox' for CMake config files
+[3.113s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mycar_slam_slam_toolbox', 'cmake_prefix_path')
+[3.113s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.ps1'
+[3.114s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.dsv'
+[3.115s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.sh'
+[3.116s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/bin'
+[3.116s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/lib/pkgconfig/mycar_slam_slam_toolbox.pc'
+[3.116s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/lib/python3.10/site-packages'
+[3.117s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/bin'
+[3.117s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.ps1'
+[3.118s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.dsv'
+[3.118s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.sh'
+[3.119s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.bash'
+[3.120s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.zsh'
+[3.120s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/colcon-core/packages/mycar_slam_slam_toolbox)
+[3.121s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mycar_slam_slam_toolbox)
+[3.121s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox' for CMake module files
+[3.122s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox' for CMake config files
+[3.122s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mycar_slam_slam_toolbox', 'cmake_prefix_path')
+[3.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.ps1'
+[3.123s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.dsv'
+[3.124s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.sh'
+[3.124s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/bin'
+[3.125s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/lib/pkgconfig/mycar_slam_slam_toolbox.pc'
+[3.125s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/lib/python3.10/site-packages'
+[3.125s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/bin'
+[3.126s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.ps1'
+[3.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.dsv'
+[3.128s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.sh'
+[3.128s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.bash'
+[3.129s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.zsh'
+[3.129s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/mycar_slam_slam_toolbox/share/colcon-core/packages/mycar_slam_slam_toolbox)
+[11.475s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/lidar_pkg -- -j6 -l6[0m
+[11.603s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/lidar_pkg[0m
+[11.686s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(lidar_pkg)
+[11.702s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/lidar_pkg[0m
+[11.771s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg' for CMake module files
+[11.781s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg' for CMake config files
+[11.790s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('lidar_pkg', 'cmake_prefix_path')
+[11.798s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.ps1'
+[11.848s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.dsv'
+[11.861s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.sh'
+[11.874s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg/lib'
+[11.902s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg/bin'
+[11.904s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg/lib/pkgconfig/lidar_pkg.pc'
+[11.917s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg/lib/python3.10/site-packages'
+[11.918s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg/bin'
+[11.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.ps1'
+[11.927s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.dsv'
+[11.929s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.sh'
+[11.931s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.bash'
+[11.935s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.zsh'
+[11.939s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/lidar_pkg/share/colcon-core/packages/lidar_pkg)
+[11.942s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(lidar_pkg)
+[11.942s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg' for CMake module files
+[11.943s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg' for CMake config files
+[11.944s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('lidar_pkg', 'cmake_prefix_path')
+[11.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.ps1'
+[11.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.dsv'
+[11.946s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.sh'
+[11.947s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg/lib'
+[11.948s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg/bin'
+[11.948s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg/lib/pkgconfig/lidar_pkg.pc'
+[11.948s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg/lib/python3.10/site-packages'
+[11.949s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/lidar_pkg/bin'
+[11.949s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.ps1'
+[11.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.dsv'
+[11.952s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.sh'
+[11.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.bash'
+[11.954s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/lidar_pkg/share/lidar_pkg/package.zsh'
+[11.956s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/lidar_pkg/share/colcon-core/packages/lidar_pkg)
+[18.976s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/ros2_stm32_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/ros2_stm32_bridge -- -j6 -l6[0m
+[18.988s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/ros2_stm32_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/ros2_stm32_bridge[0m
+[19.018s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_stm32_bridge)
+[19.018s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge' for CMake module files
+[19.019s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/ros2_stm32_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/ros2_stm32_bridge[0m
+[19.020s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge' for CMake config files
+[19.022s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_stm32_bridge', 'cmake_prefix_path')
+[19.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/hook/cmake_prefix_path.ps1'
+[19.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/hook/cmake_prefix_path.dsv'
+[19.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/hook/cmake_prefix_path.sh'
+[19.027s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge/lib'
+[19.027s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge/bin'
+[19.027s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge/lib/pkgconfig/ros2_stm32_bridge.pc'
+[19.027s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge/lib/python3.10/site-packages'
+[19.028s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge/bin'
+[19.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.ps1'
+[19.029s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.dsv'
+[19.031s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.sh'
+[19.031s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.bash'
+[19.033s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.zsh'
+[19.034s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/ros2_stm32_bridge/share/colcon-core/packages/ros2_stm32_bridge)
+[19.035s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_stm32_bridge)
+[19.035s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge' for CMake module files
+[19.036s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge' for CMake config files
+[19.036s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_stm32_bridge', 'cmake_prefix_path')
+[19.036s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/hook/cmake_prefix_path.ps1'
+[19.037s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/hook/cmake_prefix_path.dsv'
+[19.038s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/hook/cmake_prefix_path.sh'
+[19.039s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge/lib'
+[19.040s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge/bin'
+[19.040s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge/lib/pkgconfig/ros2_stm32_bridge.pc'
+[19.041s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge/lib/python3.10/site-packages'
+[19.041s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/ros2_stm32_bridge/bin'
+[19.041s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.ps1'
+[19.042s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.dsv'
+[19.043s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.sh'
+[19.044s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.bash'
+[19.044s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.zsh'
+[19.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/ros2_stm32_bridge/share/colcon-core/packages/ros2_stm32_bridge)
+[27.221s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/tracker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j6 -l6[0m
+[27.227s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ros/Robot_ws/build/tracker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/tracker[0m
+[27.266s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(tracker)
+[27.266s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ros/Robot_ws/build/tracker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/tracker[0m
+[27.267s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker' for CMake module files
+[27.268s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker' for CMake config files
+[27.270s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tracker', 'cmake_prefix_path')
+[27.270s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/tracker/share/tracker/hook/cmake_prefix_path.ps1'
+[27.271s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/tracker/share/tracker/hook/cmake_prefix_path.dsv'
+[27.272s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/tracker/share/tracker/hook/cmake_prefix_path.sh'
+[27.272s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker/lib'
+[27.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker/bin'
+[27.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker/lib/pkgconfig/tracker.pc'
+[27.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker/lib/python3.10/site-packages'
+[27.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker/bin'
+[27.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/tracker/share/tracker/package.ps1'
+[27.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/tracker/share/tracker/package.dsv'
+[27.277s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/tracker/share/tracker/package.sh'
+[27.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/tracker/share/tracker/package.bash'
+[27.279s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/tracker/share/tracker/package.zsh'
+[27.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/tracker/share/colcon-core/packages/tracker)
+[27.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(tracker)
+[27.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker' for CMake module files
+[27.282s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker' for CMake config files
+[27.282s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tracker', 'cmake_prefix_path')
+[27.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/tracker/share/tracker/hook/cmake_prefix_path.ps1'
+[27.284s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ros/Robot_ws/install/tracker/share/tracker/hook/cmake_prefix_path.dsv'
+[27.284s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ros/Robot_ws/install/tracker/share/tracker/hook/cmake_prefix_path.sh'
+[27.286s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker/lib'
+[27.286s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker/bin'
+[27.286s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker/lib/pkgconfig/tracker.pc'
+[27.286s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker/lib/python3.10/site-packages'
+[27.287s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ros/Robot_ws/install/tracker/bin'
+[27.287s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/tracker/share/tracker/package.ps1'
+[27.288s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ros/Robot_ws/install/tracker/share/tracker/package.dsv'
+[27.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/tracker/share/tracker/package.sh'
+[27.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/tracker/share/tracker/package.bash'
+[27.290s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ros/Robot_ws/install/tracker/share/tracker/package.zsh'
+[27.290s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ros/Robot_ws/install/tracker/share/colcon-core/packages/tracker)
+[27.296s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[27.307s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[27.308s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[27.313s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[27.426s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.427s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.427s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[27.600s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[27.609s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ros/Robot_ws/install/local_setup.ps1'
+[27.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ros/Robot_ws/install/_local_setup_util_ps1.py'
+[27.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ros/Robot_ws/install/setup.ps1'
+[27.626s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ros/Robot_ws/install/local_setup.sh'
+[27.628s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ros/Robot_ws/install/_local_setup_util_sh.py'
+[27.629s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ros/Robot_ws/install/setup.sh'
+[27.631s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ros/Robot_ws/install/local_setup.bash'
+[27.633s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ros/Robot_ws/install/setup.bash'
+[27.636s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ros/Robot_ws/install/local_setup.zsh'
+[27.638s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ros/Robot_ws/install/setup.zsh'

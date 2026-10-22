@@ -1,0 +1,2 @@
+source;share/gazebo_ros_actor_plugin/environment/ament_prefix_path.sh
+source;share/gazebo_ros_actor_plugin/environment/path.sh

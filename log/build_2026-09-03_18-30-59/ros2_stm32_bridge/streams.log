@@ -1,0 +1,33 @@
+[0.039s] Invoking command in '/home/ros/Robot_ws/build/ros2_stm32_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/ros2_stm32_bridge -- -j6 -l6
+[0.210s] [100%] Built target base_controller
+[0.261s] Invoked command in '/home/ros/Robot_ws/build/ros2_stm32_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/ros2_stm32_bridge -- -j6 -l6
+[0.262s] Invoking command in '/home/ros/Robot_ws/build/ros2_stm32_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/ros2_stm32_bridge
+[0.287s] -- Install configuration: ""
+[0.287s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/lib/ros2_stm32_bridge/base_controller
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/stm32_4w.yaml
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/ekf.yaml
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/params/stm32_2w.yaml
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/robot.launch.py
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/driver_ekf.launch.py
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/robot_ekf.launch.py
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/launch/driver.launch.py
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/rviz
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/rviz/robot.rviz
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_stm32_bridge
+[0.292s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_stm32_bridge
+[0.296s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/ament_prefix_path.sh
+[0.297s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/ament_prefix_path.dsv
+[0.297s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/path.sh
+[0.297s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/environment/path.dsv
+[0.297s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.bash
+[0.297s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.sh
+[0.297s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.zsh
+[0.297s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/local_setup.dsv
+[0.297s] -- Installing: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.dsv
+[0.297s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ament_index/resource_index/packages/ros2_stm32_bridge
+[0.297s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/cmake/ros2_stm32_bridgeConfig.cmake
+[0.297s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/cmake/ros2_stm32_bridgeConfig-version.cmake
+[0.299s] -- Up-to-date: /home/ros/Robot_ws/install/ros2_stm32_bridge/share/ros2_stm32_bridge/package.xml
+[0.304s] Invoked command in '/home/ros/Robot_ws/build/ros2_stm32_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/ros2_stm32_bridge

@@ -1,0 +1,38 @@
+[0.097s] Invoking command in '/home/ros/Robot_ws/build/tracker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j6 -l6
+[0.363s] [ 25%] [32mBuilding CXX object CMakeFiles/yolo_tracker_node.dir/src/yolo_tracker_node.cpp.o[0m
+[0.430s] [ 50%] [32mBuilding CXX object CMakeFiles/yolo_tracker_node_unn.dir/src/yolo_tracker_node_unn.cpp.o[0m
+[10.362s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid YoloTrackerNode::sync_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[10.363s] [01m[K/home/ros/Robot_ws/src/tracker/src/yolo_tracker_node.cpp:132:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.364s]   132 |                 float [01;35m[Kerror_y[m[K = center_y - cy;
+[10.364s]       |                       [01;35m[K^~~~~~~[m[K
+[24.681s] [ 75%] [32m[1mLinking CXX executable yolo_tracker_node[0m
+[26.192s] [ 75%] Built target yolo_tracker_node
+[28.612s] [100%] [32m[1mLinking CXX executable yolo_tracker_node_unn[0m
+[29.911s] [100%] Built target yolo_tracker_node_unn
+[29.975s] Invoked command in '/home/ros/Robot_ws/build/tracker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/Robot_ws/build/tracker -- -j6 -l6
+[29.979s] Invoking command in '/home/ros/Robot_ws/build/tracker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/tracker
+[29.990s] -- Install configuration: ""
+[29.991s] -- Installing: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node
+[30.000s] -- Set runtime path of "/home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node" to ""
+[30.002s] -- Installing: /home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node_unn
+[30.012s] -- Set runtime path of "/home/ros/Robot_ws/install/tracker/lib/tracker/yolo_tracker_node_unn" to ""
+[30.012s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/launch
+[30.012s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/launch/yolo_nav2.launch.py
+[30.012s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/include
+[30.012s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/include/tracker
+[30.013s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/package_run_dependencies/tracker
+[30.013s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/parent_prefix_path/tracker
+[30.013s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.sh
+[30.013s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/ament_prefix_path.dsv
+[30.014s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.sh
+[30.014s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/environment/path.dsv
+[30.014s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.bash
+[30.014s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.sh
+[30.014s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.zsh
+[30.014s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/local_setup.dsv
+[30.014s] -- Installing: /home/ros/Robot_ws/install/tracker/share/tracker/package.dsv
+[30.014s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/ament_index/resource_index/packages/tracker
+[30.015s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig.cmake
+[30.015s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/cmake/trackerConfig-version.cmake
+[30.015s] -- Up-to-date: /home/ros/Robot_ws/install/tracker/share/tracker/package.xml
+[30.019s] Invoked command in '/home/ros/Robot_ws/build/tracker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/Robot_ws/build/tracker
